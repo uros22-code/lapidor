@@ -487,15 +487,39 @@ function initNavigation() {
   });
 
   if (mobileToggle && mainNav) {
-    mobileToggle.addEventListener('click', () => {
-      mainNav.classList.toggle('active');
+    const toggleMenu = (show) => {
       const icon = mobileToggle.querySelector('i');
-      if (mainNav.classList.contains('active')) {
-        icon.classList.remove('fa-bars');
-        icon.classList.add('fa-xmark');
+      const isShow = show === undefined ? !mainNav.classList.contains('active') : show;
+      
+      if (isShow) {
+        mainNav.classList.add('active');
+        if (icon) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-xmark');
+        }
       } else {
-        icon.classList.remove('fa-xmark');
-        icon.classList.add('fa-bars');
+        mainNav.classList.remove('active');
+        if (icon) {
+          icon.classList.remove('fa-xmark');
+          icon.classList.add('fa-bars');
+        }
+      }
+    };
+
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleMenu();
+    });
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        toggleMenu(false);
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (mainNav.classList.contains('active') && !mainNav.contains(e.target) && !mobileToggle.contains(e.target)) {
+        toggleMenu(false);
       }
     });
   }
