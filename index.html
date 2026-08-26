@@ -535,34 +535,39 @@
         </div>
 
         <div class="luxury-form">
-          <form id="sample-request-form">
+          <form id="sample-request-form" name="povprasevanje" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="povprasevanje">
+            <input type="hidden" name="bot-field">
             <h3 style="font-size: 1.5rem; margin-bottom: 20px;" data-i18n="form_title"><i class="fa-solid fa-paper-plane text-gold"></i> Obrazec za Povpraševanje</h3>
             <div class="form-group">
               <label data-i18n="form_lbl_name">Ime in priimek / Podjetje *</label>
-              <input type="text" id="form-name" required placeholder="Janez Novak (Studio Arhitektura)" data-i18n-placeholder="form_ph_name">
+              <input type="text" id="form-name" name="Ime_in_priimek_Podjetje" required placeholder="Janez Novak (Studio Arhitektura)" data-i18n-placeholder="form_ph_name">
             </div>
             <div class="grid grid-2 form-group">
               <div>
                 <label data-i18n="form_lbl_email">E-poštni naslov *</label>
-                <input type="email" id="form-email" required placeholder="janez@biro.si" data-i18n-placeholder="form_ph_email">
+                <input type="email" id="form-email" name="E_postni_naslov" required placeholder="janez@biro.si" data-i18n-placeholder="form_ph_email">
               </div>
               <div>
                 <label data-i18n="form_lbl_phone">Telefonska številka *</label>
-                <input type="tel" id="form-phone" required placeholder="+386 41 000 000" data-i18n-placeholder="form_ph_phone">
+                <input type="tel" id="form-phone" name="Telefonska_stevilka" required placeholder="+386 41 000 000" data-i18n-placeholder="form_ph_phone">
               </div>
             </div>
             <div class="form-group">
               <label data-i18n="form_lbl_type">Vrsta naročnika *</label>
-              <select id="form-type" required>
-                <option value="arhitekt" data-i18n="opt_arch">Arhitekt / Notranji oblikovalec</option>
-                <option value="zasebni" data-i18n="opt_priv">Zasebni investitor (Rezidenca/Vila)</option>
-                <option value="sakralni" data-i18n="opt_sacr">Sakralna ustanova / Samostan</option>
-                <option value="komunalno" data-i18n="opt_muni">Komunalno / Pogrebno podjetje</option>
+              <select id="form-type" name="Vrsta_narocnika" required>
+                <option value="Arhitekt / Notranji oblikovalec" data-i18n="opt_arch">Arhitekt / Notranji oblikovalec</option>
+                <option value="Zasebni investitor (Rezidenca/Vila)" data-i18n="opt_priv">Zasebni investitor (Rezidenca/Vila)</option>
+                <option value="Gradbeno podjetje / Izvajalec" data-i18n="opt_builder">Gradbeno podjetje / Izvajalec</option>
+                <option value="Hotelski / SPA / Wellness objekt" data-i18n="opt_hotel">Hotelski / SPA / Wellness objekt</option>
+                <option value="Sakralna ustanova / Samostan" data-i18n="opt_sacr">Sakralna ustanova / Samostan</option>
+                <option value="Komunalno / Pogrebno podjetje" data-i18n="opt_muni">Komunalno / Pogrebno podjetje</option>
+                <option value="Drugo" data-i18n="opt_other">Drugo</option>
               </select>
             </div>
             <div class="form-group">
               <label data-i18n="form_lbl_desc">Opis vašega projekta</label>
-              <textarea id="form-message" rows="3" placeholder="Vnesite specifikacijo vašega projekta..." data-i18n-placeholder="form_ph_desc"></textarea>
+              <textarea id="form-message" name="Opis_projekta" rows="4" placeholder="Vnesite specifikacijo vašega projekta..." data-i18n-placeholder="form_ph_desc"></textarea>
             </div>
             <button type="submit" class="btn btn-gold btn-block" data-i18n="form_btn_submit">POŠLJI POVPRAŠEVANJE</button>
           </form>
@@ -704,20 +709,40 @@
     <div class="modal-content">
       <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
       <h3 id="modal-product-title" style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); margin-bottom: 16px;" data-i18n="modal_title">Povpraševanje</h3>
-      <form id="modal-form">
+      <form id="modal-form" name="povprasevanje-modal" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="povprasevanje-modal">
+        <input type="hidden" name="bot-field">
         <div class="form-group">
-          <label data-i18n="modal_lbl_name">Ime in Podjetje *</label>
-          <input type="text" required placeholder="Janez Novak" data-i18n-placeholder="modal_ph_name">
+          <label data-i18n="form_lbl_name">Ime in priimek / Podjetje *</label>
+          <input type="text" id="modal-form-name" name="Ime_in_priimek_Podjetje" required placeholder="Janez Novak (Studio Arhitektura)" data-i18n-placeholder="form_ph_name">
+        </div>
+        <div class="grid grid-2 form-group">
+          <div>
+            <label data-i18n="form_lbl_email">E-poštni naslov *</label>
+            <input type="email" id="modal-form-email" name="E_postni_naslov" required placeholder="janez@biro.si" data-i18n-placeholder="form_ph_email">
+          </div>
+          <div>
+            <label data-i18n="form_lbl_phone">Telefonska številka *</label>
+            <input type="tel" id="modal-form-phone" name="Telefonska_stevilka" required placeholder="+386 41 000 000" data-i18n-placeholder="form_ph_phone">
+          </div>
         </div>
         <div class="form-group">
-          <label data-i18n="modal_lbl_contact">E-poštni naslov ali telefonska številka *</label>
-          <input type="text" required placeholder="janez@biro.si / 031 529 003" data-i18n-placeholder="modal_ph_contact">
+          <label data-i18n="form_lbl_type">Vrsta naročnika *</label>
+          <select id="modal-form-type" name="Vrsta_narocnika" required>
+            <option value="Arhitekt / Notranji oblikovalec" data-i18n="opt_arch">Arhitekt / Notranji oblikovalec</option>
+            <option value="Zasebni investitor (Rezidenca/Vila)" data-i18n="opt_priv">Zasebni investitor (Rezidenca/Vila)</option>
+            <option value="Gradbeno podjetje / Izvajalec" data-i18n="opt_builder">Gradbeno podjetje / Izvajalec</option>
+            <option value="Hotelski / SPA / Wellness objekt" data-i18n="opt_hotel">Hotelski / SPA / Wellness objekt</option>
+            <option value="Sakralna ustanova / Samostan" data-i18n="opt_sacr">Sakralna ustanova / Samostan</option>
+            <option value="Komunalno / Pogrebno podjetje" data-i18n="opt_muni">Komunalno / Pogrebno podjetje</option>
+            <option value="Drugo" data-i18n="opt_other">Drugo</option>
+          </select>
         </div>
         <div class="form-group">
-          <label data-i18n="modal_lbl_notes">Opombe</label>
-          <textarea rows="3" placeholder="Vnesite želene dimenzije..." data-i18n-placeholder="modal_ph_notes"></textarea>
+          <label data-i18n="form_lbl_desc">Opis vašega projekta</label>
+          <textarea id="modal-form-message" name="Opis_projekta" rows="3" placeholder="Vnesite specifikacijo vašega projekta..." data-i18n-placeholder="form_ph_desc"></textarea>
         </div>
-        <button type="submit" class="btn btn-gold btn-block" data-i18n="modal_btn_submit">Pošlji Povpraševanje</button>
+        <button type="submit" class="btn btn-gold btn-block" data-i18n="modal_btn_submit">POŠLJI POVPRAŠEVANJE</button>
       </form>
     </div>
   </div>

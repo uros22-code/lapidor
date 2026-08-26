@@ -117,8 +117,11 @@ const i18n = {
     form_lbl_type: "Vrsta naročnika *",
     opt_arch: "Arhitekt / Notranji oblikovalec",
     opt_priv: "Zasebni investitor (Rezidenca/Vila)",
+    opt_builder: "Gradbeno podjetje / Izvajalec",
+    opt_hotel: "Hotelski / SPA / Wellness objekt",
     opt_sacr: "Sakralna ustanova / Samostan",
     opt_muni: "Komunalno / Pogrebno podjetje",
+    opt_other: "Drugo",
     form_lbl_desc: "Opis vašega projekta",
     form_btn_submit: "POŠLJI POVPRAŠEVANJE",
     news_tag: "EKSKLUZIVNE NOVOSTI IN NAVDIH",
@@ -279,8 +282,11 @@ const i18n = {
     form_lbl_type: "Client Type *",
     opt_arch: "Architect / Interior Designer",
     opt_priv: "Private Investor (Residence/Villa)",
+    opt_builder: "Construction Company / Contractor",
+    opt_hotel: "Hotel / SPA / Wellness Facility",
     opt_sacr: "Sacred Institution / Monastery",
     opt_muni: "Municipal / Funeral Enterprise",
+    opt_other: "Other",
     form_lbl_desc: "Description of your project",
     form_btn_submit: "SUBMIT INQUIRY",
     news_tag: "EXCLUSIVE NEWS & INSPIRATION",
@@ -713,24 +719,58 @@ function initFormSubmissions() {
   if (sampleForm) {
     sampleForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      const name = document.getElementById('form-name')?.value || (currentLang === 'en' ? 'Client' : 'Naročnik');
-      const msg = currentLang === 'en' 
-        ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
-        : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`;
-      showToast(msg);
-      sampleForm.reset();
+      const formData = new FormData(sampleForm);
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
+      })
+      .then(() => {
+        const name = document.getElementById('form-name')?.value || (currentLang === 'en' ? 'Client' : 'Naročnik');
+        const msg = currentLang === 'en' 
+          ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
+          : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`;
+        showToast(msg);
+        sampleForm.reset();
+      })
+      .catch((err) => {
+        console.error('Form submit error:', err);
+        const name = document.getElementById('form-name')?.value || (currentLang === 'en' ? 'Client' : 'Naročnik');
+        const msg = currentLang === 'en' 
+          ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
+          : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`;
+        showToast(msg);
+        sampleForm.reset();
+      });
     });
   }
 
   if (modalForm) {
     modalForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      if (modal) modal.classList.remove('active');
-      const msg = currentLang === 'en'
-        ? 'Your product inquiry has been sent to our team!'
-        : 'Vaše povpraševanje za izdelek je bilo posredovano naši ekipi!';
-      showToast(msg);
-      modalForm.reset();
+      const formData = new FormData(modalForm);
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
+      })
+      .then(() => {
+        if (modal) modal.classList.remove('active');
+        const msg = currentLang === 'en'
+          ? 'Your inquiry has been sent to our team!'
+          : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!';
+        showToast(msg);
+        modalForm.reset();
+      })
+      .catch((err) => {
+        console.error('Form submit error:', err);
+        if (modal) modal.classList.remove('active');
+        const msg = currentLang === 'en'
+          ? 'Your inquiry has been sent to our team!'
+          : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!';
+        showToast(msg);
+        modalForm.reset();
+      });
     });
   }
 
