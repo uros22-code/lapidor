@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" width="100%" height="100%">
+  <defs>
+    <style>
+      .logo-text { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; fill: currentColor; }
+      .logo-subtext { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; letter-spacing: 0.26em; fill: currentColor; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Greek Ionic Column Icon on the Left -->
+  <g fill="currentColor" transform="translate(10, 15) scale(1.15)">
+    <!-- Capital / Volutes -->
+    <path d="M15 15 Q15 5 25 5 L85 5 Q95 5 95 15 Q95 25 85 25 Q75 25 75 15 L35 15 Q35 25 25 25 Q15 25 15 15 Z" />
+    <circle cx="25" cy="15" r="7" fill="none" stroke="currentColor" stroke-width="3"/>
+    <circle cx="85" cy="15" r="7" fill="none" stroke="currentColor" stroke-width="3"/>
+    <rect x="20" y="24" width="70" height="8" rx="2"/>
+    
+    <!-- Shaft / Flutes -->
+    <rect x="25" y="36" width="9" height="75" rx="2"/>
+    <rect x="39" y="36" width="9" height="75" rx="2"/>
+    <rect x="53" y="36" width="9" height="75" rx="2"/>
+    <rect x="67" y="36" width="9" height="75" rx="2"/>
+    <rect x="81" y="36" width="9" height="75" rx="2"/>
+    
+    <!-- Base -->
+    <rect x="20" y="114" width="70" height="8" rx="2"/>
+    <rect x="15" y="124" width="80" height="10" rx="2"/>
+  </g>
+
+  <!-- Main Brand Title: LAP | DOR -->
+  <g class="logo-text" fill="currentColor">
+    <text x="145" y="105" font-size="115" letter-spacing="0.08em">LAP</text>
+    
+    <!-- Pillar 'I' inside LAPIDOR -->
+    <g transform="translate(388, 12)">
+      <rect x="5" y="10" width="22" height="6" rx="1"/>
+      <rect x="8" y="18" width="4" height="76" rx="1"/>
+      <rect x="14" y="18" width="4" height="76" rx="1"/>
+      <rect x="20" y="18" width="4" height="76" rx="1"/>
+      <rect x="5" y="96" width="22" height="6" rx="1"/>
+    </g>
+    
+    <text x="430" y="105" font-size="115" letter-spacing="0.08em">DOR</text>
+  </g>
+
+  <!-- Double Accent Lines -->
+  <line x1="145" y1="132" x2="675" y2="132" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="145" y1="138" x2="675" y2="138" stroke="currentColor" stroke-width="1.2"/>
+
+  <!-- Clean Subtext 1: PRESTIŽNI NARAVNI MARMOR (Zero Shadow) -->
+  <text x="410" y="176" class="logo-subtext">PRESTIŽNI NARAVNI MARMOR</text>
+
+  <!-- Clean Subtext 2: ROČNO DELO (Zero Shadow) -->
+  <text x="410" y="212" class="logo-subtext">ROČNO DELO</text>
+</svg>

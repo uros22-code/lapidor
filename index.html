@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAPIDOR | Brezčasna Eleganca Naravnega Marmorja</title>
+  <meta name="description" content="Ekskluzivni uvoz in distribucija unikatnega naravnega vietnamskega marmorja z visoko stopnjo ročne obdelave klesarskih mojstrov. Masivne kadi, umivalniki, skulpture in obloge za arhitekte.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span><i class="fa-solid fa-gem text-gold"></i> <span data-i18n="top_announcement">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</span></span>
+      <div class="top-bar-right">
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang-btn="sl">SL</button>
+          <span class="lang-divider">|</span>
+          <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
+        <span class="divider">|</span>
+        <a href="#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POŠLJI POVPRAŠEVANJE</span></a>
+        <span class="divider">|</span>
+        <a href="tel:+38631529003" class="top-link"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation (Direct Match with Mockup) -->
+  <header class="main-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo">
+        <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="header-logo-img">
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#domov" class="nav-link active" data-i18n="nav_home">DOMOV</a></li>
+          <li><a href="#o-nas" class="nav-link" data-i18n="nav_story">NAŠA ZGODBA</a></li>
+          <li><a href="#katalog" class="nav-link" data-i18n="nav_products">NAŠI IZDELKI</a></li>
+          <li><a href="#obdelave" class="nav-link" data-i18n="nav_art">UMETNOST</a></li>
+          <li><a href="#kontakt" class="nav-link" data-i18n="nav_contact">KONTAKT</a></li>
+          <li class="nav-lang-item">
+            <div class="lang-switcher">
+              <button type="button" class="lang-btn active" data-lang-btn="sl">SL</button>
+              <span class="lang-divider">|</span>
+              <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Odpri meni">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (Direct Match with Mockup Layout) -->
+  <section class="hero-mockup-section" id="domov">
+    <div class="hero-full-bg-container">
+      <img src="assets/lapidor_panoramic_hero.png" alt="Brezčasna eleganca naravnega marmorja LAPIDOR" class="hero-full-bg-img">
+      <div class="hero-full-bg-overlay"></div>
+    </div>
+    
+    <div class="container hero-content-container">
+      <div class="hero-left">
+        <h1 class="hero-mockup-title" data-i18n="hero_title">
+          BREZČASNA<br>
+          ELEGANCA<br>
+          NARAVNEGA<br>
+          MARMORJA
+        </h1>
+        <div class="hero-gold-line"></div>
+        <p class="hero-subtext" data-i18n="hero_subtext">
+          Naravni vietnamski marmor v svoji najčistejši obliki. Narava ga je oblikovala milijone let, naši mojstri pa njegovo lepoto z vrhunsko <span class="gold-hover-text">ročno obdelavo</span> spremenijo v izdelek brezčasne vrednosti. Vsak <span class="gold-hover-text">LAPIDOR</span> izdelek nosi neponovljiv podpis narave in mojstra, zato je vsak naš izdelek edinstven in unikaten.
+        </p>
+        <a href="#vzorci" class="hero-mockup-btn" data-i18n="hero_btn">
+          POŠLJI POVPRAŠEVANJE
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THREE CATEGORIES GRID (Direct Match with Mockup Layout) -->
+  <section class="categories-mockup-section">
+    <div class="container">
+      <div class="categories-grid">
+        
+        <!-- Column 1: BIVALNI PROSTORI -->
+        <div class="cat-card">
+          <h2 class="cat-title" data-i18n="cat_living">BIVALNI PROSTORI</h2>
+          <div class="cat-underline"></div>
+          <div class="cat-image-wrapper">
+            <img src="assets/sink.png" alt="Bivalni prostori iz marmorja">
+          </div>
+        </div>
+
+        <!-- Column 2: WELLNESS -->
+        <div class="cat-card">
+          <h2 class="cat-title" data-i18n="cat_wellness">WELLNESS</h2>
+          <div class="cat-underline"></div>
+          <div class="cat-image-wrapper">
+            <img src="assets/hero_bathroom.png" alt="Wellness in SPA marmor">
+          </div>
+        </div>
+
+        <!-- Column 3: UMETNOST -->
+        <div class="cat-card">
+          <h2 class="cat-title" data-i18n="cat_art">UMETNOST</h2>
+          <div class="cat-underline"></div>
+          <div class="cat-image-wrapper">
+            <img src="assets/sculpture.png" alt="Marmorna umetnost in skulpture">
+          </div>
+        </div>
+
+        <!-- Column 4: SAKRALNA ARHITEKTURA -->
+        <div class="cat-card">
+          <h2 class="cat-title" data-i18n="cat_sacred">SAKRALNA ARHITEKTURA</h2>
+          <div class="cat-underline"></div>
+          <div class="cat-image-wrapper">
+            <img src="assets/jezus_marija_marmor.png" alt="Sakralna arhitektura - Marmorna skulptura Jezusa in Marije">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BRAND STATEMENT & EMBLEMS (Direct Match with Mockup Layout) -->
+  <section class="brand-statement-section">
+    <div class="container">
+      <h2 class="brand-statement-title" data-i18n="brand_statement_title">
+        ROČNO DELO <span class="gold-divider">|</span> UNIKATNO <span class="gold-divider">|</span> PRESTIŽNO <span class="gold-divider">|</span> BREZČASNO <span class="gold-divider">|</span> ELEGANTNO <span class="gold-divider">|</span> NARAVNO
+      </h2>
+      <div class="emblems-row">
+        <i class="fa-solid fa-shield-halved" title="Zaščita in kakovost"></i>
+        <i class="fa-solid fa-crown" title="Prestiž"></i>
+        <i class="fa-solid fa-gem" title="Kristalna čistost"></i>
+        <i class="fa-solid fa-landmark" title="Tradicija klesanja"></i>
+      </div>
+      <p class="brand-statement-sub" data-i18n="brand_statement_quote">
+        "Vsak <span class="gold-hover-text">LAPIDOR</span> izdelek je edinstveno <span class="gold-hover-text">ročno delo</span> vietnamskih mojstrov in izraz narave. Njegova brezčasna vrednost ne temelji le na lepoti naravnega marmorja, temveč tudi na mojstrski ročni izdelavi, zaradi katere z leti izdelek ne izgublja svoje vrednosti – temveč jo pridobiva."
+      </p>
+    </div>
+  </section>
+
+  <!-- KEY STATISTICS BANNER -->
+  <section class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">7+</div>
+          <div class="stat-label" data-i18n="stat_1_label">NARAVNI BARVNI ODTENKI</div>
+          <p class="stat-desc" data-i18n="stat_1_desc">Od brezčasne bele do elegantnih sivih, toplih bež in izrazitih barvnih tonov.</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label" data-i18n="stat_2_label">ROČNO DELO MOJSTRA</div>
+          <p class="stat-desc" data-i18n="stat_2_desc">Brez serijske proizvodnje.<br>Vsak <span class="gold-hover-text">LAPIDOR</span> izdelek je ročni unikat.</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number"><i class="fa-solid fa-compass-drafting"></i></div>
+          <div class="stat-label" data-i18n="stat_3_label">IZDELAVA PO VAŠI MERI</div>
+          <p class="stat-desc" data-i18n="stat_3_desc">VAŠA IDEJA, NAŠA IZVEDBA. Mojstri ustvarijo izdelek po vaših željah.</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number stat-infinity">∞</div>
+          <div class="stat-label" data-i18n="stat_4_label">BREZČASNA VREDNOST</div>
+          <p class="stat-desc" data-i18n="stat_4_desc">Marmor, svojo vrednost ohranja in jo z leti pridobiva.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O ZNAMKI LAPIDOR -->
+  <section class="about-section" id="o-nas">
+    <div class="container">
+      <div class="grid grid-2 about-grid">
+        <div class="about-image">
+          <img src="assets/rocno_delo_klesanje.jpg" alt="Ročno klesanje marmorja in mojstrsko obdelovanje skulpture z dletom in kladivom">
+        </div>
+
+        <div class="about-text">
+          <span class="section-tag" data-i18n="about_tag">Naša zgodba</span>
+          <h2 class="section-title" style="white-space: nowrap;" data-i18n="about_title">Umetnost ROČNEGA dela</h2>
+          <div class="gold-underline-left"></div>
+          
+          <p class="lead-text" style="margin-top: 20px;" data-i18n="about_p1">
+            Blagovna znamka <span class="gold-hover-text">LAPIDOR</span> se je rodila iz osebnega potovanja po Vietnamu, kjer nas je prevzela izjemna lepota naravnega marmorja in mojstrstvo tamkajšnjih kamnosekov. Ob opazovanju njihovega dela smo spoznali, da pravi luksuz ne nastaja na proizvodnem traku, temveč v rokah ljudi, ki z znanjem, potrpežljivostjo in spoštovanjem do naravnega kamna ustvarjajo brezčasne mojstrovine.
+          </p>
+          <p style="margin-top: 16px;" data-i18n="about_p2">
+            Prav ta izkušnja je postala navdih za nastanek blagovne znamke <span class="gold-hover-text">LAPIDOR</span>. Naš cilj je na evropski trg pripeljati izdelke, ki imajo dušo, značaj in zgodbo – izdelke, ki niso plod množične proizvodnje, temveč rezultat pristnega <span class="gold-hover-text">ročnega dela</span> in mojstrske izdelave.
+          </p>
+          <p style="margin-top: 16px;" data-i18n="about_p3">
+            Ime naše blagovne znamke <span class="gold-hover-text">LAPIDOR</span> izhaja iz latinske besede lapis – kamen. V sebi združuje večnost naravnega materiala in mojstrstvo <span class="gold-hover-text">ročne obdelave</span>, kjer vsak kos marmorja postane edinstveno arhitekturno delo.
+          </p>
+          <p style="margin-top: 16px;" data-i18n="about_p4">
+            Iz masivnih blokov naravnega marmorja nastajajo <span class="gold-hover-text">LAPIDOR</span> izdelki, ki jih ni mogoče ponoviti. Vsak umivalnik, kad, skulptura in drugi izdelki so rezultat <span class="gold-hover-text">ročnega dela</span>, natančnosti ter spoštovanja do kamna – z značajem, ki ga lahko ustvari le roka izkušenega mojstra.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIMERJALNA ANALIZA -->
+  <section class="comparison-section" id="prednosti">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag" style="display: block; margin-bottom: 12px;" data-i18n="comp_tag">Primerjava ključnih lastnosti in dolgoročne vrednosti</span>
+        <h2 class="section-title" data-i18n="comp_title">Zakaj vietnamski marmor?</h2>
+        <div class="gold-underline"></div>
+        <p class="section-subtitle" style="margin-top: 16px;" data-i18n="comp_sub">
+          Primerjava fizikalnih, mehanskih in estetskih lastnosti vietnamskega marmorja z evropskim marmorjem ter sodobnimi kompozitnimi materiali.
+        </p>
+      </div>
+
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th data-i18n="th_criterion">Kriterij Lastnosti</th>
+              <th class="highlight-col" data-i18n="th_vietnam">LAPIDOR Vietnamski Marmor</th>
+              <th data-i18n="th_europe">Evropski Marmor (Carrara / Calacatta)</th>
+              <th data-i18n="th_composite">Tehnični Kamen & Keramika</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong data-i18n="row1_title">Čistost (CaCO₃)</strong></td>
+              <td class="highlight-col" data-i18n="row1_vietnam"><i class="fa-solid fa-check text-gold"></i> Nad 99 % (Izjemen kristalni sijaj)</td>
+              <td data-i18n="row1_europe">85 – 95 %</td>
+              <td data-i18n="row1_composite">Umetne smole / keramika</td>
+            </tr>
+            <tr>
+              <td><strong data-i18n="row2_title">Poroznost & Voda</strong></td>
+              <td class="highlight-col" data-i18n="row2_vietnam"><i class="fa-solid fa-check text-gold"></i> Izjemno nizka (Idealno za SPA)</td>
+              <td data-i18n="row2_europe">Zmerna poroznost</td>
+              <td data-i18n="row2_composite">Ničelna poroznost</td>
+            </tr>
+            <tr>
+              <td><strong data-i18n="row3_title">Unikatnost risbe</strong></td>
+              <td class="highlight-col" data-i18n="row3_vietnam"><i class="fa-solid fa-check text-gold"></i> 100 % Avtentičen unikat narave</td>
+              <td data-i18n="row3_europe">100 % Avtentičen unikat narave</td>
+              <td data-i18n="row3_composite"><i class="fa-solid fa-times text-danger"></i> Ponavljajoč tisk vzorca</td>
+            </tr>
+            <tr>
+              <td><strong data-i18n="row4_title">Ročno Klesanje po Meri</strong></td>
+              <td class="highlight-col" data-i18n="row4_vietnam"><i class="fa-solid fa-check text-gold"></i> Izdelava masivnih kosov po skici</td>
+              <td data-i18n="row4_europe">Zelo visoki stroški obdelave v EU</td>
+              <td data-i18n="row4_composite">Strojni izrez brez obrtniškega pečata</td>
+            </tr>
+            <tr>
+              <td><strong data-i18n="row5_title">Cenovno Pozicioniranje</strong></td>
+              <td class="highlight-col" data-i18n="row5_vietnam"><i class="fa-solid fa-check text-gold"></i> Dostopnejša surovina + več ročnega dela</td>
+              <td data-i18n="row5_europe">Zelo visoka cena zaradi geografskega lobija</td>
+              <td data-i18n="row5_composite">Srednja cena za industrijski produkt</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUKTNI KATALOG -->
+  <section class="catalog-section" id="katalog">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag" style="display: block; margin-bottom: 12px;" data-i18n="cat_sec_tag">NAŠI IZDELKI</span>
+        <h2 class="section-title" data-i18n="cat_sec_title">Ročno izdelani unikatni izdelki iz VIETNAMSKEGA naravnega marmorja</h2>
+        <div class="gold-underline"></div>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="catalog-filter">
+        <button class="filter-btn active" data-filter="all" data-i18n="btn_filter_all">VSI IZDELKI</button>
+        <button class="filter-btn" data-filter="kadi" data-i18n="btn_filter_kadi">KOPALNE KADI</button>
+        <button class="filter-btn" data-filter="umivalniki" data-i18n="btn_filter_umivalniki">UMIVALNIKI</button>
+        <button class="filter-btn" data-filter="skulpture" data-i18n="btn_filter_skulpture">SKULPTURE</button>
+        <button class="filter-btn" data-filter="fontane" data-i18n="btn_filter_fontane">VODNJAKI</button>
+        <button class="filter-btn" data-filter="sakralni" data-i18n="btn_filter_sakralni">SAKRALNA ARHITEKTURA</button>
+        <button class="filter-btn" data-filter="interier" data-i18n="btn_filter_interier">INTERIER &amp; EKSTERIER</button>
+        <button class="filter-btn" data-filter="wellness" data-i18n="btn_filter_wellness">WELLNESS &amp; SPA</button>
+        <button class="filter-btn" data-filter="hotelska" data-i18n="btn_filter_hotelska">HOTELSKA OPREMA</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="catalog-grid" id="catalog-grid">
+        
+        <!-- Card 1 -->
+        <div class="product-card" data-category="kadi">
+          <div class="product-image-wrapper">
+            <img src="assets/bathtub.png" alt="Masivna kopalna kad iz belega marmorja">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card1_title">Kopalniške kadi</h3>
+            <p data-i18n="card1_desc">Ročno izdelane kadi iz naravnega marmorja, ustvarjene za brezčasno eleganco in edinstveno kopalniško izkušnjo. Vsak kos je unikat, oblikovan po željah naročnika.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Kopalniške kadi" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-card" data-category="umivalniki">
+          <div class="product-image-wrapper">
+            <img src="assets/sink.png" alt="Nadpultni naravni umivalnik">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card2_title">Umivalniki</h3>
+            <p data-i18n="card2_desc">Masivni ročno izdelani umivalniki, po želji naročnika iz naravnega marmorja predstavljajo popolno ravnovesje med sodobnim oblikovanjem, funkcionalnostjo in mojstrsko ročno izdelavo.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Umivalniki" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="product-card" data-category="skulpture">
+          <div class="product-image-wrapper">
+            <img src="assets/skulpture_kipi.png" alt="Unikatna klesana marmorna skulptura LAPIDOR">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card3_title">Skulpture in kipi</h3>
+            <p data-i18n="card3_desc">Po želji naročnika izdelamo skulpture, kipe, doprsne portrete, reliefe in druga umetniška dela, popolnoma prilagojena viziji naročnika. Vsak kos je rezultat ročnega mojstrstva, natančnosti in spoštovanja do marmorja.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Skulpture in kipi" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="product-card" data-category="fontane">
+          <div class="product-image-wrapper">
+            <img src="assets/vodnjaki.png" alt="Masivni vrtni vodnjak iz naravnega kristalnega marmorja LAPIDOR">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card4_title">Vodnjaki</h3>
+            <p data-i18n="card4_desc">Ročno izdelani vodnjaki iz naravnega marmorja za notranje in zunanje prostore. Od klasičnih vodnjakov do sodobnih arhitekturnih rešitev – vsak projekt je unikaten in nastaja po meri naročnika.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Vodnjaki" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Sakralna Arhitektura -->
+        <div class="product-card" data-category="sakralni">
+          <div class="product-image-wrapper">
+            <img src="assets/sakralna_arhitektura.png" alt="Sakralna marmorna kiparska umetnina LAPIDOR">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card5_title">Sakralna arhitektura</h3>
+            <p data-i18n="card5_desc">Ročno izdelana sakralna kiparska dela iz masivnega naravnega marmorja, ustvarjena po naročilu in z izjemnim občutkom za detajle.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Sakralna arhitektura" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Interier & Eksterier -->
+        <div class="product-card" data-category="interier">
+          <div class="product-image-wrapper">
+            <img src="assets/lapidor_hero_bathroom.png" alt="Luksuzni interier in obloge iz naravnega marmorja">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card6_title">INTERIER &amp; EKSTERIER</h3>
+            <p data-i18n="card6_desc">Ročno izdelane arhitekturne rešitve iz masivnega naravnega marmorja za notranje in zunanje prostore. Od talnih in stenskih oblog, stopnic, kaminov in pultov do fasadnih elementov ter kamnitih portalov – vsak projekt je izdelan po meri in prilagojen viziji naročnika.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Interier &amp; Eksterier" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: Wellness & SPA -->
+        <div class="product-card" data-category="wellness">
+          <div class="product-image-wrapper">
+            <img src="assets/wellness_spa.png" alt="Prestižna wellness in SPA oprema iz kristalnega marmorja LAPIDOR">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card7_title">WELLNESS &amp; SPA</h3>
+            <p data-i18n="card7_desc">Naravni marmor ustvarja občutek brezčasne elegance, miru in prestiža. Po želji naročnika ročno izdelamo ekskluzivne marmorne elemente za wellness, hotele in SPA prostore. Združimo funkcionalnost, naravno lepoto in mojstrsko ročno izdelavo.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Wellness &amp; SPA" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8: Hotelska Oprema -->
+        <div class="product-card" data-category="hotelska">
+          <div class="product-image-wrapper">
+            <img src="assets/hotelska_oprema.png" alt="Ekskluzivni hotelski recepcijski pulti in obloge iz marmorja LAPIDOR">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title" data-i18n="card8_title">HOTELSKA OPREMA</h3>
+            <p data-i18n="card8_desc">Naravni marmor prostoru doda prestiž, eleganco in brezčasno vrednost. Iz naravnega marmorja po želji naročnika izdelamo recepcijske pulte, obloge, kopalniško opremo in druge arhitekturne elemente, prilagojene identiteti in zahtevam posameznega objekta.</p>
+            <div class="product-footer">
+              <div class="price-value" data-i18n="badge_bespoke">IZVEDBA PO MERI</div>
+              <button class="btn btn-outline-gold open-inquiry-modal" data-product="Hotelska oprema" data-i18n="btn_inquiry">Povpraševanje</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OBDELAVE POVROŠIN -->
+  <section class="finishes-section" id="obdelave">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag" style="display: block; margin-bottom: 8px;" data-i18n="finish_tag_sec">Tekstura in občutek</span>
+        <h2 class="section-title" data-i18n="finish_title_sec">Štirje Tipi Obdelave Površine</h2>
+        <div class="gold-underline"></div>
+      </div>
+
+      <div class="finishes-interactive">
+        <div class="finishes-tabs">
+          <div class="finish-tab active" data-finish="polirana">
+            <i class="fa-solid fa-gem text-gold"></i>
+            <div>
+              <h4 style="font-family: var(--font-serif); font-size: 1.1rem;" data-i18n="finish_tab1_h">Polirana</h4>
+              <span style="font-size:0.85rem; color:#666;" data-i18n="finish_tab1_s">Visok zrcalni sijaj, ki poudari naravno strukturo in globino marmorja.</span>
+            </div>
+          </div>
+          <div class="finish-tab" data-finish="mat">
+            <i class="fa-solid fa-sun text-gold"></i>
+            <div>
+              <h4 style="font-family: var(--font-serif); font-size: 1.1rem;" data-i18n="finish_tab2_h">Brušena (Mat)</h4>
+              <span style="font-size:0.85rem; color:#666;" data-i18n="finish_tab2_s">Gladka mat površina z nežnim, svilnatim videzom in prijetnim otipom.</span>
+            </div>
+          </div>
+          <div class="finish-tab" data-finish="klesana">
+            <i class="fa-solid fa-hammer text-gold"></i>
+            <div>
+              <h4 style="font-family: var(--font-serif); font-size: 1.1rem;" data-i18n="finish_tab3_h">Ročno klesana</h4>
+              <span style="font-size:0.85rem; color:#666;" data-i18n="finish_tab3_s">Izrazita tekstura, ki poudari avtentičnost naravnega kamna in mojstrsko ročno obdelavo.</span>
+            </div>
+          </div>
+          <div class="finish-tab" data-finish="plamenjena">
+            <i class="fa-solid fa-brush text-gold"></i>
+            <div>
+              <h4 style="font-family: var(--font-serif); font-size: 1.1rem;" data-i18n="finish_tab4_h">Krtačena (Antique)</h4>
+              <span style="font-size:0.85rem; color:#666;" data-i18n="finish_tab4_s">Nežno reliefna površina z naravnim videzom, ki ohranja značaj kamna in zagotavlja prijeten otip.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="finish-display-card">
+          <span id="finish-tag" style="display: block; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.14em; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 8px;">Polirana Obdelava</span>
+          <h3 id="finish-title" style="font-size: 2rem; margin-bottom: 12px;">Polirana površina</h3>
+          <p id="finish-description">
+            Najbolj prestižna obdelava marmorja z visokim zrcalnim sijajem, ki poudari globino, kristalno strukturo in naravno risbo kamna.
+          </p>
+          <div style="margin-top: 24px;">
+            <strong data-i18n="rec_apps_label">Priporočena uporaba:</strong>
+            <ul id="finish-apps" style="list-style: none; margin-top: 10px; display: flex; flex-direction: column; gap: 8px;">
+              <li><i class="fa-solid fa-check text-gold"></i> notranje stenske obloge</li>
+              <li><i class="fa-solid fa-check text-gold"></i> masivni umivalniki in kopalne kadi</li>
+              <li><i class="fa-solid fa-check text-gold"></i> talne površine v reprezentativnih prostorih</li>
+              <li><i class="fa-solid fa-check text-gold"></i> recepcije, avle in hotelski interierji</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NAROČILO VZORCEV & OBRAZEC -->
+  <section class="sample-section" id="vzorci">
+    <div class="container">
+      <div class="grid grid-2 align-center">
+        <div>
+          <h2 class="section-title" style="color: var(--gold-primary); font-size: 2.1rem;" data-i18n="benefits_title">PREDNOSTI SODELOVANJA Z NAMI</h2>
+          <div class="gold-underline-left"></div>
+
+          <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 24px;">
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <i class="fa-solid fa-compass-drafting text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+              <div>
+                <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text-main); margin-bottom: 6px;" data-i18n="b1_h">Unikatna izdelava po meri</h4>
+                <p style="font-size: 0.98rem; line-height: 1.6; color: var(--text-muted);" data-i18n="b1_p">
+                  Vsak projekt nastaja po željah naročnika – od prve ideje do končnega izdelka. Naši mojstri iz naravnega marmorja ustvarjajo rešitve, ki jih ni mogoče ponoviti.
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <i class="fa-solid fa-hammer text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+              <div>
+                <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text-main); margin-bottom: 6px;" data-i18n="b2_h">Ročno mojstrstvo brez serijske proizvodnje</h4>
+                <p style="font-size: 0.98rem; line-height: 1.6; color: var(--text-muted);" data-i18n="b2_p">
+                  Vsak kos je rezultat natančnega ročnega dela, izkušenj in spoštovanja do naravnega kamna. Pravi značaj marmorja se razkrije skozi roke mojstra.
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <i class="fa-solid fa-gem text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+              <div>
+                <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text-main); margin-bottom: 6px;" data-i18n="b3_h">Vrhunski vietnamski marmor</h4>
+                <p style="font-size: 0.98rem; line-height: 1.6; color: var(--text-muted);" data-i18n="b3_p">
+                  S skrbno izbranimi materiali in preverjenimi partnerji zagotavljamo izjemno kakovost naravnega kamna z edinstveno strukturo in značajem.
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <i class="fa-solid fa-handshake-angle text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+              <div>
+                <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text-main); margin-bottom: 6px;" data-i18n="b4_h">Celovita podpora od ideje do izvedbe</h4>
+                <p style="font-size: 0.98rem; line-height: 1.6; color: var(--text-muted);" data-i18n="b4_p">
+                  Arhitektom, oblikovalcem in zasebnim naročnikom pomagamo pri izbiri materiala, oblikovanju rešitve, izdelavi in končni izvedbi projekta.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="luxury-form">
+          <form id="sample-request-form">
+            <h3 style="font-size: 1.5rem; margin-bottom: 20px;" data-i18n="form_title"><i class="fa-solid fa-paper-plane text-gold"></i> Obrazec za Povpraševanje</h3>
+            <div class="form-group">
+              <label data-i18n="form_lbl_name">Ime in priimek / Podjetje *</label>
+              <input type="text" id="form-name" required placeholder="Janez Novak (Studio Arhitektura)" data-i18n-placeholder="form_ph_name">
+            </div>
+            <div class="grid grid-2 form-group">
+              <div>
+                <label data-i18n="form_lbl_email">E-poštni naslov *</label>
+                <input type="email" id="form-email" required placeholder="janez@biro.si" data-i18n-placeholder="form_ph_email">
+              </div>
+              <div>
+                <label data-i18n="form_lbl_phone">Telefonska številka *</label>
+                <input type="tel" id="form-phone" required placeholder="+386 41 000 000" data-i18n-placeholder="form_ph_phone">
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-i18n="form_lbl_type">Vrsta naročnika *</label>
+              <select id="form-type" required>
+                <option value="arhitekt" data-i18n="opt_arch">Arhitekt / Notranji oblikovalec</option>
+                <option value="zasebni" data-i18n="opt_priv">Zasebni investitor (Rezidenca/Vila)</option>
+                <option value="sakralni" data-i18n="opt_sacr">Sakralna ustanova / Samostan</option>
+                <option value="komunalno" data-i18n="opt_muni">Komunalno / Pogrebno podjetje</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label data-i18n="form_lbl_desc">Opis vašega projekta</label>
+              <textarea id="form-message" rows="3" placeholder="Vnesite specifikacijo vašega projekta..." data-i18n-placeholder="form_ph_desc"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-block" data-i18n="form_btn_submit">POŠLJI POVPRAŠEVANJE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER BANNER SECTION -->
+  <section class="newsletter-banner-section" style="background: var(--bg-dark-accent); color: var(--text-light); padding: 70px 0; border-top: 1px solid var(--border-gold); border-bottom: 1px solid var(--border-gold);">
+    <div class="container">
+      <div style="max-width: 720px; margin: 0 auto; text-align: center;">
+        <span class="section-tag" style="color: var(--gold-light); display: block; margin-bottom: 8px;" data-i18n="news_tag">EKSKLUZIVNE NOVOSTI IN NAVDIH</span>
+        <h2 class="section-title" style="color: #ffffff; font-size: 2.2rem; margin-bottom: 12px;" data-i18n="news_title">Vstopite v svet LAPIDOR PROJEKTOV</h2>
+        <div class="gold-underline" style="margin: 0 auto 20px;"></div>
+        <p style="color: rgba(255, 255, 255, 0.85); font-size: 1rem; line-height: 1.6; margin-bottom: 28px;" data-i18n="news_desc">
+          Prejemajte izbrane novosti, ekskluzivne projekte, nove kolekcije in navdih iz sveta naravnega marmorja.
+        </p>
+
+        <form id="newsletter-form-main" style="max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; text-align: left;">
+          <div style="display: flex; gap: 8px;">
+            <input type="email" placeholder="Vnesite vaš e-naslov..." data-i18n-placeholder="news_ph_email" required style="padding: 14px 18px; font-size: 0.95rem; border: 1px solid var(--border-gold); border-radius: var(--radius-sm); width: 100%; outline: none; background: rgba(255, 255, 255, 0.08); color: #ffffff;">
+            <button type="submit" class="btn btn-gold" style="white-space: nowrap; padding: 14px 24px; font-size: 0.95rem;" data-i18n="news_btn"><i class="fa-solid fa-paper-plane"></i> Prijava na e-novice</button>
+          </div>
+          <label style="display: flex; gap: 10px; align-items: flex-start; font-size: 0.82rem; color: rgba(255, 255, 255, 0.8); cursor: pointer; line-height: 1.4;">
+            <input type="checkbox" style="margin-top: 2px; accent-color: var(--gold-primary); flex-shrink: 0;">
+            <span data-i18n="news_check">Želim, da me obveščate o ugodnostih, aktivnostih, storitvah in dogodkih.</span>
+          </label>
+          <p style="font-size: 0.76rem; color: rgba(255, 255, 255, 0.6); line-height: 1.4; margin-top: 2px; text-align: center;" data-i18n="news_disclaimer">
+            S klikom na »Prijava na e-novice« se strinjam, da bom od podjetja PROMOSCENTIA d.o.o. prejemal osebna in prilagojena e-sporočila.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag" data-i18n="faq_tag">Pogosta Vprašanja</span>
+        <h2 class="section-title" data-i18n="faq_title">Pogosta Vprašanja o LAPIDOR Marmorju</h2>
+        <div class="gold-underline"></div>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q1">Kakšen je rok izdelave in dobave?</span>
+            <i class="fa-solid fa-chevron-down text-gold"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a1">Rok je odvisen od zahtevnosti projekta in obsega ročne izdelave. Okvirni rok izdelave in dobave je 30–60 dni, za vsak projekt pa pripravimo individualno časovnico.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q2">V čem je posebnost ročne izdelave LAPIDOR?</span>
+            <i class="fa-solid fa-chevron-down text-gold"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a2">Vsak kos nastaja pod rokami izkušenega mojstra, brez serijske proizvodnje. Naravne značilnosti marmorja se pri izdelavi upoštevajo in vključijo v končni izdelek, zato je vsak kos unikat z lastnim značajem.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q3">Ali lahko izdelek izdelate po skici, CAD- ali 3D-načrtu arhitekta?</span>
+            <i class="fa-solid fa-chevron-down text-gold"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a3">Da. Naši klesarski mojstri lahko na podlagi arhitekturnih risb, CAD- ali 3D-načrtov izdelajo kompleksne marmorne elemente po meri. Od kopalnih kadi, umivalnikov in skulptur do fasadnih oblog in drugih arhitekturnih rešitev – vsak projekt prilagodimo zahtevam načrta in ga izvedemo z natančnim ročnim delom.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / KONTAKT -->
+  <footer class="main-footer" id="kontakt">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1: Brand & Logo -->
+        <div>
+          <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="footer-logo-img">
+          <p style="font-size: 0.9rem;" data-i18n="footer_sub">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
+          <p style="color: var(--gold-primary); font-style: italic; font-family: var(--font-serif); margin-top: 12px; font-weight: 500;" data-i18n="footer_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
+        </div>
+
+        <!-- Column 2: Povezave -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_h_links">Povezave</h4>
+          <ul class="footer-links">
+            <li><a href="#domov" data-i18n="nav_home">Domov</a></li>
+            <li><a href="#o-nas" data-i18n="nav_story">Naša Zgodba</a></li>
+            <li><a href="#katalog" data-i18n="nav_products">Naši Izdelki</a></li>
+            <li><a href="#obdelave" data-i18n="nav_art">Umetnost</a></li>
+            <li><a href="#vzorci" data-i18n="top_inquiry">Povpraševanje</a></li>
+            <li><a href="pravno-obvestilo.html">Pravno obvestilo &amp; GDPR</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Odlike Znamke -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_h_hallmarks">Odlike Znamke</h4>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--text-main); font-weight: 500;">
+            <div><i class="fa-solid fa-hammer text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm1">Ročno delo</span></div>
+            <div><i class="fa-solid fa-gem text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm2">Unikatno</span></div>
+            <div><i class="fa-solid fa-crown text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm3">Prestižno</span></div>
+            <div><i class="fa-solid fa-infinity text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm4">Brezčasno</span></div>
+            <div><i class="fa-solid fa-feather text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm5">Elegantno</span></div>
+            <div><i class="fa-solid fa-leaf text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm6">Naravno</span></div>
+          </div>
+        </div>
+
+        <!-- Column 4: Kontakt (Čisto desno) -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_h_contact">Kontakt</h4>
+          <p style="font-size: 0.9rem;"><i class="fa-solid fa-envelope text-gold"></i> info@lapidor.si</p>
+          <p style="font-size: 0.9rem; margin-top: 6px;"><a href="tel:+38631529003" style="color: inherit;"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a></p>
+          <p style="font-size: 0.9rem; margin-top: 6px;"><i class="fa-solid fa-map-marker-alt text-gold"></i> Slovenija</p>
+          <p style="font-size: 0.9rem; margin-top: 14px; line-height: 1.5;">
+            <strong>PROMOSCENTIA d.o.o.</strong><br>
+            Mariborska cesta 86<br>
+            3000 Celje
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_copy">&copy; 2026 LAPIDOR. Vse pravice pridržane. Izdelava: Promoscentia d.o.o.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Inquiry -->
+  <div class="modal-backdrop" id="inquiry-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
+      <h3 id="modal-product-title" style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); margin-bottom: 16px;" data-i18n="modal_title">Povpraševanje</h3>
+      <form id="modal-form">
+        <div class="form-group">
+          <label data-i18n="modal_lbl_name">Ime in Podjetje *</label>
+          <input type="text" required placeholder="Janez Novak" data-i18n-placeholder="modal_ph_name">
+        </div>
+        <div class="form-group">
+          <label data-i18n="modal_lbl_contact">E-poštni naslov ali telefonska številka *</label>
+          <input type="text" required placeholder="janez@biro.si / 031 529 003" data-i18n-placeholder="modal_ph_contact">
+        </div>
+        <div class="form-group">
+          <label data-i18n="modal_lbl_notes">Opombe</label>
+          <textarea rows="3" placeholder="Vnesite želene dimenzije..." data-i18n-placeholder="modal_ph_notes"></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-block" data-i18n="modal_btn_submit">Pošlji Povpraševanje</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check text-gold"></i>
+    <span id="toast-msg">Vaše sporočilo je bilo uspešno poslano!</span>
+  </div>
+
+  <!-- JS Engine -->
+  <script src="main.js"></script>
+</body>
+</html>

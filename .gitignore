@@ -1,0 +1,17 @@
+# Ignore heavy design source materials and archives
+Slikovno gradivo/
+Baza arhitekti, notranji oblikovalci in verske ustanove/
+Brošura/
+Logotip/
+Predlogi designa/
+Backup/
+.agents/
+*.rar
+*.zip
+*.pdf
+*.py
+*.txt
+*.png
+!assets/*.png
+!assets/*.jpg
+!assets/*.svg

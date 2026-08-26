@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pravno Obvestilo in Varstvo Osebnih Podatkov | LAPIDOR</title>
+  <meta name="description" content="Pravno obvestilo, pogoji uporabe spletnega mesta LAPIDOR ter politika varstva osebnih podatkov (GDPR) podjetja PROMOSCENTIA d.o.o.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .legal-content {
+      background: #ffffff;
+      padding: 60px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-gold);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+      margin-bottom: 80px;
+    }
+    .legal-content h3 {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      color: var(--gold-primary);
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(184, 139, 42, 0.2);
+    }
+    .legal-content p, .legal-content ul {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .legal-content ul {
+      padding-left: 24px;
+      margin-bottom: 20px;
+    }
+    .legal-content li {
+      margin-bottom: 8px;
+    }
+    .company-box {
+      background: var(--bg-marble);
+      border-left: 3px solid var(--gold-primary);
+      padding: 20px 24px;
+      margin: 20px 0 30px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+    .company-box p {
+      margin-bottom: 4px;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+    .print-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    @media print {
+      .top-bar, .main-header, .main-footer, .print-actions {
+        display: none !important;
+      }
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+      }
+      .legal-content {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .legal-content h3 {
+        color: #000000 !important;
+        border-bottom-color: #ccc !important;
+      }
+      .company-box {
+        background: #f9f9f9 !important;
+        border-left-color: #333 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span><i class="fa-solid fa-gem text-gold"></i> <span data-i18n="top_announcement">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</span></span>
+      <div class="top-bar-right">
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang-btn="sl">SL</button>
+          <span class="lang-divider">|</span>
+          <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
+        <span class="divider">|</span>
+        <a href="index.html#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POŠLJI POVPRAŠEVANJE</span></a>
+        <span class="divider">|</span>
+        <a href="tel:+38631529003" class="top-link"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="main-header" id="header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="header-logo-img">
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html#domov" class="nav-link" data-i18n="nav_home">DOMOV</a></li>
+          <li><a href="index.html#o-nas" class="nav-link" data-i18n="nav_story">NAŠA ZGODBA</a></li>
+          <li><a href="index.html#katalog" class="nav-link" data-i18n="nav_products">NAŠI IZDELKI</a></li>
+          <li><a href="index.html#obdelave" class="nav-link" data-i18n="nav_art">UMETNOST</a></li>
+          <li><a href="index.html#kontakt" class="nav-link" data-i18n="nav_contact">KONTAKT</a></li>
+          <li class="nav-lang-item">
+            <div class="lang-switcher">
+              <button type="button" class="lang-btn active" data-lang-btn="sl">SL</button>
+              <span class="lang-divider">|</span>
+              <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Odpri meni">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- LEGAL HERO SECTION -->
+  <section class="section-padding" style="padding-top: 60px; padding-bottom: 40px;">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag" style="display: block; margin-bottom: 8px;" data-i18n="legal_tag">DOKUMENTI IN ZASEBNOST</span>
+        <h2 class="section-title" data-i18n="legal_title">Pravno Obvestilo in Varstvo Osebnih Podatkov</h2>
+        <div class="gold-underline"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN LEGAL CONTENT -->
+  <main class="container">
+    <div class="print-actions">
+      <a href="index.html" class="top-link" style="color: var(--gold-primary); font-weight: 600;" data-i18n="legal_back"><i class="fa-solid fa-arrow-left"></i> Nazaj na osnovno stran</a>
+      <button onclick="window.print()" class="btn btn-outline-gold btn-sm" data-i18n="legal_print"><i class="fa-solid fa-file-pdf text-gold"></i> Natisni / Shrani kot PDF</button>
+    </div>
+
+    <article class="legal-content">
+      
+      <!-- Slovenian Version -->
+      <div class="lang-content lang-sl">
+        <div class="company-box">
+          <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); margin-bottom: 8px;">LAPIDOR</h2>
+          <p><strong>PROMOSCENTIA d.o.o.</strong></p>
+          <p>Mariborska cesta 86 | 3000 Celje | Slovenija</p>
+          <p>E-pošta: <a href="mailto:info@lapidor.si" style="color: var(--gold-primary);">info@lapidor.si</a> | Spletno mesto: <a href="https://www.lapidor.si" target="_blank" style="color: var(--gold-primary);">www.lapidor.si</a></p>
+        </div>
+
+        <h3>1. Splošno</h3>
+        <p>Spletno mesto LAPIDOR zajema spletne strani in podstrani na spletnem naslovu <strong>www.lapidor.si</strong> (v nadaljevanju: »spletno mesto«). Upravljavec spletnega mesta je <strong>PROMOSCENTIA d.o.o.</strong>, Mariborska cesta 86, 3000 Celje, Slovenija (v nadaljevanju: »upravljavec«).</p>
+        <p>Vsebine, besedila, fotografije, grafični elementi, logotipi, oblikovne rešitve in drugi elementi spletnega mesta so zaščiteni skladno z veljavno zakonodajo s področja avtorskih in drugih pravic intelektualne lastnine. Brez predhodnega pisnega soglasja upravljavca njihovo kopiranje, reproduciranje, distribuiranje, spreminjanje ali drugačna uporaba v komercialne namene ni dovoljena.</p>
+
+        <h3>2. Omejitev uporabe informacij in gradiv</h3>
+        <p>Informacije in gradiva na spletnem mestu so namenjena informiranju obiskovalcev o blagovni znamki LAPIDOR, izdelkih iz naravnega marmorja ter možnostih sodelovanja in izdelave po meri.</p>
+        <p>Uporabnik lahko vsebine uporablja za osebne in nekomercialne namene. Vsako drugo reproduciranje, distribuiranje, javno objavljanje, spreminjanje ali komercialna uporaba vsebin brez predhodnega pisnega dovoljenja upravljavca ni dovoljena.</p>
+        <p>Upravljavec ne odgovarja za vsebino spletnih mest tretjih oseb, na katera vodijo povezave z našega spletnega mesta.</p>
+
+        <h3>3. Omejitev odgovornosti</h3>
+        <p>PROMOSCENTIA d.o.o. si prizadeva zagotavljati točne, popolne in ažurne informacije, vendar ne jamči, da so vse informacije na spletnem mestu vedno popolne, brez napak ali v vsakem trenutku ažurne. Upravljavec si prizadeva za nemoteno delovanje spletnega mesta, vendar ne odgovarja za motnje, prekinitve ali nedostopnost, kadar te nastanejo iz razlogov, na katere ne more vplivati.</p>
+        <p>Predstavitve izdelkov, fotografije, barvni odtenki, strukture in teksture naravnega marmorja so lahko informativne narave. Ker je naravni marmor edinstven naravni material, se posamezni kosi lahko razlikujejo po barvi, vzorcu, strukturi, žilavosti in drugih naravnih značilnostih.</p>
+        <p>Upravljavec si pridržuje pravico do spremembe vsebine spletnega mesta, ponudbe in drugih informacij brez predhodnega obvestila.</p>
+
+        <h3>4. Varstvo osebnih podatkov</h3>
+        <p>Varstvo osebnih podatkov nam je pomembno. Osebne podatke obdelujemo skladno z veljavno zakonodajo Republike Slovenije in Evropske unije, vključno z Uredbo (EU) 2016/679 (GDPR). Osebne podatke zbiramo in obdelujemo za jasno določene in zakonite namene ter na podlagi ustrezne pravne podlage.</p>
+
+        <h3>5. Upravljavec osebnih podatkov</h3>
+        <p>
+          <strong>PROMOSCENTIA d.o.o.</strong><br>
+          Mariborska cesta 86<br>
+          3000 Celje<br>
+          Slovenija
+        </p>
+        <p>Kontakt za vprašanja v zvezi z varstvom osebnih podatkov: <strong>info@lapidor.si</strong></p>
+
+        <h3>6. Katere osebne podatke zbiramo?</h3>
+        <p>Glede na način uporabe spletnega mesta lahko zbiramo predvsem podatke, ki nam jih uporabnik posreduje prostovoljno, na primer:</p>
+        <ul>
+          <li>ime in priimek</li>
+          <li>podjetje oziroma organizacijo</li>
+          <li>elektronski naslov</li>
+          <li>telefonsko številko</li>
+          <li>naslov</li>
+          <li>podatke o projektu</li>
+          <li>podatke, navedene v povpraševanju</li>
+          <li>druge informacije, ki jih uporabnik prostovoljno posreduje</li>
+        </ul>
+        <p>Pri uporabi spletnega mesta se lahko samodejno zbirajo tudi določeni tehnični podatki, na primer podatki o napravi, brskalniku, IP-naslovu in načinu uporabe spletnega mesta, če je za takšno obdelavo zagotovljena ustrezna pravna podlaga.</p>
+
+        <h3>7. Namen in pravna podlaga obdelave</h3>
+        <p>Osebne podatke lahko obdelujemo za:</p>
+        <ul>
+          <li>odgovor na vaše povpraševanje</li>
+          <li>pripravo ponudbe</li>
+          <li>komunikacijo glede projekta</li>
+          <li>izvedbo naročila</li>
+          <li>dostavo naročenih izdelkov ali vzorcev</li>
+          <li>izpolnjevanje zakonskih obveznosti</li>
+          <li>zaščito naših pravic in pravnih interesov</li>
+          <li>pošiljanje marketinških oziroma promocijskih sporočil, kadar je za to podana ustrezna privolitev oziroma druga veljavna pravna podlaga</li>
+        </ul>
+        <p>Osebnih podatkov ne prodajamo in jih brez ustrezne pravne podlage ne posredujemo tretjim osebam.</p>
+
+        <h3>8. Hramba osebnih podatkov</h3>
+        <p>Osebne podatke hranimo toliko časa, kolikor je potrebno za izpolnitev namena, za katerega so bili zbrani, oziroma toliko časa, kot to zahtevajo veljavni predpisi. Podatke, obdelane na podlagi privolitve, hranimo do preklica privolitve oziroma do izteka namena, za katerega je bila privolitev dana, razen kadar obstaja druga zakonita podlaga za nadaljnjo hrambo.</p>
+
+        <h3>9. Vaše pravice</h3>
+        <p>V skladu z veljavno zakonodajo imate lahko pravico do:</p>
+        <ul>
+          <li>dostopa do svojih osebnih podatkov</li>
+          <li>popravka netočnih ali nepopolnih podatkov</li>
+          <li>izbrisa osebnih podatkov</li>
+          <li>omejitve obdelave</li>
+          <li>ugovora obdelavi</li>
+          <li>prenosljivosti podatkov</li>
+          <li>preklica privolitve, kadar obdelava temelji na privolitvi</li>
+        </ul>
+        <p>Zahtevo lahko pošljete na <strong>info@lapidor.si</strong>. Če menite, da je pri obdelavi vaših osebnih podatkov prišlo do kršitve vaših pravic, imate pravico vložiti pritožbo pri pristojnem nadzornem organu (Informacijski pooblaščenec RS).</p>
+
+        <h3>10. Piškotki</h3>
+        <p>Spletno mesto LAPIDOR lahko uporablja piškotke in podobne tehnologije za zagotavljanje pravilnega delovanja spletnega mesta, izboljšanje uporabniške izkušnje, analitiko obiska ter druge namene, odvisno od dejanskih nastavitev spletnega mesta.</p>
+        <p>Vrste piškotkov, njihovi ponudniki, namen uporabe in obdobje hrambe morajo biti navedeni skladno z dejansko implementacijo spletnega mesta in nastavitvami soglasja za piškotke. Pred objavo tega dokumenta je treba seznam piškotkov preveriti na dejanski spletni strani LAPIDOR.</p>
+        <p>Uporabnik lahko svoje nastavitve piškotkov spremeni v orodju za upravljanje soglasij na spletnem mestu oziroma v nastavitvah svojega brskalnika.</p>
+
+        <h3>11. Spremembe pravnega obvestila</h3>
+        <p>PROMOSCENTIA d.o.o. si pridržuje pravico do spremembe ali dopolnitve tega pravnega obvestila in politike varstva osebnih podatkov zaradi sprememb zakonodaje, delovanja spletnega mesta ali naših storitev. Veljavna različica je objavljena na spletnem mestu LAPIDOR.</p>
+
+        <h3>12. Veljavno pravo in pristojnost</h3>
+        <p>Za pravna razmerja, povezana z uporabo spletnega mesta LAPIDOR oziroma njegove vsebine, se uporablja pravo Republike Slovenije, razen če veljavna zakonodaja določa drugače.</p>
+        <p>Za reševanje morebitnih sporov je pristojno Sodišče v Celju, razen če je z veljavnimi predpisi določena drugačna pristojnost.</p>
+
+        <h3>13. Podatki o upravljavcu</h3>
+        <p>
+          <strong>PROMOSCENTIA d.o.o.</strong><br>
+          Mariborska cesta 86<br>
+          3000 Celje<br>
+          Slovenija<br>
+          E-pošta: <a href="mailto:info@lapidor.si" style="color: var(--gold-primary);">info@lapidor.si</a><br>
+          Spletna stran: <a href="https://www.lapidor.si" target="_blank" style="color: var(--gold-primary);">www.lapidor.si</a>
+        </p>
+      </div>
+
+      <!-- English Version -->
+      <div class="lang-content lang-en" style="display: none;">
+        <div class="company-box">
+          <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); margin-bottom: 8px;">LAPIDOR</h2>
+          <p><strong>PROMOSCENTIA d.o.o.</strong></p>
+          <p>Mariborska cesta 86 | 3000 Celje | Slovenia</p>
+          <p>Email: <a href="mailto:info@lapidor.si" style="color: var(--gold-primary);">info@lapidor.si</a> | Website: <a href="https://www.lapidor.si" target="_blank" style="color: var(--gold-primary);">www.lapidor.si</a></p>
+        </div>
+
+        <h3>1. General</h3>
+        <p>The LAPIDOR website encompasses all web pages and subpages located at <strong>www.lapidor.si</strong> (hereinafter: "website"). The operator of the website is <strong>PROMOSCENTIA d.o.o.</strong>, Mariborska cesta 86, 3000 Celje, Slovenia (hereinafter: "operator").</p>
+        <p>All content, texts, photographs, graphic elements, logos, design solutions, and other components of the website are protected under applicable legislation governing copyright and intellectual property rights. Any copying, reproduction, distribution, modification, or commercial use without prior written consent from the operator is strictly prohibited.</p>
+
+        <h3>2. Limitation of Information &amp; Materials Use</h3>
+        <p>Information and materials on this website are intended to inform visitors about the LAPIDOR brand, natural marble products, partnership options, and bespoke crafting services.</p>
+        <p>Users may utilize website content solely for personal and non-commercial purposes. Any other reproduction, distribution, public broadcasting, alteration, or commercial utilization of the content without prior written permission from the operator is prohibited.</p>
+        <p>The operator is not responsible for the content of third-party websites accessed via links on our website.</p>
+
+        <h3>3. Limitation of Liability</h3>
+        <p>PROMOSCENTIA d.o.o. strives to provide accurate, complete, and up-to-date information; however, it does not guarantee that all information on the website is continuously complete, error-free, or current. The operator endeavors to ensure uninterrupted site operation, but shall not be held liable for disruptions, service interruptions, or unavailability due to circumstances beyond its control.</p>
+        <p>Product representations, imagery, color shades, textures, and structures of natural marble are illustrative. As natural marble is a unique material, individual items may naturally vary in shade, veining, patterning, and structure.</p>
+        <p>The operator reserves the right to modify website content, product specifications, and general information at any time without prior notice.</p>
+
+        <h3>4. Protection of Personal Data (GDPR)</h3>
+        <p>Personal data protection is of high importance to us. We process personal data in strict compliance with applicable legislation of the Republic of Slovenia and the European Union, including Regulation (EU) 2016/679 (GDPR). Personal data is collected and processed for explicit, legitimate purposes based on lawful grounds.</p>
+
+        <h3>5. Data Controller Information</h3>
+        <p>
+          <strong>PROMOSCENTIA d.o.o.</strong><br>
+          Mariborska cesta 86<br>
+          3000 Celje<br>
+          Slovenia
+        </p>
+        <p>Contact for privacy and data protection inquiries: <strong>info@lapidor.si</strong></p>
+
+        <h3>6. What Personal Data We Collect</h3>
+        <p>Depending on how you interact with the website, we primarily collect data voluntarily provided by the user, such as:</p>
+        <ul>
+          <li>full name</li>
+          <li>company or organization name</li>
+          <li>email address</li>
+          <li>telephone number</li>
+          <li>address</li>
+          <li>project specifications</li>
+          <li>information submitted via inquiry forms</li>
+          <li>other details voluntarily provided by the user</li>
+        </ul>
+        <p>Certain technical information may also be automatically collected upon browsing (such as device type, browser specifications, IP address, and interaction data), provided appropriate legal grounds exist.</p>
+
+        <h3>7. Purpose and Legal Basis for Processing</h3>
+        <p>We process personal data for the following purposes:</p>
+        <ul>
+          <li>responding to your inquiries</li>
+          <li>preparing customized quotes and proposals</li>
+          <li>project-related communications</li>
+          <li>order execution and fulfillment</li>
+          <li>delivering ordered marble items or sample boxes</li>
+          <li>complying with statutory legal obligations</li>
+          <li>safeguarding our legal rights and legitimate interests</li>
+          <li>sending promotional communications when consent or legal grounds are established</li>
+        </ul>
+        <p>We never sell personal data nor transfer it to third parties without appropriate legal basis.</p>
+
+        <h3>8. Personal Data Retention Period</h3>
+        <p>Personal data is retained only as long as necessary to fulfill the purpose for which it was gathered or as mandated by applicable legal frameworks. Data processed based on consent is retained until consent is revoked or the purpose is fulfilled, unless statutory retention duties apply.</p>
+
+        <h3>9. Your Privacy Rights</h3>
+        <p>Under applicable data privacy regulations, you possess the right to:</p>
+        <ul>
+          <li>access your personal data</li>
+          <li>rectify inaccurate or incomplete data</li>
+          <li>request erasure of personal data</li>
+          <li>request restriction of processing</li>
+          <li>object to data processing</li>
+          <li>data portability</li>
+          <li>withdraw consent at any time when processing relies on consent</li>
+        </ul>
+        <p>Requests can be sent to <strong>info@lapidor.si</strong>. If you believe your data protection rights have been infringed, you have the right to lodge a complaint with the competent supervisory authority (Information Commissioner of the Republic of Slovenia).</p>
+
+        <h3>10. Cookies Policy</h3>
+        <p>The LAPIDOR website may utilize cookies and related technologies to ensure smooth site operations, enhance user experience, conduct traffic analytics, and support marketing functions depending on active consent settings.</p>
+        <p>Details regarding cookie categories, providers, purposes, and expiry periods are managed according to the implemented consent management tool.</p>
+        <p>Users may adjust cookie preferences anytime via the cookie consent manager or browser settings.</p>
+
+        <h3>11. Amendments to Legal Notice</h3>
+        <p>PROMOSCENTIA d.o.o. reserves the right to update or amend this Legal Notice and Data Protection Policy to reflect legal changes, website updates, or service enhancements. The applicable version is always published on the LAPIDOR website.</p>
+
+        <h3>12. Governing Law and Jurisdiction</h3>
+        <p>Legal relations arising from the use of the LAPIDOR website and its contents are governed by the laws of the Republic of Slovenia, unless mandatory regulations state otherwise.</p>
+        <p>Any disputes shall be submitted to the exclusive jurisdiction of the competent Court in Celje, unless imperative law stipulates otherwise.</p>
+
+        <h3>13. Controller Contact Details</h3>
+        <p>
+          <strong>PROMOSCENTIA d.o.o.</strong><br>
+          Mariborska cesta 86<br>
+          3000 Celje<br>
+          Slovenia<br>
+          Email: <a href="mailto:info@lapidor.si" style="color: var(--gold-primary);">info@lapidor.si</a><br>
+          Website: <a href="https://www.lapidor.si" target="_blank" style="color: var(--gold-primary);">www.lapidor.si</a>
+        </p>
+      </div>
+
+    </article>
+  </main>
+
+  <!-- FOOTER / KONTAKT -->
+  <footer class="main-footer" id="kontakt">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1: Brand & Logo -->
+        <div>
+          <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="footer-logo-img">
+          <p style="font-size: 0.9rem;" data-i18n="footer_sub">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
+          <p style="color: var(--gold-primary); font-style: italic; font-family: var(--font-serif); margin-top: 12px; font-weight: 500;" data-i18n="footer_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
+        </div>
+
+        <!-- Column 2: Povezave -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_h_links">Povezave</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#domov" data-i18n="nav_home">Domov</a></li>
+            <li><a href="index.html#o-nas" data-i18n="nav_story">Naša Zgodba</a></li>
+            <li><a href="index.html#katalog" data-i18n="nav_products">Naši Izdelki</a></li>
+            <li><a href="index.html#obdelave" data-i18n="nav_art">Umetnost</a></li>
+            <li><a href="index.html#vzorci" data-i18n="top_inquiry">Povpraševanje</a></li>
+            <li><a href="pravno-obvestilo.html">Pravno obvestilo &amp; GDPR</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Odlike Znamke -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_h_hallmarks">Odlike Znamke</h4>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--text-main); font-weight: 500;">
+            <div><i class="fa-solid fa-hammer text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm1">Ročno delo</span></div>
+            <div><i class="fa-solid fa-gem text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm2">Unikatno</span></div>
+            <div><i class="fa-solid fa-crown text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm3">Prestižno</span></div>
+            <div><i class="fa-solid fa-infinity text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm4">Brezčasno</span></div>
+            <div><i class="fa-solid fa-feather text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm5">Elegantno</span></div>
+            <div><i class="fa-solid fa-leaf text-gold" style="width: 20px;"></i> <span data-i18n="footer_hm6">Naravno</span></div>
+          </div>
+        </div>
+
+        <!-- Column 4: Kontakt (Čisto desno) -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_h_contact">Kontakt</h4>
+          <p style="font-size: 0.9rem;"><i class="fa-solid fa-envelope text-gold"></i> info@lapidor.si</p>
+          <p style="font-size: 0.9rem; margin-top: 6px;"><a href="tel:+38631529003" style="color: inherit;"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a></p>
+          <p style="font-size: 0.9rem; margin-top: 6px;"><i class="fa-solid fa-map-marker-alt text-gold"></i> Slovenija</p>
+          <p style="font-size: 0.9rem; margin-top: 14px; line-height: 1.5;">
+            <strong>PROMOSCENTIA d.o.o.</strong><br>
+            Mariborska cesta 86<br>
+            3000 Celje
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_copy">&copy; 2026 LAPIDOR. Vse pravice pridržane. Izdelava: Promoscentia d.o.o.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
