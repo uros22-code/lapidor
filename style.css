@@ -667,6 +667,28 @@ a {
   padding: 100px 0;
 }
 
+.table-scroll-hint {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: -28px;
+  font-size: 0.88rem;
+  color: var(--gold-primary);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.table-scroll-hint i {
+  animation: pulseSwipe 1.8s infinite ease-in-out;
+}
+
+@keyframes pulseSwipe {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
 .comparison-table-wrapper {
   overflow-x: auto;
   margin-top: 48px;
@@ -1354,14 +1376,52 @@ a {
     margin-bottom: 12px;
   }
 
-  /* Comparison table */
+  /* Naša zgodba mobile fixes */
+  .about-text .section-title {
+    white-space: normal !important;
+    font-size: clamp(1.8rem, 6vw, 2.3rem);
+    line-height: 1.25;
+    word-break: break-word;
+  }
+
+  .about-image {
+    height: 280px;
+  }
+
+  .about-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+  }
+
+  /* Comparison table mobile optimization */
+  .table-scroll-hint {
+    display: flex;
+  }
+
   .comparison-table-wrapper {
-    margin-top: 28px;
+    margin-top: 36px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-gold);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+  }
+
+  .comparison-table {
+    min-width: 620px;
   }
 
   .comparison-table th, .comparison-table td {
-    padding: 14px 16px;
-    font-size: 0.88rem;
+    padding: 12px 14px;
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  .comparison-table th {
+    font-size: 0.9rem;
+    white-space: normal;
   }
 
   /* Catalog Filter */
@@ -1393,19 +1453,43 @@ a {
     justify-content: center;
   }
 
-  /* Form inputs mobile iOS zoom fix */
-  .form-group input, .form-group select, .form-group textarea {
-    font-size: 16px !important;
+  /* Inquiry Form & Modal mobile optimization */
+  .sample-section .grid-2 {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
   }
 
   .luxury-form {
-    padding: 24px 18px;
+    padding: 28px 20px !important;
+    width: 100% !important;
+    border-radius: var(--radius-md);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .luxury-form .grid-2.form-group,
+  .modal-content .grid-2.form-group {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .form-group input, .form-group select, .form-group textarea {
+    font-size: 16px !important;
+    padding: 14px 16px;
+    width: 100%;
+  }
+
+  .modal-backdrop {
+    padding: 16px;
   }
 
   .modal-content {
-    padding: 28px 20px;
-    max-height: 90vh;
-    overflow-y: auto;
+    width: 100% !important;
+    max-width: 500px !important;
+    padding: 28px 20px !important;
+    max-height: 88vh !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--radius-md);
   }
 
   /* Footer */
