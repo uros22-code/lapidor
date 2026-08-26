@@ -9,7 +9,7 @@ const i18n = {
     nav_home: "DOMOV",
     nav_story: "NAŠA ZGODBA",
     nav_products: "NAŠI IZDELKI",
-    nav_art: "NAČINI OBDELAVE",
+    nav_art: "OBDELAVA",
     nav_contact: "KONTAKT",
     hero_title: "BREZČASNA<br>ELEGANCA<br>NARAVNEGA<br>MARMORJA",
     hero_subtext: "Naravni vietnamski marmor v svoji najčistejši obliki. Narava ga je oblikovala milijone let, naši mojstri pa njegovo lepoto z vrhunsko <span class=\"gold-hover-text\">ročno obdelavo</span> spremenijo v izdelek brezčasne vrednosti. Vsak <span class=\"gold-hover-text\">LAPIDOR</span> izdelek nosi neponovljiv podpis narave in mojstra, zato je vsak naš izdelek edinstven in unikaten.",
