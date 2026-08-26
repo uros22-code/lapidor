@@ -111,6 +111,7 @@ const i18n = {
     b4_h: "Celovita podpora od ideje do izvedbe",
     b4_p: "Arhitektom, oblikovalcem in zasebnim naročnikom pomagamo pri izbiri materiala, oblikovanju rešitve, izdelavi in končni izvedbi projekta.",
     form_title: "<i class=\"fa-solid fa-paper-plane text-gold\"></i> Obrazec za Povpraševanje",
+    form_lbl_product: "Izbrani izdelek",
     form_lbl_name: "Ime in priimek / Podjetje *",
     form_lbl_email: "E-poštni naslov *",
     form_lbl_phone: "Telefonska številka *",
@@ -276,6 +277,7 @@ const i18n = {
     b4_h: "Turnkey Support from Vision to Execution",
     b4_p: "We assist architects, designers, and private clients with material selection, technical design, carving, and project execution.",
     form_title: "<i class=\"fa-solid fa-paper-plane text-gold\"></i> Inquiry Form",
+    form_lbl_product: "Selected Product",
     form_lbl_name: "Full Name / Company *",
     form_lbl_email: "Email Address *",
     form_lbl_phone: "Phone Number *",
@@ -683,14 +685,18 @@ function initModals() {
   const modal = document.getElementById('inquiry-modal');
   const closeBtn = document.getElementById('modal-close');
   const modalTitle = document.getElementById('modal-product-title');
+  const modalProductName = document.getElementById('modal-product-name');
+  const modalProductDisplay = document.getElementById('modal-product-display');
   const openBtns = document.querySelectorAll('.open-inquiry-modal');
 
   openBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const cardTitleEl = btn.closest('.product-info')?.querySelector('.product-title');
-      const productName = cardTitleEl ? cardTitleEl.textContent.trim() : (btn.getAttribute('data-product') || 'LAPIDOR');
+      const productName = cardTitleEl ? cardTitleEl.textContent.trim() : (btn.getAttribute('data-product') || 'Splošno povpraševanje');
       if (modalTitle) modalTitle.textContent = (currentLang === 'en' ? 'Inquiry for: ' : 'Povpraševanje za: ') + productName;
+      if (modalProductName) modalProductName.value = productName;
+      if (modalProductDisplay) modalProductDisplay.value = productName;
       if (modal) modal.classList.add('active');
     });
   });

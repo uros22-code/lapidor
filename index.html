@@ -538,6 +538,7 @@
           <form id="sample-request-form" name="povprasevanje" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="povprasevanje">
             <input type="hidden" name="bot-field">
+            <input type="hidden" name="Izbrani_izdelek" value="Splošno povpraševanje / Projekti po meri">
             <h3 style="font-size: 1.5rem; margin-bottom: 20px;" data-i18n="form_title"><i class="fa-solid fa-paper-plane text-gold"></i> Obrazec za Povpraševanje</h3>
             <div class="form-group">
               <label data-i18n="form_lbl_name">Ime in priimek / Podjetje *</label>
@@ -712,6 +713,11 @@
       <form id="modal-form" name="povprasevanje-modal" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="povprasevanje-modal">
         <input type="hidden" name="bot-field">
+        <input type="hidden" id="modal-product-name" name="Izbrani_izdelek" value="Splošno povpraševanje">
+        <div class="form-group">
+          <label data-i18n="form_lbl_product">Izbrani izdelek</label>
+          <input type="text" id="modal-product-display" readonly style="background: rgba(212, 175, 55, 0.08); border: 1px solid var(--border-gold); color: var(--gold-primary); font-weight: 600; cursor: default;">
+        </div>
         <div class="form-group">
           <label data-i18n="form_lbl_name">Ime in priimek / Podjetje *</label>
           <input type="text" id="modal-form-name" name="Ime_in_priimek_Podjetje" required placeholder="Janez Novak (Studio Arhitektura)" data-i18n-placeholder="form_ph_name">
