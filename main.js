@@ -168,7 +168,9 @@ const i18n = {
     legal_tag: "DOKUMENTI IN ZASEBNOST",
     legal_title: "Pravno Obvestilo in Varstvo Osebnih Podatkov",
     legal_back: "<i class=\"fa-solid fa-arrow-left\"></i> Nazaj na osnovno stran",
-    legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Natisni / Shrani kot PDF"
+    legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Natisni / Shrani kot PDF",
+    float_call: "KLIC: +386 (0)31 529 003",
+    float_inquiry: "HITRO POVPRAŠEVANJE"
   },
   en: {
     top_announcement: "Handcrafted unique products made of natural Vietnamese marble.",
@@ -335,7 +337,9 @@ const i18n = {
     legal_tag: "DOCUMENTS & PRIVACY",
     legal_title: "Legal Notice & Data Privacy Policy",
     legal_back: "<i class=\"fa-solid fa-arrow-left\"></i> Back to Main Page",
-    legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Print / Save as PDF"
+    legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Print / Save as PDF",
+    float_call: "CALL: +386 (0)31 529 003",
+    float_inquiry: "QUICK INQUIRY"
   }
 };
 
