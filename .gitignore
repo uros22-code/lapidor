@@ -15,3 +15,5 @@ Backup/
 !assets/*.png
 !assets/*.jpg
 !assets/*.svg
+!assets/*.pdf
+!assets/brosura_images/*
