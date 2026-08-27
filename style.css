@@ -1063,12 +1063,24 @@ a {
   cursor: pointer;
 }
 
+/* Hide Netlify Drawer / Badge */
+[data-netlify-deploy-id],
+[class*="netlify-drawer"],
+[id*="netlify-drawer"],
+iframe[src*="netlify"],
+.netlify-badge {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* Floating Quick Contact Widget */
 .floating-contact-widget {
   position: fixed;
-  bottom: 28px;
+  bottom: 90px;
   right: 28px;
-  z-index: 1500;
+  z-index: 9999;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -1563,6 +1575,12 @@ a {
     overflow-y: auto !important;
     -webkit-overflow-scrolling: touch;
     border-radius: var(--radius-md);
+  }
+
+  .floating-contact-widget {
+    bottom: 80px !important;
+    right: 20px !important;
+    gap: 10px;
   }
 
   /* Footer */
