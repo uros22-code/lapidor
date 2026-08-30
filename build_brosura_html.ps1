@@ -3,7 +3,7 @@ $data = $jsonRaw | ConvertFrom-Json
 
 function Get-ImgSrc {
     param([string]$key)
-    return "assets/b_opt_$key.jpg"
+    return "/assets/b_opt_$key.jpg"
 }
 
 $imgHero = Get-ImgSrc "hero"
@@ -29,7 +29,7 @@ $imgReal7 = Get-ImgSrc "real7"
 $imgReal8 = Get-ImgSrc "real8"
 $imgReal9 = Get-ImgSrc "real9"
 
-$logoPath = "assets/lapidor_logo_final_v6.png"
+$logoPath = "/assets/lapidor_logo_final_v6.png"
 
 $html = @"
 <!DOCTYPE html>
@@ -950,11 +950,15 @@ $html | Set-Content "C:\Users\urosv\Desktop\LAPIDOR\brosura.html" -Encoding UTF8
 Write-Host "brosura.html successfully built!"
 
 $edgePath = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-$htmlPath = "file:///C:/Users/urosv/Desktop/LAPIDOR/brosura.html"
 $pdfOutputPath = "C:\Users\urosv\Desktop\LAPIDOR\assets\LAPIDOR_Ekskluzivna_Brosura.pdf"
+$pdfTempHtml = "C:\Users\urosv\Desktop\LAPIDOR\brosura_pdf_temp.html"
 
 if (Test-Path $edgePath) {
     Write-Host "Rendering high-resolution PDF via Microsoft Edge headless..."
-    Start-Process -FilePath $edgePath -ArgumentList "--headless", "--disable-gpu", "--print-to-pdf=`"$pdfOutputPath`"", "--no-margins", "`"$htmlPath`"" -Wait
+    $pdfContent = $html.Replace('src="/assets/', 'src="file:///C:/Users/urosv/Desktop/LAPIDOR/assets/').Replace('href="assets/', 'href="file:///C:/Users/urosv/Desktop/LAPIDOR/assets/')
+    $pdfContent | Set-Content $pdfTempHtml -Encoding UTF8
+    
+    Start-Process -FilePath $edgePath -ArgumentList "--headless", "--disable-gpu", "--print-to-pdf=`"$pdfOutputPath`"", "--no-margins", "`"file:///$pdfTempHtml`"" -Wait
+    Remove-Item $pdfTempHtml -Force -ErrorAction SilentlyContinue
     Write-Host "LAPIDOR_Ekskluzivna_Brosura.pdf successfully generated and saved to assets!"
 }
