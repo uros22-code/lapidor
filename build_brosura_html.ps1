@@ -947,4 +947,14 @@ $html = @"
 "@
 
 $html | Set-Content "C:\Users\urosv\Desktop\LAPIDOR\brosura.html" -Encoding UTF8
-Write-Host "brosura.html successfully built with embedded Base64 images and photo gallery!"
+Write-Host "brosura.html successfully built!"
+
+$edgePath = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+$htmlPath = "file:///C:/Users/urosv/Desktop/LAPIDOR/brosura.html"
+$pdfOutputPath = "C:\Users\urosv\Desktop\LAPIDOR\assets\LAPIDOR_Ekskluzivna_Brosura.pdf"
+
+if (Test-Path $edgePath) {
+    Write-Host "Rendering high-resolution PDF via Microsoft Edge headless..."
+    Start-Process -FilePath $edgePath -ArgumentList "--headless", "--disable-gpu", "--print-to-pdf=`"$pdfOutputPath`"", "--no-margins", "`"$htmlPath`"" -Wait
+    Write-Host "LAPIDOR_Ekskluzivna_Brosura.pdf successfully generated and saved to assets!"
+}
