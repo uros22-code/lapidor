@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/brosura"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brosura.html"
+  to = "/"
+  status = 301
+  force = true
