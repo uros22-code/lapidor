@@ -1,37 +1,3 @@
-﻿$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
-$data = $jsonRaw | ConvertFrom-Json
-
-function Get-ImgSrc {
-    param([string]$key)
-    return "assets/b_opt_$key.jpg"
-}
-
-$imgHero = Get-ImgSrc "hero"
-$imgCraft = Get-ImgSrc "craft"
-$imgQuarry = Get-ImgSrc "quarry"
-$imgBathtub = Get-ImgSrc "bathtub"
-$imgBathroom = Get-ImgSrc "bathroom"
-$imgSink = Get-ImgSrc "sink"
-$imgChiseled = Get-ImgSrc "chiseled"
-$imgHotel = Get-ImgSrc "hotel"
-$imgWellness = Get-ImgSrc "wellness"
-$imgArt = Get-ImgSrc "art"
-$imgSacred = Get-ImgSrc "sacred"
-$imgFountain = Get-ImgSrc "fountain"
-
-$imgReal1 = Get-ImgSrc "real1"
-$imgReal2 = Get-ImgSrc "real2"
-$imgReal3 = Get-ImgSrc "real3"
-$imgReal4 = Get-ImgSrc "real4"
-$imgReal5 = Get-ImgSrc "real5"
-$imgReal6 = Get-ImgSrc "real6"
-$imgReal7 = Get-ImgSrc "real7"
-$imgReal8 = Get-ImgSrc "real8"
-$imgReal9 = Get-ImgSrc "real9"
-
-$logoPath = "assets/lapidor_logo_final_v6.png"
-
-$html = @"
 <!DOCTYPE html>
 <html lang="sl">
 <head>
@@ -54,7 +20,7 @@ $html = @"
   <link rel="canonical" href="https://lapidor.si/brosura.html">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="$logoPath">
+  <link rel="icon" type="image/png" href="assets/lapidor_logo_final_v6.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -454,7 +420,7 @@ $html = @"
   <header class="main-header" id="header">
     <div class="container header-container">
       <a href="https://lapidor.si/" class="brand-logo">
-        <img src="$logoPath" alt="LAPIDOR Logo" class="header-logo-img">
+        <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="header-logo-img">
       </a>
 
       <nav class="main-nav" id="main-nav">
@@ -484,13 +450,13 @@ $html = @"
   <section class="b-cover">
     <div class="container">
       <a href="https://lapidor.si/">
-        <img src="$logoPath" alt="LAPIDOR Logo" class="b-cover-logo">
+        <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="b-cover-logo">
       </a>
       <div class="b-cover-subtitle" data-i18n="brochure_cover_sub">EKSKLUZIVNA PRESTIŽNA BROŠURA</div>
       <h1 class="b-cover-title" data-i18n="brochure_cover_title">BREZČASNA ELEGANCA<br>NARAVNEGA MARMORJA</h1>
       
       <a href="https://lapidor.si/">
-        <img src="$imgHero" alt="LAPIDOR Masivna Marmorna Kad in Ambient" class="b-cover-hero-img">
+        <img src="assets/b_opt_hero.jpg" alt="LAPIDOR Masivna Marmorna Kad in Ambient" class="b-cover-hero-img">
       </a>
 
       <p class="b-cover-slogan" data-i18n="brochure_cover_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
@@ -535,7 +501,7 @@ $html = @"
 
           <div class="b-img-box">
             <a href="https://lapidor.si/#nasazgodba" target="_blank">
-              <img src="$imgCraft" alt="Ročno klesanje marmorja z dletom in kladivom">
+              <img src="assets/b_opt_craft.jpg" alt="Ročno klesanje marmorja z dletom in kladivom">
             </a>
           </div>
         </div>
@@ -586,12 +552,12 @@ $html = @"
         <div class="b-grid-2" style="margin-bottom: 24px;">
           <div class="b-img-box">
             <a href="https://lapidor.si/#prednosti" target="_blank">
-              <img src="$imgQuarry" alt="Nahajališče in ročna delavnica vietnamskega marmorja">
+              <img src="assets/b_opt_quarry.jpg" alt="Nahajališče in ročna delavnica vietnamskega marmorja">
             </a>
           </div>
           <div class="b-img-box">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgBathtub" alt="Masivna kopalna kad iz kristalnega marmorja">
+              <img src="assets/b_opt_bathtub.jpg" alt="Masivna kopalna kad iz kristalnega marmorja">
             </a>
           </div>
         </div>
@@ -663,7 +629,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#obdelava" target="_blank">
-              <img src="$imgBathroom" alt="Polirana površina marmorja v kopalnici">
+              <img src="assets/b_opt_bathroom.jpg" alt="Polirana površina marmorja v kopalnici">
             </a>
           </div>
           <div class="b-cat-body">
@@ -677,7 +643,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#obdelava" target="_blank">
-              <img src="$imgSink" alt="Brušena mat površina marmornega umivalnika">
+              <img src="assets/b_opt_sink.jpg" alt="Brušena mat površina marmornega umivalnika">
             </a>
           </div>
           <div class="b-cat-body">
@@ -691,7 +657,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#obdelava" target="_blank">
-              <img src="$imgChiseled" alt="Ročno klesana tekstura marmorne skulpture">
+              <img src="assets/b_opt_chiseled.jpg" alt="Ročno klesana tekstura marmorne skulpture">
             </a>
           </div>
           <div class="b-cat-body">
@@ -705,7 +671,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#obdelava" target="_blank">
-              <img src="$imgHotel" alt="Krtačena Antique površina marmorne opreme">
+              <img src="assets/b_opt_hotel.jpg" alt="Krtačena Antique površina marmorne opreme">
             </a>
           </div>
           <div class="b-cat-body">
@@ -738,7 +704,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgBathtub" alt="Bivalni prostori z masivno marmorno kadjo">
+              <img src="assets/b_opt_bathtub.jpg" alt="Bivalni prostori z masivno marmorno kadjo">
             </a>
           </div>
           <div class="b-cat-body">
@@ -753,7 +719,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgWellness" alt="Wellness in SPA marmorni ambienti">
+              <img src="assets/b_opt_wellness.jpg" alt="Wellness in SPA marmorni ambienti">
             </a>
           </div>
           <div class="b-cat-body">
@@ -768,7 +734,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgArt" alt="Umetnost in skulpture v marmorju">
+              <img src="assets/b_opt_art.jpg" alt="Umetnost in skulpture v marmorju">
             </a>
           </div>
           <div class="b-cat-body">
@@ -783,7 +749,7 @@ $html = @"
         <div class="b-cat-card">
           <div class="b-cat-img-wrapper">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgSacred" alt="Sakralna arhitektura in spomeniki">
+              <img src="assets/b_opt_sacred.jpg" alt="Sakralna arhitektura in spomeniki">
             </a>
           </div>
           <div class="b-cat-body">
@@ -811,12 +777,12 @@ $html = @"
         <div class="b-grid-2">
           <div class="b-img-box">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgFountain" alt="Masivni vrtni vodnjak iz kristalnega marmorja">
+              <img src="assets/b_opt_fountain.jpg" alt="Masivni vrtni vodnjak iz kristalnega marmorja">
             </a>
           </div>
           <div class="b-img-box">
             <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-              <img src="$imgHotel" alt="Ekskluzivni recepcijski pult iz naravnega marmorja">
+              <img src="assets/b_opt_hotel.jpg" alt="Ekskluzivni recepcijski pult iz naravnega marmorja">
             </a>
           </div>
         </div>
@@ -858,7 +824,7 @@ $html = @"
   <footer class="main-footer">
     <div class="container text-center">
       <a href="https://lapidor.si/">
-        <img src="$logoPath" alt="LAPIDOR Logo" class="footer-logo-img" style="margin: 0 auto 16px;">
+        <img src="assets/lapidor_logo_final_v6.png" alt="LAPIDOR Logo" class="footer-logo-img" style="margin: 0 auto 16px;">
       </a>
       <p style="font-size: 0.9rem;" data-i18n="footer_sub">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
       <p style="color: var(--gold-primary); font-style: italic; font-family: var(--font-serif); margin-top: 10px;" data-i18n="footer_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
@@ -882,24 +848,3 @@ $html = @"
   <script src="main.js"></script>
 </body>
 </html>
-"@
-
-$utf8NoBom = New-Object System.Text.UTF8Encoding $false
-[System.IO.File]::WriteAllText("C:\Users\urosv\Desktop\LAPIDOR\brosura.html", $html, $utf8NoBom)
-[System.IO.File]::WriteAllText("C:\Users\urosv\Desktop\LAPIDOR_Website_Backup\brosura.html", $html, $utf8NoBom)
-Write-Host "brosura.html successfully built!"
-
-$edgePath = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-$pdfOutputPath = "C:\Users\urosv\Desktop\LAPIDOR\assets\LAPIDOR_Ekskluzivna_Brosura.pdf"
-$pdfTempHtml = "C:\Users\urosv\Desktop\LAPIDOR\brosura_pdf_temp.html"
-
-if (Test-Path $edgePath) {
-    Write-Host "Rendering high-resolution PDF via Microsoft Edge headless..."
-    $pdfContent = $html.Replace('src="assets/', 'src="file:///C:/Users/urosv/Desktop/LAPIDOR/assets/').Replace('href="assets/', 'href="file:///C:/Users/urosv/Desktop/LAPIDOR/assets/')
-    [System.IO.File]::WriteAllText($pdfTempHtml, $pdfContent, $utf8NoBom)
-    
-    Start-Process -FilePath $edgePath -ArgumentList "--headless", "--disable-gpu", "--print-to-pdf=`"$pdfOutputPath`"", "--no-margins", "`"file:///$pdfTempHtml`"" -Wait
-    Remove-Item $pdfTempHtml -Force -ErrorAction SilentlyContinue
-    Copy-Item -Path "C:\Users\urosv\Desktop\LAPIDOR\assets\LAPIDOR_Ekskluzivna_Brosura.pdf" -Destination "C:\Users\urosv\Desktop\LAPIDOR_Website_Backup\assets\LAPIDOR_Ekskluzivna_Brosura.pdf" -Force
-    Write-Host "LAPIDOR_Ekskluzivna_Brosura.pdf successfully generated and saved to assets!"
-}
