@@ -521,8 +521,8 @@ $html = @"
   <section class="b-section">
     <div class="container">
       <div style="text-align: center; margin-bottom: 28px;">
-        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;">NAŠA ZGODBA</span>
-        <h2 class="section-title" style="text-align: center; text-transform: uppercase;">UMETNOST ROČNEGA DELA</h2>
+        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="about_tag">NAŠA ZGODBA</span>
+        <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="about_title">UMETNOST ROČNEGA DELA</h2>
         <div class="gold-underline" style="margin: 14px auto 0;"></div>
       </div>
 
@@ -536,7 +536,7 @@ $html = @"
               Ime naše blagovne znamke <strong>LAPIDOR</strong> izhaja iz latinske besede <em>lapis</em> – kamen. Iz masivnih blokov nastajajo unikatni kosi, ki nosijo edinstven podpis narave in človeških rok.
             </p>
             
-            <a href="https://lapidor.si/#nasazgodba" class="b-link-badge" target="_blank">
+            <a href="https://lapidor.si/#nasazgodba" class="b-link-badge" target="_blank" data-i18n="b_link_read_more">
               <i class="fa-solid fa-arrow-up-right-from-square"></i> Preberite več na spletni strani (lapidor.si/#nasazgodba)
             </a>
           </div>
@@ -617,40 +617,40 @@ $html = @"
             <tbody>
               <tr>
                 <td><strong data-i18n="row1_title">Čistost (CaCO₃)</strong></td>
-                <td><i class="fa-solid fa-check text-gold"></i> Nad 99 % (Izjemen kristalni sijaj)</td>
-                <td>85 – 95 %</td>
-                <td>Umetne smole / keramika</td>
+                <td data-i18n="row1_vietnam"><i class="fa-solid fa-check text-gold"></i> Nad 99 % (Izjemen kristalni sijaj)</td>
+                <td data-i18n="row1_europe">85 – 95 %</td>
+                <td data-i18n="row1_composite">Umetne smole / keramika</td>
               </tr>
               <tr>
                 <td><strong data-i18n="row2_title">Poroznost &amp; Voda</strong></td>
-                <td><i class="fa-solid fa-check text-gold"></i> Izjemno nizka (Idealno za SPA in kadi)</td>
-                <td>Srednja (Občutljiv na tekočine)</td>
-                <td>Ne-porozen (Vsebuje veziva)</td>
+                <td data-i18n="row2_vietnam"><i class="fa-solid fa-check text-gold"></i> Izjemno nizka (Idealno za SPA in kadi)</td>
+                <td data-i18n="row2_europe">Srednja (Občutljiv na tekočine)</td>
+                <td data-i18n="row2_composite">Ne-porozen (Vsebuje veziva)</td>
               </tr>
               <tr>
                 <td><strong data-i18n="row3_title">Ročna Unikatnost</strong></td>
-                <td><i class="fa-solid fa-check text-gold"></i> 100% Ročni unikat klesarskega mojstra</td>
-                <td>Delno mehanska obdelava</td>
-                <td>Industrijski ponavljajoči odtis</td>
+                <td data-i18n="row3_vietnam"><i class="fa-solid fa-check text-gold"></i> 100% Ročni unikat klesarskega mojstra</td>
+                <td data-i18n="row3_europe">Delno mehanska obdelava</td>
+                <td data-i18n="row3_composite">Industrijski ponavljajoči odtis</td>
               </tr>
               <tr>
                 <td><strong data-i18n="row4_title">Okoljski Odtis</strong></td>
-                <td><i class="fa-solid fa-check text-gold"></i> 100% Naraven mineral (Brez smol)</td>
-                <td>100% Naraven marmor</td>
-                <td>Sintetična polimerna veziva</td>
+                <td data-i18n="row4_vietnam"><i class="fa-solid fa-check text-gold"></i> 100% Naraven mineral (Brez smol)</td>
+                <td data-i18n="row4_europe">100% Naraven marmor</td>
+                <td data-i18n="row4_composite">Sintetična polimerna veziva</td>
               </tr>
               <tr>
                 <td><strong data-i18n="row5_title">Dolgoročna Vrednost</strong></td>
-                <td><i class="fa-solid fa-check text-gold"></i> Z leti pridobiva patino in prestiž</td>
-                <td>Ohranja vrednost</td>
-                <td>Sčasoma zbledi / se obrabi</td>
+                <td data-i18n="row5_vietnam"><i class="fa-solid fa-check text-gold"></i> Z leti pridobiva patino in prestiž</td>
+                <td data-i18n="row5_europe">Ohranja vrednost</td>
+                <td data-i18n="row5_composite">Sčasoma zbledi / se obrabi</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <div style="text-align: right; margin-top: 16px;">
-          <a href="https://lapidor.si/#prednosti" class="b-link-badge" target="_blank">
+          <a href="https://lapidor.si/#prednosti" class="b-link-badge" target="_blank" data-i18n="b_link_comp">
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Oglejte si primerjalno analizo na spletu (lapidor.si/#prednosti)
           </a>
         </div>
@@ -662,8 +662,8 @@ $html = @"
   <section class="b-section">
     <div class="container">
       <div style="text-align: center; margin-bottom: 28px;">
-        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;">OBDELAVE POVRŠINE</span>
-        <h2 class="section-title" style="text-align: center; text-transform: uppercase;">ŠTIRI TIPOLOGIJE OBDELAVE POVRŠINE</h2>
+        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="finishes_tag">OBDELAVE POVRŠINE</span>
+        <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="finish_title_sec">ŠTIRI TIPOLOGIJE OBDELAVE POVRŠINE</h2>
         <div class="gold-underline" style="margin: 14px auto 0;"></div>
       </div>
 
@@ -726,7 +726,7 @@ $html = @"
       </div>
 
       <div style="margin-top: 20px; text-align: center;">
-        <a href="https://lapidor.si/#obdelava" class="b-link-badge" target="_blank">
+        <a href="https://lapidor.si/#obdelava" class="b-link-badge" target="_blank" data-i18n="b_link_finishes">
           <i class="fa-solid fa-arrow-up-right-from-square"></i> Preizkusite obdelave interaktivno na spletu (lapidor.si/#obdelava)
         </a>
       </div>
@@ -737,8 +737,8 @@ $html = @"
   <section class="b-section">
     <div class="container">
       <div style="text-align: center; margin-bottom: 28px;">
-        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;">PODROČJA UPORABE</span>
-        <h2 class="section-title" style="text-align: center; text-transform: uppercase;">ARHITEKTURNE APLIKACIJE IN KOLEKCIJE</h2>
+        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="b_sec_apps_tag">PODROČJA UPORABE</span>
+        <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="b_sec_apps_title">ARHITEKTURNE APLIKACIJE IN KOLEKCIJE</h2>
         <div class="gold-underline" style="margin: 14px auto 0;"></div>
       </div>
 
@@ -754,7 +754,7 @@ $html = @"
             <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app1_desc">
               Prestižne rezidence, privatne kopalnice, dnevni saloni ter unikatni masivni kosi opreme po meri zahtevnih naročnikov.
             </p>
-            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank">Ogled kolekcije &rarr;</a>
+            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
           </div>
         </div>
 
@@ -769,7 +769,7 @@ $html = @"
             <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app2_desc">
               Namenjeno prostori za regeneracijo. Izjemno nizka poroznost omogoča trajno uporabo pri bazenskih robovih, savnah in recepcijah.
             </p>
-            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank">Ogled kolekcije &rarr;</a>
+            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
           </div>
         </div>
 
@@ -784,7 +784,7 @@ $html = @"
             <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app3_desc">
               Unikatne kiparske stvaritve – od doprsnih figur in portretov do sodobne abstrakcije ter zunanjih vrtnih skulptur.
             </p>
-            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank">Ogled kolekcije &rarr;</a>
+            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
           </div>
         </div>
 
@@ -799,7 +799,7 @@ $html = @"
             <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app4_desc">
               Ročno klesane sakralne plastike, spomeniki, oltarji in verski simboli po natančnih načrtih ali skicah naročnika.
             </p>
-            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank">Ogled kolekcije &rarr;</a>
+            <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
           </div>
         </div>
       </div>
@@ -810,8 +810,8 @@ $html = @"
   <section class="b-section">
     <div class="container">
       <div style="text-align: center; margin-bottom: 28px;">
-        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;">ARHITEKTURNI VODNJAKI IN EKSKLUZIVNA OPREMA</span>
-        <h2 class="section-title" style="text-align: center; text-transform: uppercase;">MASIVNI MARMORNI VODNJAKI IN RECEPCIJE</h2>
+        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="b_sec_fountains_tag">ARHITEKTURNI VODNJAKI IN EKSKLUZIVNA OPREMA</span>
+        <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="b_sec_fountains_title">MASIVNI MARMORNI VODNJAKI IN RECEPCIJE</h2>
         <div class="gold-underline" style="margin: 14px auto 0;"></div>
       </div>
 
