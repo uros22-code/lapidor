@@ -594,7 +594,7 @@ const i18n = {
     nav_home: "ΑΡΧΙΚΗ",
     nav_story: "Η ΙΣΤΟΡΙΑ ΜΑΣ",
     nav_products: "ΤΑ ΠΡΟΪΟΝΤΑ ΜΑΣ",
-    nav_brochure: "BROSHURA",
+    nav_brochure: "ΕΝΤΥΠΟ",
     nav_contact: "ΕΠΙΚΟΙΝΩΝΙΑ",
     btn_download_pdf: "ΚΑΤΕΒΑΣΤΕ ΤΟ ΕΝΤΥΠΟ (PDF)",
     btn_view_brochure: "ΞΕΦΥΛΛΙΣΤΕ ΤΟ ΕΝΤΥΠΟ (ONLINE)",
