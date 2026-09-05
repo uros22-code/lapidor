@@ -1,4 +1,4 @@
-﻿$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
+$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
 $data = $jsonRaw | ConvertFrom-Json
 
 function Get-ImgSrc {
@@ -628,7 +628,7 @@ $html = @"
               <tr>
                 <td><strong data-i18n="row4_title">Okoljski Odtis</strong></td>
                 <td><i class="fa-solid fa-check text-gold"></i> 100% Naraven mineral (Brez smol)</td>
-                <td>100% Naraven kamen</td>
+                <td>100% Naraven marmor</td>
                 <td>Sintetična polimerna veziva</td>
               </tr>
               <tr>
@@ -697,7 +697,7 @@ $html = @"
           <div class="b-cat-body">
             <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab3_h">3. Ročno klesana (Chiseled)</h3>
             <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="finish_tab3_s">
-              Izrazita klesarska tekstura, ki poudari avtentičnost naravnega kamna in pristno mojstrsko ročno obdelavo z dletom.
+              Izrazita klesarska tekstura, ki poudari avtentičnost naravnega marmorja in pristno mojstrsko ročno obdelavo z dletom.
             </p>
           </div>
         </div>
@@ -711,7 +711,7 @@ $html = @"
           <div class="b-cat-body">
             <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab4_h">4. Krtačena / Antique (Brushed)</h3>
             <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="finish_tab4_s">
-              Nežno reliefna površina z vintage videzom, ki ohranja naravni značaj kamna in zagotavlja prijeten otip.
+              Nežno reliefna površina z vintage videzom, ki ohranja naravni značaj marmorja in zagotavlja prijeten otip.
             </p>
           </div>
         </div>
@@ -803,7 +803,7 @@ $html = @"
     <div class="container">
       <div style="text-align: center; margin-bottom: 28px;">
         <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;">ARHITEKTURNI VODNJAKI IN EKSKLUZIVNA OPREMA</span>
-        <h2 class="section-title" style="text-align: center; text-transform: uppercase;">MASIVNI KAMNITI VODNJAKI IN RECEPCIJE</h2>
+        <h2 class="section-title" style="text-align: center; text-transform: uppercase;">MASIVNI MARMORNI VODNJAKI IN RECEPCIJE</h2>
         <div class="gold-underline" style="margin: 14px auto 0;"></div>
       </div>
 
