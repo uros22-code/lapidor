@@ -530,6 +530,171 @@ const i18n = {
     legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Ispis / Spremi kao PDF",
     float_call: "POZIV: +386 (0)31 529 003",
     float_inquiry: "BRZI UPIT"
+  },
+  el: {
+    top_announcement: "Χειροποίητα μοναδικά προϊόντα από φυσικό μάρμαρο Βιετνάμ.",
+    top_inquiry: "ΑΠΟΣΤΟΛΗ ΑΙΤΗΜΑΤΟΣ",
+    nav_home: "ΑΡΧΙΚΗ",
+    nav_story: "Η ΙΣΤΟΡΙΑ ΜΑΣ",
+    nav_products: "ΤΑ ΠΡΟΪΟΝΤΑ ΜΑΣ",
+    nav_brochure: "BROSHURA",
+    nav_contact: "ΕΠΙΚΟΙΝΩΝΙΑ",
+    btn_download_pdf: "ΚΑΤΕΒΑΣΤΕ ΤΟ ΕΝΤΥΠΟ (PDF)",
+    btn_view_brochure: "ΞΕΦΥΛΛΙΣΤΕ ΤΟ ΕΝΤΥΠΟ (ONLINE)",
+    btn_print_brochure: "ΕΚΤΥΠΩΣΤΕ ΤΟ ΕΝΤΥΠΟ",
+    hero_title: "ΔΙΑΧΡΟΝΙΚΗ<br>ΚΟΜΨΟΤΗΤΑ<br>ΦΥΣΙΚΟΥ<br>ΜΑΡΜΑΡΟΥ",
+    hero_subtext: "Φυσικό μάρμαρο Βιετνάμ στην πιο αγνή του μορφή. Διαμορφωμένο από τη φύση επί εκατομμύρια χρόνια, οι τεχνίτες μας μετατρέπουν την ομορφιά του με εξαιρετική <span class=\"gold-hover-text\">χειροποίητη επεξεργασία</span> σε ένα δημιουργήμα διαχρονικής αξίας. Κάθε προϊόν <span class=\"gold-hover-text\">LAPIDOR</span> φέρει τη μοναδική υπογραφή της φύσης και του τεχνίτη, καθιστώντας κάθε δημιουργία μας μοναδική.",
+    hero_btn: "ΑΠΟΣΤΟΛΗ ΑΙΤΗΜΑΤΟΣ",
+    cat_living: "ΧΩΡΟΙ ΔΙΑΒΙΩΣΗΣ",
+    cat_wellness: "WELLNESS",
+    cat_art: "ΤΕΧΝΗ",
+    cat_sacred: "ΙΕΡΑ ΑΡΧΙΤΕΚΤΟΝΙΚΗ",
+    brand_statement_title: "ΧΕΙΡΟΠΟΙΗΤΟ <span class=\"gold-divider\">|</span> ΜΟΝΑΔΙΚΟ <span class=\"gold-divider\">|</span> ΠΟΛΥΤΕΛΕΣ <span class=\"gold-divider\">|</span> ΔΙΑΧΡΟΝΙΚΟ <span class=\"gold-divider\">|</span> ΚΟΜΨΟ <span class=\"gold-divider\">|</span> ΦΥΣΙΚΟ",
+    brand_statement_quote: "\"Κάθε προϊόν <span class=\"gold-hover-text\">LAPIDOR</span> είναι ένα μοναδικό <span class=\"gold-hover-text\">χειροποίητο έργο</span> των τεχνιτών του Βιετνάμ και έκφραση της φύσης. Η διαχρονική του αξία δεν βασίζεται μόνο στην ομορφιά του φυσικού μαρμάρου, αλλά και στην δεξιοτεχνική χειροποίητη κατασκευή, χάρη στην οποία το προϊόν με τα χρόνια δεν χάνει την αξία του – αλλά την αυξάνει.\"",
+    stat_1_label: "ΦΥΣΙΚΕΣ ΑΠΟΧΡΩΣΕΙΣ",
+    stat_1_desc: "Από το διαχρονικό λευκό έως κομψούς γκρι, θερμούς μπεζ και έντονους έγχρωμους τόνους.",
+    stat_2_label: "ΧΕΙΡΟΠΟΙΗΤΗ ΕΡΓΑΣΙΑ",
+    stat_2_desc: "Χωρίς μαζική παραγωγή.<br>Κάθε προϊόν <span class=\"gold-hover-text\">LAPIDOR</span> είναι μοναδικό.",
+    stat_3_label: "ΚΑΤΑΣΚΕΥΗ ΣΤΑ ΜΕΤΡΑ ΣΑΣ",
+    stat_3_desc: "Η ΙΔΕΑ ΣΑΣ, Η ΥΛΟΠΟΙΗΣΗ ΜΑΣ. Οι τεχνίτες δημιουργούν το προϊόν σύμφωνα με τις επιθυμίες σας.",
+    stat_4_label: "ΔΙΑΧΡΟΝΙΚΗ ΑΞΙΑ",
+    stat_4_desc: "Το μάρμαρο διατηρεί την αξία του και την αυξάνει με την πάροδο του χρόνου.",
+    about_tag: "Η ιστορία μας",
+    about_title: "Η τέχνη της ΧΕΙΡΟΠΟΙΗΤΗΣ δημιουργίας",
+    about_p1: "Το brand <span class=\"gold-hover-text\">LAPIDOR</span> γεννήθηκε από ένα προσωπικό ταξίδι στο Βιετνάμ, όπου γοητευτήκαμε από την εξαιρετική ομορφιά του φυσικού μαρμάρου και τη δεξιοτεχνία των τοπικών μαρμαρογλυπτών. Παρατηρώντας την εργασία τους, καταλάβαμε ότι η πραγματική πολυτέλεια δεν δημιουργείται σε γραμμές παραγωγής, αλλά στα χέρια ανθρώπων που με γνώση, υπομονή και σεβασμό προς το φυσικό μάρμαρο δημιουργούν διαχρονικά αριστουργήματα.",
+    about_p2: "Αυτή ακριβώς η εμπειρία έγινε η έμπνευση για τη δημιουργία της <span class=\"gold-hover-text\">LAPIDOR</span>. Στόχος μας είναι να φέρουμε στην ευρωπαϊκή αγορά προϊόντα με ψυχή, χαρακτήρα και ιστορία – προϊόντα που δεν είναι αποτέλεσμα μαζικής παραγωγής, αλλά αυθεντικής <span class=\"gold-hover-text\">χειροποίητης εργασίας</span>.",
+    about_p3: "Το όνομα της μάρκας μας <span class=\"gold-hover-text\">LAPIDOR</span> προέρχεται από τη λατινική λέξη lapis – πέτρα. Συνδυάζει την αιωνιότητα του φυσικού υλικού και τη δεξιοτεχνία της <span class=\"gold-hover-text\">χειροποίητης επεξεργασίας</span>, όπου κάθε κομμάτι μαρμάρου γίνεται ένα μοναδικό αρχιτεκτονικό έργο.",
+    about_p4: "Από συμπαγείς όγκους φυσικού μαρμάρου δημιουργούνται τα προϊόντα <span class=\"gold-hover-text\">LAPIDOR</span>, τα οποία είναι αδύνατον να επαναληφθούν. Κάθε νιπτήρας, μπανιέρα, γλυπτό και άλλα δημιουργήματα είναι αποτέλεσμα <span class=\"gold-hover-text\">χειροποίητης εργασίας</span>, ακρίβειας και σεβασμού προς το μάρμαρο – με χαρακτήρα που μόνο το χέρι ενός έμπειρου τεχνίτη μπορεί να δημιουργήσει.",
+    comp_tag: "Σύγκριση βασικών χαρακτηριστικών και μακροπρόθεσμης αξίας",
+    comp_title: "Γιατί μάρμαρο Βιετνάμ;",
+    comp_sub: "Σύγκριση φυσικών, μηχανικών και αισθητικών ιδιοτήτων του μαρμάρου Βιετνάμ με το ευρωπαϊκό μάρμαρο και τα σύγχρονα συνθετικά υλικά.",
+    table_scroll_hint: "Σύρετε αριστερά / δεξιά για προβολή ολόκληρου του πίνακα",
+    th_criterion: "Κριτήριο / Ιδιότητα",
+    th_vietnam: "LAPIDOR Μάρμαρο Βιετνάμ",
+    th_europe: "Ευρωπαϊκό Μάρμαρο (Carrara / Calacatta)",
+    th_composite: "Τεχνητό Μάρμαρο & Κεραμικά",
+    row1_title: "Καθαρότητα (CaCO₃)",
+    row1_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Άνω του 99% (Εξαιρετική κρυσταλλική λάμψη)",
+    row1_europe: "85 – 95%",
+    row1_composite: "Συνθετικές ρητίνες / κεραμικά",
+    row2_title: "Πορώδες & Νερό",
+    row2_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Εξαιρετικά χαμηλό (Ιδανικό για SPA)",
+    row2_europe: "Μέτριο πορώδες",
+    row2_composite: "Μηδενικό πορώδες",
+    row3_title: "Μοναδικότητα μοτίβου",
+    row3_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> 100% Αυθεντική μοναδικότητα φύσης",
+    row3_europe: "100% Αυθεντική μοναδικότητα φύσης",
+    row3_composite: "<i class=\"fa-solid fa-times text-danger\"></i> Επαναλαμβανόμενη εκτύπωση μοτίβου",
+    row4_title: "Χειροποίητη Σμίλευση στα Μέτρα Σας",
+    row4_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> 100% Χειροποίητη κατασκευή κατά παραγγελία",
+    row4_europe: "Περιορισμένη / Υψηλό κόστος",
+    row4_composite: "<i class=\"fa-solid fa-times text-danger\"></i> Μόνο βιομηχανική κοπή",
+    row5_title: "Διατηρησιμότητα Αξίας",
+    row5_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Αυξάνει την αξία του με την πάροδο του χρόνου",
+    row5_europe: "Διατηρεί την αξία του",
+    row5_composite: "<i class=\"fa-solid fa-times text-danger\"></i> Χάνει την αξία του με τα χρόνια",
+    products_tag: "Συλλογή LAPIDOR",
+    products_title: "Τα προϊόντα μας",
+    products_sub: "Εξερευνήστε τη συλλογή μας από μοναδικά χειροποίητα προϊόντα φυσικού μαρμάρου Βιετνάμ.",
+    prod_1_title: "Μασίφ Νιπτήρες",
+    prod_1_desc: "Επιτραπέζιοι και επιτοίχιοι νιπτήρες σμιλευμένοι από ένα ενιαίο κομμάτι φυσικού μαρμάρου.",
+    prod_2_title: "Μπανιέρες",
+    prod_2_desc: "Ελεύθερης τοποθέτησης μπανιέρες από μασίφ μάρμαρο, το κεντρικό στοιχείο κάθε πολυτελούς μπάνιου.",
+    prod_3_title: "Γλυπτά & Διακοσμητικά",
+    prod_3_desc: "Μοναδικά χειροποίητα αγάλματα, γλυπτά και καλλιτεχνικά στοιχεία εσωτερικού και εξωτερικού χώρου.",
+    prod_4_title: "Στοιχεία Wellness & SPA",
+    prod_4_desc: "Πολυτελή μαρμάρινα στοιχεία για κέντρα ευεξίας, πισίνες και ιδιωτικά SPA.",
+    prod_5_title: "Ειδικές Κατασκευές",
+    prod_5_desc: "Μαρμάρινα τραπέζια, τζάκια, σιντριβάνια και αρχιτεκτονικά στοιχεία κατά παραγγελία.",
+    prod_6_title: "Επενδύσεις Τοίχων & Δαπέδων",
+    prod_6_desc: "Πάνελ και πλάκες φυσικού μαρμάρου για εντυπωσιακές επενδύσεις.",
+    btn_inquire: "ΖΗΤΗΣΤΕ ΠΡΟΣΦΟΡΑ",
+    finishes_tag: "Επιφάνειες & Υφές",
+    finishes_title: "Τύποι επεξεργασίας μαρμάρου",
+    finishes_sub: "Κάθε τύπος επεξεργασίας αναδεικνύει μια διαφορετική αισθητική και τακτική διάσταση του φυσικού μαρμάρου.",
+    finish_title_sec: "Τέσσερις Τύποι Επεξεργασίας Επιφάνειας",
+    finish_tab1_h: "Γυαλισμένο",
+    finish_tab1_s: "Υψηλή καθρεπτίζουσα λάμψη που αναδεικνύει τη φυσική δομή και το βάθος του μαρμάρου.",
+    finish_tab2_h: "Brušena / Ματ",
+    finish_tab2_s: "Λεία ματ επιφάνεια με απαλή, μεταξένια όψη και ευχάριστη αφή.",
+    finish_tab3_h: "Χειροποίητα σμιλευμένο",
+    finish_tab3_s: "Έντονη υφή που αναδεικνύει την αυθεντικότητα του φυσικού μαρμάρου και τη χειροποίητη τέχνη.",
+    finish_tab4_h: "Βουρτσισμένο (Antique)",
+    finish_tab4_s: "Απαλά ανάγλυφη επιφάνεια με φυσική όψη που διατηρεί τον χαρακτήρα του μαρμάρου.",
+    rec_apps_label: "Συνιστώμενη χρήση:",
+    benefits_title: "ΠΛΕΟΝΕΚΤΗΜΑΤΑ ΣΥΝΕΡΓΑΣΙΑΣ ΜΑΖΙ ΜΑΣ",
+    b1_h: "Μοναδική κατασκευή στα μέτρα σας",
+    b1_p: "Κάθε έργο δημιουργείται σύμφωνα με τις επιθυμίες του πελάτη – από την πρώτη ιδέα έως το τελικό προϊόν.",
+    b2_h: "Χειροποίητη δεξιοτεχνία χωρίς μαζική παραγωγή",
+    b2_p: "Κάθε κομμάτι είναι αποτέλεσμα ακριβούς χειροποίητης εργασίας, εμπειρίας και σεβασμού προς το μάρμαρο.",
+    b3_h: "Κορυφαίο μάρμαρο Βιετνάμ",
+    b3_p: "Με προσεκτικά επιλεγμένα υλικά εξασφαλίζουμε εξαιρετική ποιότητα φυσικού μαρμάρου με μοναδική δομή.",
+    b4_h: "Πλήρης υποστήριξη από την ιδέα έως την υλοποίηση",
+    b4_p: "Βοηθάμε αρχιτέκτονες, σχεδιαστές και ιδιώτες στην επιλογή υλικών, τον σχεδιασμό και την τελική εκτέλεση.",
+    form_title: "<i class=\"fa-solid fa-paper-plane text-gold\"></i> Φόρμα Αιτήματος Προσφοράς",
+    form_lbl_product: "Επιλεγμένο προϊόν",
+    form_lbl_name: "Όνομα και Επώνυμο / Εταιρεία *",
+    form_lbl_email: "Ηλεκτρονικό Ταχυδρομείο (Email) *",
+    form_lbl_phone: "Τηλέφωνο *",
+    form_lbl_type: "Τύπος Πελάτη *",
+    opt_arch: "Αρχιτέκτων / Σχεδιαστής Εσωτερικών Χώρων",
+    opt_priv: "Ιδιώτης Επενδυτής (Κατοικία / Βίλα)",
+    opt_builder: "Κατασκευαστική Εταιρεία",
+    opt_hotel: "Ξενοδοχείο / SPA / Ξενοδοχειακός Όμιλος",
+    opt_sacr: "Ιερά Μονή / Εκκλησιαστικό Ίδρυμα",
+    opt_muni: "Δημόσιος Τομέας / Αρχές",
+    opt_other: "Άλλο",
+    form_lbl_desc: "Περιγραφή του έργου σας",
+    form_btn_submit: "ΑΠΟΣΤΟΛΗ ΑΙΤΗΜΑΤΟΣ",
+    news_tag: "ΑΠΟΚΛΕΙΣΤΙΚΑ ΝΕΑ ΚΑΙ ΕΜΠΝΕΥΣΗ",
+    news_title: "Εισέλθετε στον κόσμο των έργων LAPIDOR",
+    news_desc: "Ανακαλύψτε επιλεγμένα έργα LAPIDOR, νέες συλλογές και αποκλειστικά νέα από τον κόσμο του φυσικού μαρμάρου.",
+    news_btn: "<i class=\"fa-solid fa-paper-plane\"></i> Εγγραφή στο Newsletter",
+    news_check: "Κάνοντας κλικ στο κουμπί \"Εγγραφή στο Newsletter\" συμφωνείτε με την επεξεργασία των προσωπικών σας δεδομένων.",
+    faq_title: "Συχνές Ερωτήσεις για τα προϊόντα LAPIDOR",
+    faq_q1: "Είναι δυνατόν να προσαρμοστεί το προϊόν πλήρως στις επιθυμίες μου;",
+    faq_a1: "Ναι, κάθε προϊόν LAPIDOR μπορεί να προσαρμοστεί στις επιθυμίες σας, τον χώρο και το σχεδιαστικό σας όραμα. Οι διαστάσεις, το σχήμα, η επεξεργασία και οι επιμέρους λεπτομέρειες συντονίζονται με τις απαιτήσεις σας.",
+    faq_q2: "Πώς επιλέγετε το μάρμαρο για κάθε έργο;",
+    faq_a2: "Επιλέγουμε το μάρμαρο με βάση τον σκοπό χρήσης, τις επιθυμητές διαστάσεις, τον χρωματικό τόνο και τον χαρακτήρα του έργου.",
+    faq_q3: "Ποιες ποικιλίες και χρωματικές αποχρώσεις μαρμάρου είναι διαθέσιμες;",
+    faq_a3: "Διατίθεται ευρεία επιλογή φυσικού μαρμάρου Βιετνάμ, από κομψούς λευκούς και ανοιχτούς τόνους έως πιο έντονες έγχρωμες ποικιλίες.",
+    faq_q4: "Είναι κάθε προϊόν LAPIDOR πραγματικά μοναδικό;",
+    faq_a4: "Ναι, κάθε προϊόν LAPIDOR είναι μοναδικό επειδή κατασκευάζεται από φυσικό μάρμαρο και διαμορφώνεται με την χειροποίητη εργασία έμπειρου τεχνίτη.",
+    faq_q5: "Μπορείτε να κατασκευάσετε μεγαλύτερα και πιο απαιτητικά κομμάτια από ένα συμπαγές όγκο μαρμάρου;",
+    faq_a5: "Ναι, κατασκευάζουμε μεγάλες, μασίφ και σχεδιαστικά απαιτητικές δημιουργίες από έναν μοναδικό όγκο φυσικού μαρμάρου.",
+    faq_q6: "Μπορώ να δω και να επιβεβαιώσω το επιλεγμένο κομμάτι μαρμάρου πριν την κατασκευή;",
+    faq_a6: "Ναι, σε έργα κατά παραγγελία η επιλογή του μαρμάρου μπορεί να συμφωνηθεί και να επιβεβαιωθεί εκ των προτέρων μέσω φωτογραφιών και βίντεο.",
+    footer_sub: "Χειροποίητα μοναδικά προϊόντα από φυσικό μάρμαρο Βιετνάμ.",
+    footer_quote: "\"Η φύση δημιουργεί τη μοναδικότητα. Εμείς βοηθάμε στην έκφρασή της.\"",
+    footer_h_links: "Σύνδεσμοι",
+    footer_h_hallmarks: "Χαρακτηριστικά",
+    footer_h_contact: "Επικοινωνία",
+    footer_hm1: "Χειροποίητο",
+    footer_hm2: "Μοναδικό",
+    footer_hm3: "Πολυτελές",
+    footer_hm4: "Διαχρονικό",
+    footer_hm5: "Κομψό",
+    footer_hm6: "Φυσικό",
+    footer_copy: "&copy; 2026 LAPIDOR. Με την επιφύλαξη παντός δικαιώματος.",
+    modal_title: "Αίτημα",
+    modal_lbl_name: "Όνομα & Εταιρεία *",
+    modal_lbl_contact: "E-mail ή Τηλέφωνο *",
+    modal_lbl_notes: "Σημειώσεις",
+    modal_btn_submit: "Αποστολή Αιτήματος",
+    form_ph_name: "Γιώργος Παπαδόπουλος",
+    form_ph_email: "giorgos@biro.gr",
+    form_ph_phone: "+30 691 000 0000",
+    form_ph_desc: "Εισαγάγετε τις προδιαγραφές του έργου σας...",
+    news_ph_email: "Εισαγάγετε τη διεύθυνση email σας...",
+    modal_ph_name: "Γιώργος Παπαδόπουλος",
+    modal_ph_contact: "giorgos@biro.gr / +30 691 000 0000",
+    modal_ph_notes: "Εισαγάγετε τις επιθυμητές διαστάσεις...",
+    legal_tag: "ΕΓΓΡΑΦΑ ΚΑΙ ΑΠΟΡΡΗΤΟ",
+    legal_title: "Νομική Σημείωση και Προστασία Προσωπικών Δεδομένων",
+    legal_back: "<i class=\"fa-solid fa-arrow-left\"></i> Επιστροφή στην αρχική σελίδα",
+    legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Εκτύπωση / Αποθήκευση ως PDF",
+    float_call: "ΚΛΗΣΗ: +386 (0)31 529 003",
+    float_inquiry: "ΓΡΗΓΟΡΟ ΑΙΤΗΜΑ"
   }
 };
 
@@ -883,6 +1048,50 @@ const finishesData = {
         "terase te vanjske arhitektonske površine"
       ]
     }
+  },
+  el: {
+    polirana: {
+      tag: "Γυαλισμένη Επεξεργασία",
+      title: "Γυαλισμένη επιφάνεια",
+      desc: "Η πιο πολυτελής επεξεργασία μαρμάρου με υψηλή καθρεπτίζουσα λάμψη που αναδεικνύει το βάθος, την κρυσταλλική δομή και τα φυσικά νερά του μαρμάρου.",
+      apps: [
+        "εσωτερικές επενδύσεις τοίχων",
+        "μασίφ νιπτήρες και μπανιέρες",
+        "δάπεδα σε αντιπροσωπευτικούς χώρους",
+        "ρεσεψιόν, φουαγιέ και εσωτερικοί χώροι ξενοδοχείων"
+      ]
+    },
+    mat: {
+      tag: "Brušena / Ματ Επεξεργασία",
+      title: "Ματ (Honed) επιφάνεια",
+      desc: "Εκλεπτυσμένη ματ επιφάνεια με απαλή, μεταξένια αίσθηση που αναδεικνύει διακριτικά τη φυσική υφή και τη διαχρονική κομψότητα του μαρμάρου.",
+      apps: [
+        "πολυτελή μπάνια",
+        "κέντρα wellness και SPA",
+        "εσωτερικές επενδύσεις τοίχων",
+        "δάπεδα σε ιδιωτικούς και επαγγελματικούς χώρους"
+      ]
+    },
+    klesana: {
+      tag: "Χειροποίητα Σμιλευμένη Επεξεργασία",
+      title: "Χειροποίητα σμιλευμένη επιφάνεια",
+      desc: "Έντονη ανάγλυφη υφή, δημιουργημένη από δεξιοτέχνες γλύπτες, που δίνει σε κάθε προϊόν μοναδικό χαρακτήρα και αναδεικνύει την αυθεντικότητα του φυσικού μαρμάρου.",
+      apps: [
+        "προσόψεις και διακοσμητικές επενδύσεις τοίχων",
+        "γλυπτά, ιερά αγάλματα και μνημεία",
+        "σιντριβάνια, πυλώνες και αρχιτεκτονικά στοιχεία κήπου"
+      ]
+    },
+    plamenjena: {
+      tag: "Βουρτσισμένη (Antique) Επεξεργασία",
+      title: "Βουρτσισμένη (Antique) επιφάνεια",
+      desc: "Φυσικά δομημένη επιφάνεια με απαλό ανάγλυφο, που αναδεικνύει την υφή του μαρμάρου και δημιουργεί μια κομψή, ελαφρώς παλαιωμένη όψη.",
+      apps: [
+        "περιβάλλοντες χώροι πισίνας & SPA",
+        "εξωτερικές σκάλες και στοιχεία εισόδου",
+        "βεράντες και εξωτερικές αρχιτεκτονικές επιφάνειες"
+      ]
+    }
   }
 };
 
@@ -996,25 +1205,29 @@ function initFormSubmissions() {
         body: new URLSearchParams(formData).toString()
       })
       .then(() => {
-        const defaultName = currentLang === 'en' ? 'Client' : (currentLang === 'hr' ? 'Klijent' : 'Naročnik');
+        const defaultName = currentLang === 'en' ? 'Client' : (currentLang === 'hr' ? 'Klijent' : (currentLang === 'el' ? 'Πελάτης' : 'Naročnik'));
         const name = document.getElementById('form-name')?.value || defaultName;
         const msg = currentLang === 'en' 
           ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
           : (currentLang === 'hr' 
             ? `Hvala vam, ${name}! Vaš upit je uspješno poslan našem timu.`
-            : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`);
+            : (currentLang === 'el'
+              ? `Ευχαριστούμε, ${name}! Το αίτημά σας υποβλήθηκε με επιτυχία.`
+              : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`));
         showToast(msg);
         sampleForm.reset();
       })
       .catch((err) => {
         console.error('Form submit error:', err);
-        const defaultName = currentLang === 'en' ? 'Client' : (currentLang === 'hr' ? 'Klijent' : 'Naročnik');
+        const defaultName = currentLang === 'en' ? 'Client' : (currentLang === 'hr' ? 'Klijent' : (currentLang === 'el' ? 'Πελάτης' : 'Naročnik'));
         const name = document.getElementById('form-name')?.value || defaultName;
         const msg = currentLang === 'en' 
           ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
           : (currentLang === 'hr'
             ? `Hvala vam, ${name}! Vaš upit je uspješno poslan našem timu.`
-            : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`);
+            : (currentLang === 'el'
+              ? `Ευχαριστούμε, ${name}! Το αίτημά σας υποβλήθηκε με επιτυχία.`
+              : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`));
         showToast(msg);
         sampleForm.reset();
       });
@@ -1036,7 +1249,9 @@ function initFormSubmissions() {
           ? 'Your inquiry has been sent to our team!'
           : (currentLang === 'hr'
             ? 'Vaš upit je uspješno poslan našem timu!'
-            : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!');
+            : (currentLang === 'el'
+              ? 'Το αίτημά σας στάλθηκε με επιτυχία στην ομάδα μας!'
+              : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!'));
         showToast(msg);
         modalForm.reset();
       })
@@ -1047,7 +1262,9 @@ function initFormSubmissions() {
           ? 'Your inquiry has been sent to our team!'
           : (currentLang === 'hr'
             ? 'Vaš upit je uspješno poslan našem timu!'
-            : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!');
+            : (currentLang === 'el'
+              ? 'Το αίτημά σας στάλθηκε με επιτυχία στην ομάδα μας!'
+              : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!'));
         showToast(msg);
         modalForm.reset();
       });
@@ -1062,7 +1279,9 @@ function initFormSubmissions() {
         ? 'Thank you for subscribing to LAPIDOR project updates!'
         : (currentLang === 'hr'
           ? 'Hvala vam na prijavi na e-novosti za LAPIDOR projekte!'
-          : 'Hvala za prijavo na e-novice za LAPIDOR projekte!');
+          : (currentLang === 'el'
+            ? 'Ευχαριστούμε για την εγγραφή σας στα νέα της LAPIDOR!'
+            : 'Hvala za prijavo na e-novice za LAPIDOR projekte!'));
       showToast(msg);
       newsFormMain.reset();
     });

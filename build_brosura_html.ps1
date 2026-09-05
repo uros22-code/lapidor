@@ -443,6 +443,8 @@ $html = @"
           <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
           <span class="lang-divider">|</span>
           <button type="button" class="lang-btn" data-lang-btn="hr">CRO</button>
+          <span class="lang-divider">|</span>
+          <button type="button" class="lang-btn" data-lang-btn="el">GR</button>
         </div>
         <span class="divider">|</span>
         <a href="https://lapidor.si/#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POŠLJI POVPRAŠEVANJE</span></a>
@@ -473,6 +475,8 @@ $html = @"
               <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
               <span class="lang-divider">|</span>
               <button type="button" class="lang-btn" data-lang-btn="hr">CRO</button>
+              <span class="lang-divider">|</span>
+              <button type="button" class="lang-btn" data-lang-btn="el">GR</button>
             </div>
           </li>
         </ul>
