@@ -354,6 +354,182 @@ const i18n = {
     legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Print / Save as PDF",
     float_call: "CALL: +386 (0)31 529 003",
     float_inquiry: "QUICK INQUIRY"
+  },
+  hr: {
+    top_announcement: "Ručno izrađeni unikatni proizvodi od prirodnog vijetnamskog mramora.",
+    top_inquiry: "POŠALJITE UPIT",
+    nav_home: "POČETNA",
+    nav_story: "NAŠA PRIČA",
+    nav_products: "NAŠI PROIZVODI",
+    nav_brochure: "BROŠURA",
+    nav_contact: "KONTAKT",
+    btn_download_pdf: "PREUZMITE BROŠURU (PDF)",
+    btn_view_brochure: "PRELISTAJTE BROŠURU (ONLINE)",
+    btn_print_brochure: "ISPIS BROŠURE",
+    hero_title: "BEZVREMENSKA<br>ELEGANCIJA<br>PRIRODNOG<br>MRAMORA",
+    hero_subtext: "Prirodni vijetnamski mramor u svom najčišćem obliku. Priroda ga je oblikovala milijunima godina, a naši majstori njegovu ljepotu vrhunskom <span class=\"gold-hover-text\">ručnom obradom</span> pretvaraju u djelo bezvremenske vrijednosti. Svaki <span class=\"gold-hover-text\">LAPIDOR</span> proizvod nosi neponovljiv potpis prirode i majstora, zbog čega je svaki naš rad potpuno jedinstven.",
+    hero_btn: "POŠALJITE UPIT",
+    cat_living: "STAMBENI PROSTORI",
+    cat_wellness: "WELLNESS & SPA",
+    cat_art: "UMJETNOST",
+    cat_sacred: "SAKRALNA ARHITEKTURA",
+    brand_statement_title: "RUČNI RAD <span class=\"gold-divider\">|</span> UNIKATNO <span class=\"gold-divider\">|</span> PRESTIŽNO <span class=\"gold-divider\">|</span> BEZVREMENSKO <span class=\"gold-divider\">|</span> ELEGANTNO <span class=\"gold-divider\">|</span> PRIRODNO",
+    brand_statement_quote: "\"Svaki <span class=\"gold-hover-text\">LAPIDOR</span> proizvod jedinstven je <span class=\"gold-hover-text\">ručni rad</span> vijetnamskih majstora i izraz prirode. Njegova bezvremenska vrijednost ne temelji se samo na ljepoti prirodnog mramora, već i na majstorskoj ručnoj izradi koja s godinama dobiva na prestižu.\"",
+    stat_1_label: "PRIRODNE NIJANSE BOJA",
+    stat_1_desc: "Od bezvremenske bijele do elegantnih sivih, toplih bež i upečatljivih tonova boja.",
+    stat_2_label: "RUČNI RAD MAJSTORA",
+    stat_2_desc: "Bez serijske proizvodnje.<br>Svaki <span class=\"gold-hover-text\">LAPIDOR</span> proizvod je ručni unikat.",
+    stat_3_label: "IZRADA PO VAŠOJ MJERI",
+    stat_3_desc: "VAŠA IDEJA, NAŠA IZVEDBA. Majstori stvaraju proizvod prema vašim željama.",
+    stat_4_label: "BEZVREMENSKA VRIJEDNOST",
+    stat_4_desc: "Mramor čuva svoju vrijednost i s godinama je povećava.",
+    about_tag: "Naša priča",
+    about_title: "Umjetnost RUČNOG rada",
+    about_p1: "Brand <span class=\"gold-hover-text\">LAPIDOR</span> rođen je iz osobnog putovanja po Vijetnamu, gdje nas je očarala iznimna ljepota prirodnog mramora i majstorstvo tamošnjih klesara. Promatrajući njihov rad, shvatili smo da pravi luksuz ne nastaje na tekućoj traci, već u rukama ljudi koji znanjem, strpljenjem i poštovanjem prema prirodnom mramoru stvaraju bezvremenska remek-djela.",
+    about_p2: "Upravo to iskustvo postalo je nadahnuće za nastanak branda <span class=\"gold-hover-text\">LAPIDOR</span>. Naš je cilj na europsko tržište donijeti proizvode koji imaju dušu, karakter i priču – proizvode koji nisu plod masovne proizvodnje, već rezultat autentičnog <span class=\"gold-hover-text\">ručnog rada</span> i majstorske izrade.",
+    about_p3: "Ime našeg branda <span class=\"gold-hover-text\">LAPIDOR</span> potječe od latinske riječi lapis – kamen. U sebi sjedinjuje vječnost prirodnog materijala i majstorstvo <span class=\"gold-hover-text\">ručne obrade</span>, gdje svaki komad mramora postaje jedinstveno arhitektonsko djelo.",
+    about_p4: "Iz masivnih blokova prirodnog mramora nastaju <span class=\"gold-hover-text\">LAPIDOR</span> proizvodi koji se ne mogu ponoviti. Svaki umivalnik, kada, skulptura i drugi elementi rezultat su <span class=\"gold-hover-text\">ručnog rada</span>, preciznosti i poštovanja prema mramoru – s karakterom koji može stvoriti samo ruka iskusnog majstora.",
+    comp_tag: "Usporedba ključnih značajki i dugoročne vrijednosti",
+    comp_title: "Zašto vijetnamski mramor?",
+    comp_sub: "Usporedba fizikalnih, mehaničkih i estetskih svojstava vijetnamskog mramora s europskim mramorom i modernim kompozitnim materijalima.",
+    table_scroll_hint: "Kližite lijevo / desno za prikaz cijele tablice",
+    th_criterion: "Kriterij svojstava",
+    th_vietnam: "LAPIDOR Vijetnamski Mramor",
+    th_europe: "Europski Mramor (Carrara / Calacatta)",
+    th_composite: "Tehnički Kamen & Keramika",
+    row1_title: "Čistoća (CaCO₃)",
+    row1_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Preko 99 % (Izniman kristalni sjaj)",
+    row1_europe: "85 – 95 %",
+    row1_composite: "Sintetičke smole / keramika",
+    row2_title: "Poroznost & Voda",
+    row2_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Izuzetno niska (Idealno za SPA)",
+    row2_europe: "Umjerena poroznost",
+    row2_composite: "Nulta poroznost",
+    row3_title: "Unikatnost uzorka",
+    row3_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> 100 % Autentični unikat prirode",
+    row3_europe: "100 % Autentični unikat prirode",
+    row3_composite: "<i class=\"fa-solid fa-times text-danger\"></i> Ponavljajući tisak uzorka",
+    row4_title: "Ručno klesanje po mjeri",
+    row4_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Izrada masivnih komada prema skici",
+    row4_europe: "Vrlo visoki troškovi obrade u EU",
+    row4_composite: "Strojni izrez bez obrtničkog pečata",
+    row5_title: "Cjenovno pozicioniranje",
+    row5_vietnam: "<i class=\"fa-solid fa-check text-gold\"></i> Pristupačnija sirovina + više ručnog rada",
+    row5_europe: "Vrlo visoka cijena zbog geografskog lobija",
+    row5_composite: "Srednja cijena za industrijski proizvod",
+    cat_sec_tag: "NAŠI PROIZVODI",
+    cat_sec_title: "Ručno izrađeni unikatni proizvodi od VIJETNAMSKOG prirodnog mramora",
+    btn_filter_all: "SVI PROIZVODI",
+    btn_filter_kadi: "KADE",
+    btn_filter_umivalniki: "UMIVAONICI",
+    btn_filter_skulpture: "SKULPTURE",
+    btn_filter_fontane: "FONTANE",
+    btn_filter_sakralni: "SAKRALNA ARHITEKTURA",
+    btn_filter_interier: "INTERIJER & EKSTERIJER",
+    btn_filter_wellness: "WELLNESS & SPA",
+    btn_filter_hotelska: "HOTELSKA OPREMA",
+    card1_title: "Kupaonske kade",
+    card1_desc: "Ručno izrađene kade od prirodnog mramora, stvorene za bezvremensku eleganciju i jedinstveno iskustvo kupanja. Svaki je komad unikat oblikovan prema željama klijenta.",
+    card2_title: "Umivaonici",
+    card2_desc: "Masivni ručno izrađeni umivaonici od prirodnog mramora predstavljaju savršenu ravnotežu između modernog dizajna, funkcionalnosti i majstorskog ručnog rada.",
+    card3_title: "Skulpture i kipovi",
+    card3_desc: "Prema želji klijenta izrađujemo skulpture, kipove, biste, reljefe i druga umjetnička djela potpuno prilagođena vašoj viziji. Svaki je rad rezultat ručnog majstorstva i poštovanja prema mramoru.",
+    card4_title: "Fontane",
+    card4_desc: "Ručno izrađene fontane od prirodnog mramora za unutarnje i vanjske prostore. Od klasičnih fontana do modernih arhitektonskih rješenja – svaki projekt izrađuje se po mjeri.",
+    card5_title: "Sakralna arhitektura",
+    card5_desc: "Ručno izrađena sakralna kiparska djela od masivnega prirodnog mramora, stvorena po narudžbi s iznimnom pažnjom posvećenom detaljima.",
+    card6_title: "INTERIJER & EKSTERIJER",
+    card6_desc: "Ručno izrađena arhitektonska rješenja od masivnog prirodnog mramora za unutarnje i vanjske prostore. Od podnih i zidnih obloga, stepenica, kamina i šankova do fasadnih elemenata i mramornih portala.",
+    card7_title: "WELLNESS & SPA",
+    card7_desc: "Prirodni mramor stvara osjećaj bezvremenske elegancije, mira i prestiža. Po želji klijenta ručno izrađujemo ekskluzivne mramorne elemente za wellness, hotele i SPA prostore.",
+    card8_title: "HOTELSKA OPREMA",
+    card8_desc: "Prirodni mramor prostoru daje prestiž, eleganciju i bezvremensku vrijednost. Izrađujemo recepcijske pultove, obloge, kupaonsku opremu i arhitektonske elemente prilagođene identitetu objekta.",
+    badge_bespoke: "IZRADA PO MJERI",
+    btn_inquiry: "Upit",
+    finish_tag_sec: "Tekstura i osjećaj",
+    finish_title_sec: "Četiri Tipa Obrade Površine",
+    finish_tab1_h: "Polirana",
+    finish_tab1_s: "Visoki zrcalni sjaj koji ističe prirodnu strukturu i dubinu mramora.",
+    finish_tab2_h: "Brušena (Mat)",
+    finish_tab2_s: "Glatka mat površina s nježnim, svilenkastim izgledom i ugodnim dodirom.",
+    finish_tab3_h: "Ručno klesana",
+    finish_tab3_s: "Izražajna tekstura koja ističe autentičnost prirodnog mramora i majstorsku ručnu obradu.",
+    finish_tab4_h: "Četkana (Antique)",
+    finish_tab4_s: "Nježno reljefna površina s prirodnim izgledom koja čuva karakter mramora i osigurava ugodan dodir.",
+    rec_apps_label: "Preporučena primjena:",
+    benefits_title: "PREDNOSTI SURADNJE S NAMA",
+    b1_h: "Unikatna izrada po mjeri",
+    b1_p: "Svaki projekt nastaje prema željama klijenta – od prve ideje do konačnog proizvoda. Naši majstori od prirodnog mramora stvaraju neponovljiva rješenja.",
+    b2_h: "Ručno majstorstvo bez serijske proizvodnje",
+    b2_p: "Svaki je komad rezultat preciznog ručnog rada, iskustva i poštovanja prema prirodnom mramoru. Pravi karakter mramora otkriva se kroz ruke majstora.",
+    b3_h: "Vrhunski vijetnamski mramor",
+    b3_p: "Pažljivo odabranim materijalima i provjerenim partnerima osiguravamo iznimnu kvalitetu prirodnog mramora s jedinstvenom strukturom i karakterom.",
+    b4_h: "Cjelovita podrška od ideje do izvedbe",
+    b4_p: "Arhitektima, dizajnerima i privatnim klijentima pomažemo u odabiru materijala, projektiranju rješenja, izradi i konačnoj izvedbi projekta.",
+    form_title: "<i class=\"fa-solid fa-paper-plane text-gold\"></i> Obrazac za Upit",
+    form_lbl_product: "Odabrani proizvod",
+    form_lbl_name: "Ime i prezime / Tvrtka *",
+    form_lbl_email: "E-mail adresa *",
+    form_lbl_phone: "Broj telefona *",
+    form_lbl_type: "Vrsta klijenta *",
+    opt_arch: "Arhitekt / Dizajner interijera",
+    opt_priv: "Privatni investitor (Rezidencija/Vila)",
+    opt_builder: "Građevinska tvrtka / Izvođač",
+    opt_hotel: "Hotelski / SPA / Wellness objekt",
+    opt_sacr: "Sakralna ustanova / Samostan",
+    opt_muni: "Komunalno / Pogrebno poduzeće",
+    opt_other: "Drugo",
+    form_lbl_desc: "Opis vašeg projekta",
+    form_btn_submit: "POŠALJITE UPIT",
+    news_tag: "EKSKLUZIVNE VIJESTI I INSPIRACIJA",
+    news_title: "Uđite u svijet LAPIDOR projekata",
+    news_desc: "Otkrijte odabrane LAPIDOR projekte, nove kolekcije i ekskluzivne vijesti iz svijeta prirodnog mramora. Primajte inspiraciju, uvide u naše unikatne kreacije te priče o majstorstvu koje svakom komadu daje njegov karakter.",
+    news_btn: "<i class=\"fa-solid fa-paper-plane\"></i> Prijava na e-novosti",
+    news_check: "Klikom na gumb \"Prijava na e-novosti\" dajete privolu da PROMOSCENTIA d.o.o. obrađuje vaše osobne podatke u svrhu slanja e-novosti na temelju vaše privole (članak 6(1)a GDPR) do opoziva. U svakom se trenutku možete odjaviti klikom na poveznicu u primljenom e-mailu. Više informacija možete pročitati u našoj Politici privatnosti, <a href=\"pravno-obvestilo.html\" style=\"color: var(--gold-light); text-decoration: underline;\">ovdje</a>.",
+    faq_title: "Često Postavljana Pitanja o proizvodima LAPIDOR",
+    faq_q1: "Je li moguće proizvod u potpunosti prilagoditi mojim željama?",
+    faq_a1: "Da, svaki LAPIDOR proizvod možemo prilagoditi vašim željama, prostoru i dizajnerskoj viziji. Dimenzije, oblik, obradu i pojedine detalje usklađujemo s vašim zahtjevima ili projektom. Tako nastaje proizvod stvoren posebno za vas koji se savršeno uklapa u vaš prostor.",
+    faq_q2: "Kako odabirete mramor za pojedini projekt?",
+    faq_a2: "Mramor odabiremo prema namjeni, željenim dimenzijama, tonu boje i karakteru projekta. Pri odabiru uzimamo u obzir strukturu, uzorak i prirodne posebnosti svakog mramornog bloka, čime osiguravamo skladnu i estetsku cjelinu.",
+    faq_q3: "Koje su vrste i nijanse mramora dostupne?",
+    faq_a3: "Dostupan je širok izbor prirodnog vijetnamskog mramora, od elegantnih bijelih i svijetlih nijansi do upečatljivijih varijacija u boji. Svaki blok ima svoju prirodnu strukturu i posebnosti, čineći njegov izgled potpuno jedinstvenim.",
+    faq_q4: "Je li svaki LAPIDOR proizvod uistinu unikat?",
+    faq_a4: "Da, svaki LAPIDOR proizvod je unikatan jer je izrađen od prirodnog mramora i oblikovan ručnim radom iskusnog majstora. Prirodne žile, struktura i nijanse razlikuju se na svakom komadu, dajući mu neponovljiv karakter.",
+    faq_q5: "Možete li izraditi i veće te zahtjevnije komade iz jednog bloka mramora?",
+    faq_a5: "Da, izrađujemo i velike, masivne te dizajnerski zahtjevne proizvode iz jednog jedinog bloka prirodnog mramora. Mogućnosti ovise o dimenzijama i strukturi dostupnog bloka, a svaki projekt prije izrade tehnički provjeravamo.",
+    faq_q6: "Mogu li prije izrade vidjeti i potvrditi odabrani komad mramora?",
+    faq_a6: "Da, kod projekata po mjeri izbor mramora moguće je unaprijed uskladiti i potvrditi. Kupcu možemo predstaviti dostupne blokove te njihove fotografije i videozapise, čime dobivate uvid u prirodni karakter kamena i prije početka izrade.",
+    footer_sub: "Ručno izrađeni unikatni proizvodi od prirodnog vijetnamskog mramora.",
+    footer_quote: "\"Priroda stvara jedinstvenost. Mi je pomažemo izraziti.\"",
+    footer_h_links: "Poveznice",
+    footer_h_hallmarks: "Odlike Marke",
+    footer_h_contact: "Kontakt",
+    footer_hm1: "Ručni rad",
+    footer_hm2: "Unikatno",
+    footer_hm3: "Prestižno",
+    footer_hm4: "Bezvremensko",
+    footer_hm5: "Elegantno",
+    footer_hm6: "Prirodno",
+    footer_copy: "&copy; 2026 LAPIDOR. Sva prava pridržana. Izrada: Promoscentia d.o.o.",
+    modal_title: "Upit",
+    modal_lbl_name: "Ime i Tvrtka *",
+    modal_lbl_contact: "E-mail adresa ili broj telefona *",
+    modal_lbl_notes: "Napomene",
+    modal_btn_submit: "Pošaljite Upit",
+    form_ph_name: "Ivan Horvat (Studio Arhitektura)",
+    form_ph_email: "ivan@biro.hr",
+    form_ph_phone: "+385 91 000 0000",
+    form_ph_desc: "Unesite specifikaciju vašeg projekta...",
+    news_ph_email: "Unesite vašu e-mail adresu...",
+    modal_ph_name: "Ivan Horvat",
+    modal_ph_contact: "ivan@biro.hr / +385 91 000 0000",
+    modal_ph_notes: "Unesite željene dimenzije...",
+    legal_tag: "DOKUMENTI I PRIVATNOST",
+    legal_title: "Pravna Obavijest i Zaštita Osobnih Podataka",
+    legal_back: "<i class=\"fa-solid fa-arrow-left\"></i> Povratak na glavnu stranicu",
+    legal_print: "<i class=\"fa-solid fa-file-pdf text-gold\"></i> Ispis / Spremi kao PDF",
+    float_call: "POZIV: +386 (0)31 529 003",
+    float_inquiry: "BRZI UPIT"
   }
 };
 
@@ -663,6 +839,50 @@ const finishesData = {
         "terraces and exterior architectural surfaces"
       ]
     }
+  },
+  hr: {
+    polirana: {
+      tag: "Polirana Obrada",
+      title: "Polirana površina",
+      desc: "Najprestižnija obrada mramora s visokim zrcalnim sjajem koji ističe dubinu, kristalnu strukturu i prirodni uzorak mramora.",
+      apps: [
+        "unutarnje zidne obloge",
+        "masivni umivaonici i kupaonske kade",
+        "podne površine u reprezentativnim prostorima",
+        "recepcije, predvorja i hotelski interijeri"
+      ]
+    },
+    mat: {
+      tag: "Brušena (Mat) Obrada",
+      title: "Brušena (Mat)",
+      desc: "Finija mat površina s mekim, svilenkastim dodirom koja diskretno naglašava prirodnu teksturu i bezvremensku eleganciju mramora.",
+      apps: [
+        "luksuzne kupaonice",
+        "wellness i SPA centri",
+        "unutarnje zidne obloge",
+        "podne površine u privatnim i poslovnim prostorima"
+      ]
+    },
+    klesana: {
+      tag: "Ručno Klesana Obrada",
+      title: "Ručno klesana površina",
+      desc: "Naglašena reljefna tekstura stvorena majstorskim ručnim klesanjem koja svakom proizvodu daje jedinstven karakter i ističe autentičnost prirodnog mramora.",
+      apps: [
+        "fasadne i dekorativne zidne obloge",
+        "skulpture, sakralna kiparska djela i spomenici",
+        "fontane, portali te vrtni arhitektonski elementi"
+      ]
+    },
+    plamenjena: {
+      tag: "Četkana (Antique) Obrada",
+      title: "Četkana (Antique) površina",
+      desc: "Prirodno strukturirana površina s nježnim reljefom koja ističe teksturu mramora te stvara elegantan, blago starinski izgled s mekim dodirom.",
+      apps: [
+        "bazenske obrubne ploče i wellness & SPA prostori",
+        "vanjske stepenice i ulazni elementi",
+        "terase te vanjske arhitektonske površine"
+      ]
+    }
   }
 };
 
@@ -776,19 +996,25 @@ function initFormSubmissions() {
         body: new URLSearchParams(formData).toString()
       })
       .then(() => {
-        const name = document.getElementById('form-name')?.value || (currentLang === 'en' ? 'Client' : 'Naročnik');
+        const defaultName = currentLang === 'en' ? 'Client' : (currentLang === 'hr' ? 'Klijent' : 'Naročnik');
+        const name = document.getElementById('form-name')?.value || defaultName;
         const msg = currentLang === 'en' 
           ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
-          : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`;
+          : (currentLang === 'hr' 
+            ? `Hvala vam, ${name}! Vaš upit je uspješno poslan našem timu.`
+            : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`);
         showToast(msg);
         sampleForm.reset();
       })
       .catch((err) => {
         console.error('Form submit error:', err);
-        const name = document.getElementById('form-name')?.value || (currentLang === 'en' ? 'Client' : 'Naročnik');
+        const defaultName = currentLang === 'en' ? 'Client' : (currentLang === 'hr' ? 'Klijent' : 'Naročnik');
+        const name = document.getElementById('form-name')?.value || defaultName;
         const msg = currentLang === 'en' 
           ? `Thank you, ${name}! Your inquiry has been submitted to our team.` 
-          : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`;
+          : (currentLang === 'hr'
+            ? `Hvala vam, ${name}! Vaš upit je uspješno poslan našem timu.`
+            : `Hvala, ${name}! Vaše povpraševanje je bilo uspešno posredovano naši ekipi.`);
         showToast(msg);
         sampleForm.reset();
       });
@@ -808,7 +1034,9 @@ function initFormSubmissions() {
         if (modal) modal.classList.remove('active');
         const msg = currentLang === 'en'
           ? 'Your inquiry has been sent to our team!'
-          : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!';
+          : (currentLang === 'hr'
+            ? 'Vaš upit je uspješno poslan našem timu!'
+            : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!');
         showToast(msg);
         modalForm.reset();
       })
@@ -817,7 +1045,9 @@ function initFormSubmissions() {
         if (modal) modal.classList.remove('active');
         const msg = currentLang === 'en'
           ? 'Your inquiry has been sent to our team!'
-          : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!';
+          : (currentLang === 'hr'
+            ? 'Vaš upit je uspješno poslan našem timu!'
+            : 'Vaše povpraševanje je bilo uspešno posredovano naši ekipi!');
         showToast(msg);
         modalForm.reset();
       });
@@ -830,7 +1060,9 @@ function initFormSubmissions() {
       e.preventDefault();
       const msg = currentLang === 'en'
         ? 'Thank you for subscribing to LAPIDOR project updates!'
-        : 'Hvala za prijavo na e-novice za LAPIDOR projekte!';
+        : (currentLang === 'hr'
+          ? 'Hvala vam na prijavi na e-novosti za LAPIDOR projekte!'
+          : 'Hvala za prijavo na e-novice za LAPIDOR projekte!');
       showToast(msg);
       newsFormMain.reset();
     });
