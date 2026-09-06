@@ -466,19 +466,7 @@ $html = @"
           <li><a href="https://lapidor.si/#domov" class="nav-link" data-i18n="nav_home">DOMOV</a></li>
           <li><a href="https://lapidor.si/#nasazgodba" class="nav-link" data-i18n="nav_story">NAŠA ZGODBA</a></li>
           <li><a href="https://lapidor.si/#nasiizdelki" class="nav-link" data-i18n="nav_products">NAŠI IZDELKI</a></li>
-          <li><a href="brosura.html" class="nav-link active" data-i18n="nav_brochure">BROŠURA</a></li>
           <li><a href="https://lapidor.si/#kontakt" class="nav-link" data-i18n="nav_contact">KONTAKT</a></li>
-          <li class="nav-lang-item">
-            <div class="lang-switcher">
-              <button type="button" class="lang-btn active" data-lang-btn="sl">SL</button>
-              <span class="lang-divider">|</span>
-              <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
-              <span class="lang-divider">|</span>
-              <button type="button" class="lang-btn" data-lang-btn="hr">CRO</button>
-              <span class="lang-divider">|</span>
-              <button type="button" class="lang-btn" data-lang-btn="el">GR</button>
-            </div>
-          </li>
         </ul>
       </nav>
 
