@@ -196,7 +196,18 @@ const i18n = {
     b_sec_fountains_title: "MASIVNI MARMORNI VODNJAKI IN RECEPCIJE",
     b_cta_tag: "VAŠ PROJEKT, NAŠA IZVEDBA",
     b_cta_title: "Naročite Vzorce ali Pošljite Povpraševanje",
-    b_cta_desc: "Pripravimo vam vzorce naravnega marmorja, ponudbo po vašem načrtu ter strokovno svetovanje."
+    b_cta_desc: "Pripravimo vam vzorce naravnega marmorja, ponudbo po vašem načrtu ter strokovno svetovanje.",
+    b_gal_tag: "REALIZIRANI PROJEKTI",
+    b_gal_title: "FOTOGALERIJA UNIKATNIH LAPIDOR STVARITEV",
+    b_gal1_cap: "Masivna kopalniška kad iz vietnamskega naravnega marmorja",
+    b_gal2_cap: "Prestižni unikatni umivalnik iz kristalno belega marmorja",
+    b_gal3_cap: "Ročno klesana marmorna skulptura za vrhunske interiere",
+    b_gal4_cap: "Wellness & SPA marmorna oprema z nizko poroznostjo",
+    b_gal5_cap: "Arhitekturni vodnjak z unikatnimi klesanimi detajli",
+    b_gal6_cap: "Ekskluzivni recepcijski pult iz masivnega vietnamskega marmorja",
+    b_gal7_cap: "Stenske in talne obloge iz naravnega kristalnega marmorja",
+    b_gal8_cap: "Unikatna kopalniška oprema z ročno obdelavo po meri",
+    b_gal9_cap: "Sakralna plastika in reliefi iz naravnega masivnega marmorja"
   },
   en: {
     top_announcement: "Handcrafted unique products made of natural Vietnamese marble.",
@@ -391,7 +402,18 @@ const i18n = {
     b_sec_fountains_title: "MASSIVE MARBLE FOUNTAINS & RECEPTIONS",
     b_cta_tag: "YOUR PROJECT, OUR EXECUTION",
     b_cta_title: "Order Samples or Submit Inquiry",
-    b_cta_desc: "We prepare natural marble samples, an offer tailored to your plan, and expert consultation."
+    b_cta_desc: "We prepare natural marble samples, an offer tailored to your plan, and expert consultation.",
+    b_gal_tag: "REALIZED PROJECTS",
+    b_gal_title: "PHOTO GALLERY OF UNIQUE LAPIDOR CREATIONS",
+    b_gal1_cap: "Solid bathtub made of natural Vietnamese marble",
+    b_gal2_cap: "Prestigious unique sink in crystal white marble",
+    b_gal3_cap: "Hand-carved marble sculpture for luxury interiors",
+    b_gal4_cap: "Wellness & SPA marble equipment with low porosity",
+    b_gal5_cap: "Architectural fountain with unique carved details",
+    b_gal6_cap: "Exclusive reception desk in solid Vietnamese marble",
+    b_gal7_cap: "Wall and floor coverings in natural crystal marble",
+    b_gal8_cap: "Bespoke handcrafted bathroom equipment",
+    b_gal9_cap: "Sacral sculptures and reliefs in natural solid marble"
   },
   hr: {
     top_announcement: "Ručno izrađeni unikatni proizvodi od prirodnog vijetnamskog mramora.",
@@ -586,7 +608,18 @@ const i18n = {
     b_sec_fountains_title: "MASIVNE MRAMORNE FONTANE I RECEPCIJE",
     b_cta_tag: "VAŠ PROJEKT, NAŠA IZVEDBA",
     b_cta_title: "Naručite Uzorke ili Pošaljite Upit",
-    b_cta_desc: "Pripremamo vam uzorke prirodnog mramora, ponudu prema vašem projektu te stručno savjetovanje."
+    b_cta_desc: "Pripremamo vam uzorke prirodnog mramora, ponudu prema vašem projektu te stručno savjetovanje.",
+    b_gal_tag: "REALIZIRANI PROJEKTI",
+    b_gal_title: "FOTOGALERIJA UNIKATNIH LAPIDOR KREACIJA",
+    b_gal1_cap: "Masivna kada od vijetnamskog prirodnog mramora",
+    b_gal2_cap: "Prestižni unikatni umivaonik od kristalno bijelog mramora",
+    b_gal3_cap: "Ručno klesana mramorna skulptura za vrhunske interijere",
+    b_gal4_cap: "Wellness & SPA mramorna oprema niske poroznosti",
+    b_gal5_cap: "Arhitektonska fontana s unikatnim klesanim detaljima",
+    b_gal6_cap: "Ekskluzivni recepcijski pult od masivnog vijetnamskog mramora",
+    b_gal7_cap: "Zidne i podne obloge od prirodnog kristalnog mramora",
+    b_gal8_cap: "Unikatna kupaonska oprema s ručnom obradom po mjeri",
+    b_gal9_cap: "Sakralna plastika i reljefi od prirodnog masivnog mramora"
   },
   el: {
     top_announcement: "Χειροποίητα μοναδικά προϊόντα από φυσικό μάρμαρο Βιετνάμ.",
@@ -799,7 +832,18 @@ const i18n = {
     b_sec_fountains_title: "ΜΑΣΙΦ ΜΑΡΜΑΡΙΝΑ ΣΙΝΤΡΙΒΑΝΙΑ ΚΑΙ ΡΕΣΕΨΙΟΝ",
     b_cta_tag: "ΤΟ ΕΡΓΟ ΣΑΣ, Η ΥΛΟΠΟΙΗΣΗ ΜΑΣ",
     b_cta_title: "Παραγγείλετε Δείγματα ή Στείλτε Αίτημα",
-    b_cta_desc: "Ετοιμάζουμε δείγματα φυσικού μαρμάρου, προσφορά σύμφωνα με το σχέδιό σας και επαγγελματική συμβουλευτική."
+    b_cta_desc: "Ετοιμάζουμε δείγματα φυσικού μαρμάρου, προσφορά σύμφωνα με το σχέδιό σας και επαγγελματική συμβουλευτική.",
+    b_gal_tag: "ΥΛΟΠΟΙΗΜΕΝΑ ΕΡΓΑ",
+    b_gal_title: "ΣΥΛΛΟΓΗ ΦΩΤΟΓΡΑΦΙΩΝ ΜΟΝΑΔΙΚΩΝ ΔΗΜΙΟΥΡΓΙΩΝ LAPIDOR",
+    b_gal1_cap: "Συμπαγής μπανιέρα από φυσικό μάρμαρο Βιετνάμ",
+    b_gal2_cap: "Πολυτελής μοναδικός νιπτήρας από κρυσταλλικό λευκό μάρμαρο",
+    b_gal3_cap: "Χειροποίητο μαρμάρινο γλυπτό για πολυτελείς εσωτερικούς χώρους",
+    b_gal4_cap: "Εξοπλισμός Wellness & SPA από μάρμαρο χαμηλής πορώδους",
+    b_gal5_cap: "Αρχιτεκτονικό σιντριβάνι με μοναδικές λαξευμένες λεπτομέρειες",
+    b_gal6_cap: "Αποκλειστική ρεσεψιόν από συμπαγές μάρμαρο Βιετνάμ",
+    b_gal7_cap: "Επενδύσεις τοίχων και δαπέδων από φυσικό κρυσταλλικό μάρμαρο",
+    b_gal8_cap: "Χειροποίητος προσαρμοσμένος εξοπλισμός μπάνιου",
+    b_gal9_cap: "Ιερά γλυπτά και ανάγλυφα από φυσικό συμπαγές μάρμαρο"
   }
 };
 

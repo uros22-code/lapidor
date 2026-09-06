@@ -369,43 +369,66 @@ $html = @"
       background: #faf8f5;
     }
 
-    /* Print Optimization Rules */
+    /* Print & PDF Page Optimization Rules */
     @media print {
+      @page {
+        size: A4 portrait;
+        margin: 1.2cm 1cm;
+      }
       .top-bar, .main-header, .floating-contact-widget, .b-actions, .main-footer, .toast {
         display: none !important;
       }
       body, .b-page {
         background: #ffffff !important;
         color: #000000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
       }
       .b-cover {
         background: #121417 !important;
         color: #ffffff !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-        padding: 40px 20px !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        padding: 50px 20px !important;
+        page-break-after: always;
+        break-after: page;
       }
       .b-cover-hero-img {
-        height: 220px !important;
+        height: 280px !important;
+        max-width: 100% !important;
       }
       .b-section {
-        padding: 24px 0 !important;
+        padding: 30px 0 !important;
         page-break-inside: avoid;
-        border-bottom: 1px solid #ccc !important;
+        break-inside: avoid;
+        border-bottom: 1px solid rgba(184, 139, 42, 0.2) !important;
       }
-      .b-card {
+      .b-card, .b-cat-card, .b-gallery-card {
         padding: 20px !important;
         box-shadow: none !important;
-        border: 1px solid #ddd !important;
+        border: 1px solid #d4af37 !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
       }
-      .b-img-box, .b-cat-img-wrapper, .b-gallery-img-box {
-        height: 180px !important;
+      .b-img-box {
+        height: 200px !important;
+      }
+      .b-cat-img-wrapper {
+        height: 190px !important;
+      }
+      .b-gallery-img-box {
+        height: 190px !important;
       }
       .b-gallery-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 16px !important;
+      }
+      .b-cat-grid {
         grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px !important;
       }
       a {
-        text-decoration: underline !important;
+        text-decoration: none !important;
         color: #b88b2a !important;
       }
     }
@@ -818,9 +841,99 @@ $html = @"
         </div>
       </div>
     </div>
+  <!-- SECTION 6: FOTOGALERIJA REALNIH UNIKATNIH USTVARITEV -->
+  <section class="b-section">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 28px;">
+        <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="b_gal_tag">REALIZIRANI PROJEKTI</span>
+        <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="b_gal_title">FOTOGALERIJA UNIKATNIH LAPIDOR STVARITEV</h2>
+        <div class="gold-underline" style="margin: 14px auto 0;"></div>
+      </div>
+
+      <div class="b-gallery-grid">
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal1" alt="Masivna kopalniška kad iz vietnamskega naravnega marmorja">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal1_cap">Masivna kopalniška kad iz vietnamskega naravnega marmorja</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal2" alt="Prestižni unikatni umivalnik iz kristalno belega marmorja">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal2_cap">Prestižni unikatni umivalnik iz kristalno belega marmorja</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal3" alt="Ročno klesana marmorna skulptura za vrhunske interiere">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal3_cap">Ročno klesana marmorna skulptura za vrhunske interiere</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal4" alt="Wellness &amp; SPA marmorna oprema z nizko poroznostjo">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal4_cap">Wellness &amp; SPA marmorna oprema z nizko poroznostjo</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal5" alt="Arhitekturni vodnjak z unikatnimi klesanimi detajli">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal5_cap">Arhitekturni vodnjak z unikatnimi klesanimi detajli</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal6" alt="Ekskluzivni recepcijski pult iz masivnega vietnamskega marmorja">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal6_cap">Ekskluzivni recepcijski pult iz masivnega vietnamskega marmorja</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal7" alt="Stenske in talne obloge iz naravnega kristalnega marmorja">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal7_cap">Stenske in talne obloge iz naravnega kristalnega marmorja</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal8" alt="Unikatna kopalniška oprema z ročno obdelavo po meri">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal8_cap">Unikatna kopalniška oprema z ročno obdelavo po meri</div>
+        </div>
+
+        <div class="b-gallery-card">
+          <div class="b-gallery-img-box">
+            <a href="https://lapidor.si/#nasiizdelki" target="_blank">
+              <img src="$imgReal9" alt="Sakralna plastika in reliefi iz naravnega masivnega marmorja">
+            </a>
+          </div>
+          <div class="b-gallery-caption" data-i18n="b_gal9_cap">Sakralna plastika in reliefi iz naravnega masivnega marmorja</div>
+        </div>
+      </div>
+    </div>
   </section>
-
-
 
   <!-- CTA / CONTACT SECTION WITH ACTIVE LINKS -->
   <section class="b-section text-center" style="background: var(--bg-dark-accent); color: #ffffff;">
