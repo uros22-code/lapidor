@@ -460,6 +460,10 @@ $html = @"
     <div class="container top-bar-content">
       <span><i class="fa-solid fa-gem text-gold"></i> <span data-i18n="top_announcement">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</span></span>
       <div class="top-bar-right">
+        <a href="https://lapidor.si/#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POŠLJI POVPRAŠEVANJE</span></a>
+        <span class="divider">|</span>
+        <a href="tel:+38631529003" class="top-link"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a>
+        <span class="divider">|</span>
         <div class="lang-switcher">
           <button type="button" class="lang-btn active" data-lang-btn="sl">SL</button>
           <span class="lang-divider">|</span>
@@ -469,10 +473,6 @@ $html = @"
           <span class="lang-divider">|</span>
           <button type="button" class="lang-btn" data-lang-btn="el">GR</button>
         </div>
-        <span class="divider">|</span>
-        <a href="https://lapidor.si/#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POŠLJI POVPRAŠEVANJE</span></a>
-        <span class="divider">|</span>
-        <a href="tel:+38631529003" class="top-link"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a>
       </div>
     </div>
   </div>
