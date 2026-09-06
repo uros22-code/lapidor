@@ -490,6 +490,7 @@ $html = @"
           <li><a href="https://lapidor.si/#nasazgodba" class="nav-link" data-i18n="nav_story">NAŠA ZGODBA</a></li>
           <li><a href="https://lapidor.si/#nasiizdelki" class="nav-link" data-i18n="nav_products">NAŠI IZDELKI</a></li>
           <li><a href="https://lapidor.si/#kontakt" class="nav-link" data-i18n="nav_contact">KONTAKT</a></li>
+          <li><a href="brosura.html" class="nav-link active" data-i18n="nav_brochure">BROŠURA</a></li>
         </ul>
       </nav>
 
