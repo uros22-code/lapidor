@@ -1532,60 +1532,60 @@ $html = @"
   </div>
  </section>
 
- <!-- CTA / CONTACT SECTION WITH ACTIVE LINKS -->
- <section class="b-section text-center" style="background: var(--bg-dark-accent); color: #ffffff;">
-  <div class="container">
-   <span class="section-tag" style="color: var(--gold-light);" data-i18n="b_cta_tag">VAĹ  PROJEKT, NAĹ A IZVEDBA</span>
-   <h2 class="section-title" style="color: #ffffff;" data-i18n="b_cta_title">NaroĂ„Ĺ¤ite Vzorce ali PoÄąË‡ljite PovpraÄąË‡evanje</h2>
-   <div class="gold-underline" style="margin: 12px auto 24px;"></div>
-   <p style="color: rgba(255,255,255,0.85); max-width: 680px; margin: 0 auto 32px; font-size: 1.1rem;" data-i18n="b_cta_desc">
-    Pripravimo vam vzorce naravnega marmorja, ponudbo po vaÄąË‡em naĂ„Ĺ¤rtu ter strokovno svetovanje.
-   </p>
+  <!-- CTA / CONTACT SECTION WITH ACTIVE LINKS -->
+  <section class="b-section text-center" id="b-section-cta" style="background: var(--bg-dark-accent); color: #ffffff;">
+   <div class="container">
+    <p class="section-tag" style="color: var(--gold-light); display: block; margin-bottom: 16px;" data-i18n="b_cta_tag">VAŠ PROJEKT, NAŠA IZVEDBA</p>
+    <h2 class="section-title" style="color: #ffffff; margin-top: 12px;" data-i18n="b_cta_title">VESELIMO SE VAŠEGA POVPRAŠEVANJA</h2>
+    <div class="gold-underline" style="margin: 12px auto 24px;"></div>
+    <p style="color: rgba(255,255,255,0.85); max-width: 680px; margin: 0 auto 32px; font-size: 1.1rem;" data-i18n="b_cta_desc">
+     Vabimo vas, da nam zaupate vaše želje.
+    </p>
 
-   <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-    <a href="https://lapidor.si/#vzorci" class="btn btn-gold btn-lg" target="_blank" data-i18n="top_inquiry">
-     <i class="fa-solid fa-paper-plane"></i> POĹ LJI POVPRAĹ EVANJE (lapidor.si/#vzorci)
-    </a>
-    <a href="assets/LAPIDOR_Ekskluzivna_Brosura.pdf" download class="btn btn-outline-gold btn-lg" style="color: #ffffff; border-color: #ffffff;" data-i18n="btn_download_pdf">
-     <i class="fa-solid fa-file-pdf"></i> PRENESI PDF BROÄąÂ URO
-    </a>
+    <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+     <a href="https://lapidor.si/#vzorci" class="btn btn-gold btn-lg" style="color: #ffffff !important; background-color: #b88b2a !important; text-decoration: none;" target="_blank">
+      <i class="fa-solid fa-paper-plane" style="margin-right: 8px; color: #ffffff !important;"></i><span data-i18n="top_inquiry" style="color: #ffffff !important; font-weight: 600;">POŠLJI POVPRAŠEVANJE</span>
+     </a>
+     <a href="assets/LAPIDOR_Ekskluzivna_Brosura.pdf" download class="btn btn-outline-gold btn-lg" style="color: #ffffff !important; border-color: #ffffff !important; text-decoration: none;">
+      <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i><span data-i18n="btn_download_pdf">PRENESI PDF BROŠURO</span>
+     </a>
+    </div>
+
+    <div style="margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 30px; font-size: 0.95rem; color: rgba(255,255,255,0.85);">
+     <strong>PROMOSCENTIA d.o.o.</strong> &nbsp;|&nbsp; Mariborska cesta 86, 3000 Celje, Slovenija<br>
+     Tel: <a href="tel:+38631529003" style="color: var(--gold-light); text-decoration: underline;">+386 (0)31 529 003</a> &nbsp;|&nbsp; 
+     Email: <a href="mailto:info@lapidor.si" style="color: var(--gold-light); text-decoration: underline;">info@lapidor.si</a> &nbsp;|&nbsp; 
+     Splet: <a href="https://lapidor.si/" style="color: var(--gold-light); text-decoration: underline;" target="_blank">https://lapidor.si</a>
+    </div>
    </div>
+  </section>
 
-   <div style="margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 30px; font-size: 0.95rem; color: rgba(255,255,255,0.85);">
-    <strong>PROMOSCENTIA d.o.o.</strong> &nbsp;|&nbsp; Mariborska cesta 86, 3000 Celje, Slovenija<br>
-    Tel: <a href="tel:+38631529003" style="color: var(--gold-light); text-decoration: underline;">+386 (0)31 529 003</a> &nbsp;|&nbsp; 
-    Email: <a href="mailto:info@lapidor.si" style="color: var(--gold-light); text-decoration: underline;">info@lapidor.si</a> &nbsp;|&nbsp; 
-    Splet: <a href="https://lapidor.si/" style="color: var(--gold-light); text-decoration: underline;" target="_blank">https://lapidor.si</a>
+  <!-- Footer -->
+  <footer class="main-footer">
+   <div class="container text-center">
+    <a href="https://lapidor.si/">
+     <img src="$logoPath" alt="LAPIDOR Logo" class="footer-logo-img" style="margin: 0 auto 16px;">
+    </a>
+    <p style="font-size: 0.9rem;" data-i18n="footer_sub">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
+    <p style="color: var(--gold-primary); font-style: italic; font-family: var(--font-serif); margin-top: 10px;" data-i18n="footer_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
+    <p style="margin-top: 20px; font-size: 0.85rem; color: var(--text-muted);" data-i18n="footer_copy">&copy; 2026 LAPIDOR. Vse pravice pridržane. Izdelava: Promoscentia d.o.o.</p>
    </div>
-  </div>
- </section>
+  </footer>
 
- <!-- Footer -->
- <footer class="main-footer">
-  <div class="container text-center">
-   <a href="https://lapidor.si/">
-    <img src="$logoPath" alt="LAPIDOR Logo" class="footer-logo-img" style="margin: 0 auto 16px;">
+  <!-- Floating Quick Contact Widget -->
+  <div class="floating-contact-widget">
+   <a href="tel:+38631529003" class="float-btn float-phone" title="Pokličite nas +386 (0)31 529 003">
+    <i class="fa-solid fa-phone"></i>
+    <span class="float-tooltip" data-i18n="float_call">KLIC: +386 (0)31 529 003</span>
    </a>
-   <p style="font-size: 0.9rem;" data-i18n="footer_sub">RoĂ„Ĺ¤no izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
-   <p style="color: var(--gold-primary); font-style: italic; font-family: var(--font-serif); margin-top: 10px;" data-i18n="footer_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
-   <p style="margin-top: 20px; font-size: 0.85rem; color: var(--text-muted);" data-i18n="footer_copy">&copy; 2026 LAPIDOR. Vse pravice pridrÄąÄľane. Izdelava: Promoscentia d.o.o.</p>
+   <a href="https://lapidor.si/#vzorci" class="float-btn float-inquiry" title="Pošlji povpraševanje" target="_blank">
+    <i class="fa-solid fa-paper-plane"></i>
+    <span class="float-tooltip" data-i18n="float_inquiry">HITRO POVPRAŠEVANJE</span>
+   </a>
   </div>
- </footer>
 
- <!-- Floating Quick Contact Widget -->
- <div class="floating-contact-widget">
-  <a href="tel:+38631529003" class="float-btn float-phone" title="PokliĂ„Ĺ¤ite nas +386 (0)31 529 003">
-   <i class="fa-solid fa-phone"></i>
-   <span class="float-tooltip" data-i18n="float_call">KLIC: +386 (0)31 529 003</span>
-  </a>
-  <a href="https://lapidor.si/#vzorci" class="float-btn float-inquiry" title="PoÄąË‡lji povpraÄąË‡evanje" target="_blank">
-   <i class="fa-solid fa-paper-plane"></i>
-   <span class="float-tooltip" data-i18n="float_inquiry">HITRO POVPRAĹ EVANJE</span>
-  </a>
- </div>
-
- <!-- JS Engine -->
- <script src="main.js"></script>
+  <!-- JS Engine -->
+  <script src="main.js"></script>
 </body>
 </html>
 "@
@@ -1609,5 +1609,3 @@ if (Test-Path $edgePath) {
   Copy-Item -Path "C:\Users\urosv\Desktop\LAPIDOR\assets\LAPIDOR_Ekskluzivna_Brosura.pdf" -Destination "C:\Users\urosv\Desktop\LAPIDOR_Website_Backup\assets\LAPIDOR_Ekskluzivna_Brosura.pdf" -Force
   Write-Host "LAPIDOR_Ekskluzivna_Brosura.pdf successfully generated and saved to assets!"
 }
-
-
