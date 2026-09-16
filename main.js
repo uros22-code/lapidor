@@ -863,6 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initModals();
   initFormSubmissions();
   initScrollEffects();
+  initGallerySlider();
 });
 
 /* --------------------------------------------------
@@ -1478,3 +1479,47 @@ function initScrollEffects() {
     observer.observe(el);
   });
 }
+
+/* --------------------------------------------------
+ * 8. Realized Projects Interactive Slider Gallery
+ * -------------------------------------------------- */
+function initGallerySlider() {
+  const track = document.getElementById('gallery-track');
+  const prevBtn = document.getElementById('gallery-prev-btn');
+  const nextBtn = document.getElementById('gallery-next-btn');
+
+  if (!track) return;
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      track.scrollBy({ left: -360, behavior: 'smooth' });
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      track.scrollBy({ left: 360, behavior: 'smooth' });
+    });
+  }
+
+  // Click card to open inquiry modal pre-filled with selected product caption
+  document.querySelectorAll('.gallery-slide-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const caption = card.querySelector('.gallery-slide-caption');
+      const modal = document.getElementById('inquiry-modal');
+      const modalTitle = document.getElementById('modal-product-title');
+      const modalProductDisplay = document.getElementById('modal-product-display');
+      const modalProductName = document.getElementById('modal-product-name');
+
+      if (modal && modalProductDisplay && modalProductName) {
+        const titleText = caption ? caption.textContent.trim() : 'Unikatni izdelek LAPIDOR';
+        modalProductDisplay.value = titleText;
+        modalProductName.value = titleText;
+        if (modalTitle) modalTitle.textContent = 'Povpraševanje za izdelek';
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  });
+}
+
