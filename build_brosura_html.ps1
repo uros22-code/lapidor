@@ -620,10 +620,10 @@ $html = @"
           <table class="b-table">
             <thead>
               <tr>
-                <th data-i18n="th_criterion">Kriterij Lastnosti</th>
-                <th style="color: var(--gold-primary);" data-i18n="th_vietnam">LAPIDOR Vietnamski Marmor</th>
-                <th data-i18n="th_europe">Evropski Marmor (Carrara)</th>
-                <th data-i18n="th_composite">Tehnični Kamen &amp; Keramika</th>
+                <th data-i18n="th_criterion">Kriterij lastnosti</th>
+                <th style="color: var(--gold-primary);" data-i18n="th_vietnam">LAPIDOR vietnamski marmor</th>
+                <th data-i18n="th_europe">Evropski marmor (Carrara/Calacatta)</th>
+                <th data-i18n="th_composite">Tehnični kamen &amp; keramika</th>
               </tr>
             </thead>
             <tbody>
@@ -634,7 +634,7 @@ $html = @"
                 <td data-i18n="row1_composite">Umetne smole / keramika</td>
               </tr>
               <tr>
-                <td><strong data-i18n="row2_title">Poroznost &amp; Voda</strong></td>
+                <td><strong data-i18n="row2_title">Poroznost &amp; voda</strong></td>
                 <td data-i18n="row2_vietnam"><i class="fa-solid fa-check text-gold"></i> Izjemno nizka (Idealno za SPA in kadi)</td>
                 <td data-i18n="row2_europe">Srednja (Občutljiv na tekočine)</td>
                 <td data-i18n="row2_composite">Ne-porozen (Vsebuje veziva)</td>
