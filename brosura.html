@@ -410,9 +410,11 @@
         break-inside: auto !important;
         page-break-inside: auto !important;
       }
+      .b-stat-box,
       #b-section-why-vietnam,
       #b-section-products,
-      #b-section-gallery {
+      #b-section-gallery,
+      #b-section-cta {
         page-break-before: always !important;
         break-before: page !important;
       }
@@ -438,10 +440,13 @@
         height: 180px !important;
       }
       .b-stat-box {
-        gap: 10px !important;
+        gap: 14px !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        margin-top: 0 !important;
+        padding-top: 10px !important;
       }
       .b-stat-card {
-        padding: 12px 8px !important;
+        padding: 20px 14px !important;
         break-inside: avoid !important;
         page-break-inside: avoid !important;
       }
