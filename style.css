@@ -1677,7 +1677,7 @@ iframe[src*="netlify"],
 .gallery-slide-card {
   flex: 0 0 340px;
   scroll-snap-align: start;
-  background: rgba(255, 255, 255, 0.04);
+  background: #ffffff;
   border: 1px solid var(--border-gold);
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -1687,7 +1687,7 @@ iframe[src*="netlify"],
 
 .gallery-slide-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 30px rgba(184, 139, 42, 0.25);
   border-color: var(--gold-primary);
 }
 
@@ -1695,7 +1695,7 @@ iframe[src*="netlify"],
   position: relative;
   width: 100%;
   height: 290px;
-  background: radial-gradient(circle at center, #21252d 0%, #121418 100%);
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
