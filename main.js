@@ -1506,22 +1506,26 @@ function initGallerySlider() {
     });
   }
 
-  // Click card to open inquiry modal pre-filled with selected product caption
+  // Click card to open inquiry modal pre-filled with selected product caption or redirect to inquiry page
   document.querySelectorAll('.gallery-slide-card').forEach(card => {
     card.addEventListener('click', () => {
       const caption = card.querySelector('.gallery-slide-caption');
+      const img = card.querySelector('img');
       const modal = document.getElementById('inquiry-modal');
       const modalTitle = document.getElementById('modal-product-title');
       const modalProductDisplay = document.getElementById('modal-product-display');
       const modalProductName = document.getElementById('modal-product-name');
 
+      const titleText = caption ? caption.textContent.trim() : (img ? img.alt : 'Unikatni izdelek LAPIDOR');
+
       if (modal && modalProductDisplay && modalProductName) {
-        const titleText = caption ? caption.textContent.trim() : 'Unikatni izdelek LAPIDOR';
         modalProductDisplay.value = titleText;
         modalProductName.value = titleText;
         if (modalTitle) modalTitle.textContent = 'Povpraševanje za izdelek';
         modal.classList.add('active');
         document.body.style.overflow = 'hidden';
+      } else {
+        window.open('https://lapidor.si/#vzorci', '_blank');
       }
     });
   });
