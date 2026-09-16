@@ -847,9 +847,13 @@ const i18n = {
   }
 };
 
-let currentLang = localStorage.getItem('lapidor_language') || 'sl';
+let currentLang = 'sl';
 
 document.addEventListener('DOMContentLoaded', () => {
+  try {
+    localStorage.removeItem('lapidor_language');
+  } catch (e) {}
+
   initLanguageSwitcher();
   initPillarISymbol();
   initNavigation();
@@ -865,7 +869,7 @@ document.addEventListener('DOMContentLoaded', () => {
  * Language Switcher Engine
  * -------------------------------------------------- */
 function initLanguageSwitcher() {
-  setLanguage(currentLang);
+  setLanguage('sl');
 
   document.querySelectorAll('[data-lang-btn]').forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -878,7 +882,6 @@ function initLanguageSwitcher() {
 
 function setLanguage(lang) {
   currentLang = lang;
-  localStorage.setItem('lapidor_language', lang);
   document.documentElement.lang = lang;
 
   document.querySelectorAll('[data-lang-btn]').forEach(btn => {
