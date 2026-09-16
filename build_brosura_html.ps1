@@ -47,8 +47,8 @@ $html = @"
 
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Ekskluzivna PrestiĹľna BroÄąË‡ura LAPIDOR | Naravni Vietnamski Marmor</title>
- <meta name="description" content="Uradna prestiÄąÄľna broÄąË‡ura blagovne znamke LAPIDOR. Odkrijte naravni vietnamski marmor, roĂ„Ĺ¤no obdelavo, bivalne prostore, wellness in umetnost v marmorju.">
+ <title>Ekskluzivna Prestižna Brošura LAPIDOR | Naravni Vietnamski Marmor</title>
+ <meta name="description" content="Uradna prestižna brošura blagovne znamke LAPIDOR. Odkrijte naravni vietnamski marmor, ročno obdelavo, bivalne prostore, wellness in umetnost v marmorju.">
  <meta name="author" content="PROMOSCENTIA d.o.o.">
  <meta name="robots" content="index, follow">
  <link rel="canonical" href="https://lapidor.si/brosura.html">
@@ -127,7 +127,6 @@ $html = @"
    color: rgba(255, 255, 255, 0.9);
    max-width: 700px;
    margin: 0 auto 28px;
-  }
   }
 
   .b-section:nth-child(even) {
@@ -249,7 +248,7 @@ $html = @"
    background: rgba(184, 139, 42, 0.04);
   }
 
-  .b-link-badge {
+    .b-link-badge {
    display: inline-flex;
    align-items: center;
    gap: 8px;
@@ -260,19 +259,131 @@ $html = @"
    border-radius: 20px;
    font-weight: 600;
    font-size: 0.88rem;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   margin-top: 16px;
+  }
+
+  .b-link-badge:hover {
+   background: var(--gold-primary);
+   color: #ffffff;
+   transform: translateY(-2px);
+  }
+
+  .b-cat-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+   margin-top: 28px;
+  }
+
+  .b-cat-card {
+   background: #ffffff;
+   border: 1px solid var(--border-gold);
+   border-radius: var(--radius-sm);
+   overflow: hidden;
+   box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+  }
+
+  .b-cat-img-wrapper {
+   height: 240px;
+   width: 100%;
+   overflow: hidden;
+   background: #f6f3ee;
+  }
+
+  .b-cat-img-wrapper img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: transform 0.5s ease;
+  }
+
+  .b-cat-card:hover .b-cat-img-wrapper img {
+   transform: scale(1.05);
+  }
+
+  .b-cat-body {
+   padding: 24px;
+  }
+
+  /* Real Brochure Photo Gallery */
+  .b-gallery-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   margin-top: 28px;
+  }
+
+  .b-gallery-card {
+   background: #ffffff;
+   border: 1px solid var(--border-gold);
+   border-radius: var(--radius-sm);
+   overflow: hidden;
+   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .b-gallery-card:hover {
+   transform: translateY(-4px);
+   box-shadow: 0 12px 28px rgba(184, 139, 42, 0.15);
+  }
+
+  .b-gallery-img-box {
+   height: 260px;
+   width: 100%;
+   overflow: hidden;
+   background: #f6f3ee;
+  }
+
+  .b-gallery-img-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: transform 0.5s ease;
+  }
+
+  .b-gallery-card:hover .b-gallery-img-box img {
+   transform: scale(1.06);
+  }
+
+  .b-gallery-caption {
+   padding: 16px;
+   text-align: center;
+   font-size: 0.9rem;
+   font-weight: 600;
+   color: var(--text-main);
+   border-top: 1px solid rgba(184, 139, 42, 0.15);
+   background: #faf8f5;
+  }
+
+  /* Print & PDF Page Optimization Rules */
+  @media print {
+   @page {
+    size: A4 portrait;
+    margin: 1.2cm 1cm;
+   }
+   .top-bar, .main-header, .floating-contact-widget, .b-actions, .main-footer, .toast {
+    display: none !important;
+   }
+   body, .b-page {
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+   }
+   .b-cover {
+    background: #121417 !important;
+    color: #ffffff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    padding: 50px 20px !important;
+    page-break-after: always;
+    break-after: page;
+   }
+   .b-cover-hero-img {
+    height: 280px !important;
     max-width: 100% !important;
-   }
-      .b-gallery-grid {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 14px !important;
-   }
-   .b-gallery-card {
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
-   }
-   .b-gallery-img-box {
-    height: 200px !important;
    }
    .b-section {
     padding: 30px 0 !important;
@@ -335,9 +446,9 @@ $html = @"
  <!-- Top Announcement Bar -->
  <div class="top-bar">
   <div class="container top-bar-content">
-   <span><i class="fa-solid fa-gem text-gold"></i> <span data-i18n="top_announcement">RoĂ„Ĺ¤no izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</span></span>
+   <span><i class="fa-solid fa-gem text-gold"></i> <span data-i18n="top_announcement">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</span></span>
    <div class="top-bar-right">
-    <a href="https://lapidor.si/#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POĹ LJI POVPRAĹ EVANJE</span></a>
+    <a href="https://lapidor.si/#vzorci" class="top-link"><i class="fa-solid fa-paper-plane text-gold"></i> <span data-i18n="top_inquiry">POŠLJI POVPRAŠEVANJE</span></a>
     <span class="divider">|</span>
     <a href="tel:+38631529003" class="top-link"><i class="fa-solid fa-phone text-gold"></i> +386 (0)31 529 003</a>
     <span class="divider">|</span>
@@ -364,10 +475,10 @@ $html = @"
    <nav class="main-nav" id="main-nav">
     <ul>
      <li><a href="https://lapidor.si/#domov" class="nav-link" data-i18n="nav_home">DOMOV</a></li>
-     <li><a href="https://lapidor.si/#nasazgodba" class="nav-link" data-i18n="nav_story">NAĹ A ZGODBA</a></li>
-     <li><a href="https://lapidor.si/#nasiizdelki" class="nav-link" data-i18n="nav_products">NAĹ I IZDELKI</a></li>
+     <li><a href="https://lapidor.si/#nasazgodba" class="nav-link" data-i18n="nav_story">NAŠA ZGODBA</a></li>
+     <li><a href="https://lapidor.si/#nasiizdelki" class="nav-link" data-i18n="nav_products">NAŠI IZDELKI</a></li>
      <li><a href="https://lapidor.si/#kontakt" class="nav-link" data-i18n="nav_contact">KONTAKT</a></li>
-     <li><a href="brosura.html" class="nav-link active" data-i18n="nav_brochure">BROĹ URA</a></li>
+     <li><a href="brosura.html" class="nav-link active" data-i18n="nav_brochure">BROŠURA</a></li>
     </ul>
    </nav>
 
@@ -383,8 +494,8 @@ $html = @"
    <a href="https://lapidor.si/">
     <img src="$logoPath" alt="LAPIDOR Logo" class="b-cover-logo">
    </a>
-   <div class="b-cover-subtitle" data-i18n="brochure_cover_sub">EKSKLUZIVNA PRESTIĹ˝NA BROĹ URA</div>
-   <h1 class="b-cover-title" data-i18n="brochure_cover_title">BREZĂ„ĹšASNA ELEGANCA<br>NARAVNEGA MARMORJA</h1>
+   <div class="b-cover-subtitle" data-i18n="brochure_cover_sub">EKSKLUZIVNA PRESTIŽNA BROŠURA</div>
+   <h1 class="b-cover-title" data-i18n="brochure_cover_title">BREZČASNA ELEGANCA<br>NARAVNEGA MARMORJA</h1>
    
    <a href="https://lapidor.si/">
     <img src="$imgHero" alt="LAPIDOR Masivna Marmorna Kad in Ambient" class="b-cover-hero-img">
@@ -394,13 +505,13 @@ $html = @"
 
    <div class="b-actions">
     <a href="assets/LAPIDOR_Ekskluzivna_Brosura.pdf" download class="btn btn-gold" data-i18n="btn_download_pdf">
-     <i class="fa-solid fa-file-pdf"></i> PRENESI BROÄąÂ URO (PDF)
+     <i class="fa-solid fa-file-pdf"></i> PRENESI BROŠURO (PDF)
     </a>
     <button type="button" onclick="window.print()" class="btn btn-outline-gold" style="color: #ffffff; border-color: #ffffff;" data-i18n="btn_print_brochure">
-     <i class="fa-solid fa-print"></i> NATISNI BROÄąÂ URO
+     <i class="fa-solid fa-print"></i> NATISNI BROŠURO
     </button>
     <a href="https://lapidor.si/#vzorci" class="btn btn-gold" data-i18n="top_inquiry">
-     <i class="fa-solid fa-paper-plane"></i> POĹ LJI POVPRAĹ EVANJE
+     <i class="fa-solid fa-paper-plane"></i> POŠLJI POVPRAŠEVANJE
     </a>
    </div>
   </div>
@@ -410,8 +521,8 @@ $html = @"
  <section class="b-section">
   <div class="container">
    <div style="text-align: center; margin-bottom: 28px;">
-    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="about_tag">NAĹ A ZGODBA</span>
-    <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="about_title">UMETNOST ROĂ„ĹšNEGA DELA</h2>
+    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="about_tag">NAŠA ZGODBA</span>
+    <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="about_title">UMETNOST ROČNEGA DELA</h2>
     <div class="gold-underline" style="margin: 14px auto 0;"></div>
    </div>
 
@@ -419,27 +530,27 @@ $html = @"
     <div class="b-grid-2">
      <div>
       <p class="lead-text" data-i18n="about_p1">
-       Blagovna znamka <strong>LAPIDOR</strong> se je rodila iz osebnega potovanja po Vietnamu, kjer nas je prevzela izjemna lepota naravnega marmorja in mojstrstvo tamkajÄąË‡njih kamnosekov. Ob opazovanju njihovega dela smo spoznali, da pravi luksuz ne nastaja na proizvodnem traku, temveĂ„Ĺ¤ v rokah ljudi, ki z znanjem in spoÄąË‡tovanjem ustvarjajo brezĂ„Ĺ¤asne mojstrovine.
+       Blagovna znamka <strong>LAPIDOR</strong> se je rodila iz osebnega potovanja po Vietnamu, kjer nas je prevzela izjemna lepota naravnega marmorja in mojstrstvo tamkajšnjih kamnosekov. Ob opazovanju njihovega dela smo spoznali, da pravi luksuz ne nastaja na proizvodnem traku, temveč v rokah ljudi, ki z znanjem in spoštovanjem ustvarjajo brezčasne mojstrovine.
       </p>
       <p style="margin-top: 14px;" data-i18n="about_p3">
-       Ime naÄąË‡e blagovne znamke <strong>LAPIDOR</strong> izhaja iz latinske besede <em>lapis</em> Ă˘â‚¬â€ś kamen. Iz masivnih blokov nastajajo unikatni kosi, ki nosijo edinstven podpis narave in Ă„Ĺ¤loveÄąË‡kih rok.
+       Ime naše blagovne znamke <strong>LAPIDOR</strong> izhaja iz latinske besede <em>lapis</em> – kamen. Iz masivnih blokov nastajajo unikatni kosi, ki nosijo edinstven podpis narave in človeških rok.
       </p>
       
       <a href="https://lapidor.si/#nasazgodba" class="b-link-badge" target="_blank" data-i18n="b_link_read_more">
-       <i class="fa-solid fa-arrow-up-right-from-square"></i> Preberite veĂ„Ĺ¤ na spletni strani (lapidor.si/#nasazgodba)
+       <i class="fa-solid fa-arrow-up-right-from-square"></i> Preberite več na spletni strani (lapidor.si/#nasazgodba)
       </a>
      </div>
 
      <div class="b-img-box">
       <a href="https://lapidor.si/#nasazgodba" target="_blank">
-       <img src="$imgCraft" alt="RoĂ„Ĺ¤no klesanje marmorja z dletom in kladivom">
+       <img src="$imgCraft" alt="Ročno klesanje marmorja z dletom in kladivom">
       </a>
      </div>
     </div>
 
     <div class="b-quote-box">
      <div class="b-quote-text" data-i18n="brand_statement_quote">
-      "Vsak LAPIDOR izdelek je edinstveno roĂ„Ĺ¤no delo vietnamskih mojstrov in izraz narave. Njegova brezĂ„Ĺ¤asna vrednost ne temelji le na lepoti naravnega marmorja, temveĂ„Ĺ¤ tudi na mojstrski roĂ„Ĺ¤ni izdelavi, zaradi katere z leti izdelek ne izgublja svoje vrednosti Ă˘â‚¬â€ś temveĂ„Ĺ¤ jo pridobiva."
+      "Vsak LAPIDOR izdelek je edinstveno ročno delo vietnamskih mojstrov in izraz narave. Njegova brezčasna vrednost ne temelji le na lepoti naravnega marmorja, temveč tudi na mojstrski ročni izdelavi, zaradi katere z leti izdelek ne izgublja svoje vrednosti – temveč jo pridobiva."
      </div>
     </div>
 
@@ -448,21 +559,21 @@ $html = @"
      <div class="b-stat-card">
       <div class="b-stat-num">7+</div>
       <div class="b-stat-label" data-i18n="stat_1_label">BARVNI ODTENKI</div>
-      <div class="b-stat-desc" data-i18n="stat_1_desc">Od brezĂ„Ĺ¤asne bele do elegantnih sivih in toplih beÄąÄľ tonov.</div>
+      <div class="b-stat-desc" data-i18n="stat_1_desc">Od brezčasne bele do elegantnih sivih in toplih bež tonov.</div>
      </div>
      <div class="b-stat-card">
       <div class="b-stat-num">100%</div>
-      <div class="b-stat-label" data-i18n="stat_2_label">ROĂ„ĹšNO DELO</div>
+      <div class="b-stat-label" data-i18n="stat_2_label">ROČNO DELO</div>
       <div class="b-stat-desc" data-i18n="stat_2_desc">Brez serijske proizvodnje. Vsak izdelek je unikat.</div>
      </div>
      <div class="b-stat-card">
       <div class="b-stat-num"><i class="fa-solid fa-compass-drafting"></i></div>
-      <div class="b-stat-label" data-i18n="stat_3_label">PO VAĹ I MERI</div>
-      <div class="b-stat-desc" data-i18n="stat_3_desc">VaÄąË‡a ideja, naÄąË‡a izvedba. Izdelava po CAD/3D naĂ„Ĺ¤rtu.</div>
+      <div class="b-stat-label" data-i18n="stat_3_label">PO VAŠI MERI</div>
+      <div class="b-stat-desc" data-i18n="stat_3_desc">Vaša ideja, naša izvedba. Izdelava po CAD/3D načrtu.</div>
      </div>
      <div class="b-stat-card">
       <div class="b-stat-num">&infin;</div>
-      <div class="b-stat-label" data-i18n="stat_4_label">BREZĂ„ĹšASNOST</div>
+      <div class="b-stat-label" data-i18n="stat_4_label">BREZČASNOST</div>
       <div class="b-stat-desc" data-i18n="stat_4_desc">Marmor vrednost ohranja in jo z leti pridobiva.</div>
      </div>
     </div>
@@ -474,7 +585,7 @@ $html = @"
  <section class="b-section">
   <div class="container">
    <div style="text-align: center; margin-bottom: 28px;">
-    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 12px;" data-i18n="comp_tag">Primerjava kljuĂ„Ĺ¤nih lastnosti in dolgoroĂ„Ĺ¤ne vrednosti</span>
+    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 12px;" data-i18n="comp_tag">Primerjava ključnih lastnosti in dolgoročne vrednosti</span>
     <h2 class="section-title" style="text-align: center;" data-i18n="comp_title">Zakaj vietnamski marmor?</h2>
     <div class="gold-underline" style="margin: 14px auto 0;"></div>
    </div>
@@ -483,7 +594,7 @@ $html = @"
     <div class="b-grid-2" style="margin-bottom: 24px;">
      <div class="b-img-box">
       <a href="https://lapidor.si/#prednosti" target="_blank">
-       <img src="$imgQuarry" alt="NahajaliÄąË‡Ă„Ĺ¤e in roĂ„Ĺ¤na delavnica vietnamskega marmorja">
+       <img src="$imgQuarry" alt="Nahajališče in ročna delavnica vietnamskega marmorja">
       </a>
      </div>
      <div class="b-img-box">
@@ -500,39 +611,39 @@ $html = @"
         <th data-i18n="th_criterion">Kriterij lastnosti</th>
         <th style="color: var(--gold-primary);" data-i18n="th_vietnam">LAPIDOR vietnamski marmor</th>
         <th data-i18n="th_europe">Evropski marmor (Carrara/Calacatta)</th>
-        <th data-i18n="th_composite">TehniĂ„Ĺ¤ni kamen &amp; keramika</th>
+        <th data-i18n="th_composite">Tehnični kamen &amp; keramika</th>
        </tr>
       </thead>
       <tbody>
        <tr>
-        <td><strong data-i18n="row1_title">Ă„Ĺšistost (CaCOĂ˘â€šÂ)</strong></td>
+        <td><strong data-i18n="row1_title">Čistost (CaCO₃)</strong></td>
         <td data-i18n="row1_vietnam"><i class="fa-solid fa-check text-gold"></i> Nad 99 % (Izjemen kristalni sijaj)</td>
-        <td data-i18n="row1_europe">85 Ă˘â‚¬â€ś 95 %</td>
+        <td data-i18n="row1_europe">85 – 95 %</td>
         <td data-i18n="row1_composite">Umetne smole / keramika</td>
        </tr>
        <tr>
         <td><strong data-i18n="row2_title">Poroznost &amp; voda</strong></td>
         <td data-i18n="row2_vietnam"><i class="fa-solid fa-check text-gold"></i> Izjemno nizka (Idealno za SPA in kadi)</td>
-        <td data-i18n="row2_europe">Srednja (ObĂ„Ĺ¤utljiv na tekoĂ„Ĺ¤ine)</td>
+        <td data-i18n="row2_europe">Srednja (Občutljiv na tekočine)</td>
         <td data-i18n="row2_composite">Ne-porozen (Vsebuje veziva)</td>
        </tr>
        <tr>
-        <td><strong data-i18n="row3_title">RoĂ„Ĺ¤na Unikatnost</strong></td>
-        <td data-i18n="row3_vietnam"><i class="fa-solid fa-check text-gold"></i> 100% RoĂ„Ĺ¤ni unikat klesarskega mojstra</td>
+        <td><strong data-i18n="row3_title">Ročna Unikatnost</strong></td>
+        <td data-i18n="row3_vietnam"><i class="fa-solid fa-check text-gold"></i> 100% Ročni unikat klesarskega mojstra</td>
         <td data-i18n="row3_europe">Delno mehanska obdelava</td>
-        <td data-i18n="row3_composite">Industrijski ponavljajoĂ„Ĺ¤i odtis</td>
+        <td data-i18n="row3_composite">Industrijski ponavljajoči odtis</td>
        </tr>
        <tr>
         <td><strong data-i18n="row4_title">Okoljski Odtis</strong></td>
         <td data-i18n="row4_vietnam"><i class="fa-solid fa-check text-gold"></i> 100% Naraven mineral (Brez smol)</td>
         <td data-i18n="row4_europe">100% Naraven marmor</td>
-        <td data-i18n="row4_composite">SintetiĂ„Ĺ¤na polimerna veziva</td>
+        <td data-i18n="row4_composite">Sintetična polimerna veziva</td>
        </tr>
        <tr>
-        <td><strong data-i18n="row5_title">DolgoroĂ„Ĺ¤na Vrednost</strong></td>
-        <td data-i18n="row5_vietnam"><i class="fa-solid fa-check text-gold"></i> Z leti pridobiva patino in prestiÄąÄľ</td>
+        <td><strong data-i18n="row5_title">Dolgoročna Vrednost</strong></td>
+        <td data-i18n="row5_vietnam"><i class="fa-solid fa-check text-gold"></i> Z leti pridobiva patino in prestiž</td>
         <td data-i18n="row5_europe">Ohranja vrednost</td>
-        <td data-i18n="row5_composite">SĂ„Ĺ¤asoma zbledi / se obrabi</td>
+        <td data-i18n="row5_composite">Sčasoma zbledi / se obrabi</td>
        </tr>
       </tbody>
      </table>
@@ -551,8 +662,8 @@ $html = @"
  <section class="b-section">
   <div class="container">
    <div style="text-align: center; margin-bottom: 28px;">
-    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="finishes_tag">OBDELAVE POVRÄąÂ INE</span>
-    <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="finish_title_sec">ÄąÂ TIRI TIPOLOGIJE OBDELAVE POVRÄąÂ INE</h2>
+    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="finishes_tag">OBDELAVE POVRŠINE</span>
+    <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="finish_title_sec">ŠTIRI TIPOLOGIJE OBDELAVE POVRŠINE</h2>
     <div class="gold-underline" style="margin: 14px auto 0;"></div>
    </div>
 
@@ -560,13 +671,13 @@ $html = @"
     <div class="b-cat-card">
      <div class="b-cat-img-wrapper">
       <a href="https://lapidor.si/#obdelava" target="_blank">
-       <img src="$imgBathroom" alt="Polirana povrÄąË‡ina marmorja v kopalnici">
+       <img src="$imgBathroom" alt="Polirana površina marmorja v kopalnici">
       </a>
      </div>
      <div class="b-cat-body">
       <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab1_h">1. Polirana (Polished)</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="finish_tab1_s">
-       Zrcalno gladka povrÄąË‡ina z visokim kristalnim sijajem, ki poudari globlje naravne vzorce in kristalno Ă„Ĺ¤istost.
+       Zrcalno gladka površina z visokim kristalnim sijajem, ki poudari globlje naravne vzorce in kristalno čistost.
       </p>
      </div>
     </div>
@@ -574,13 +685,13 @@ $html = @"
     <div class="b-cat-card">
      <div class="b-cat-img-wrapper">
       <a href="https://lapidor.si/#obdelava" target="_blank">
-       <img src="$imgSink" alt="BruÄąË‡ena mat povrÄąË‡ina marmornega umivalnika">
+       <img src="$imgSink" alt="Brušena mat površina marmornega umivalnika">
       </a>
      </div>
      <div class="b-cat-body">
-      <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab2_h">2. BruÄąË‡ena mat (Honed)</h3>
+      <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab2_h">2. Brušena mat (Honed)</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="finish_tab2_s">
-       Svilnato matirana povrÄąË‡ina z mehkih otipom in brez moĂ„Ĺ¤nih odsevov. Izjemno elegantna in praktiĂ„Ĺ¤na za uporabo.
+       Svilnato matirana površina z mehkih otipom in brez močnih odsevov. Izjemno elegantna in praktična za uporabo.
       </p>
      </div>
     </div>
@@ -588,13 +699,13 @@ $html = @"
     <div class="b-cat-card">
      <div class="b-cat-img-wrapper">
       <a href="https://lapidor.si/#obdelava" target="_blank">
-       <img src="$imgChiseled" alt="RoĂ„Ĺ¤no klesana tekstura marmorne skulpture">
+       <img src="$imgChiseled" alt="Ročno klesana tekstura marmorne skulpture">
       </a>
      </div>
      <div class="b-cat-body">
-      <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab3_h">3. RoĂ„Ĺ¤no klesana (Chiseled)</h3>
+      <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab3_h">3. Ročno klesana (Chiseled)</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="finish_tab3_s">
-       Izrazita klesarska tekstura, ki poudari avtentiĂ„Ĺ¤nost naravnega marmorja in pristno mojstrsko roĂ„Ĺ¤no obdelavo z dletom.
+       Izrazita klesarska tekstura, ki poudari avtentičnost naravnega marmorja in pristno mojstrsko ročno obdelavo z dletom.
       </p>
      </div>
     </div>
@@ -602,13 +713,13 @@ $html = @"
     <div class="b-cat-card">
      <div class="b-cat-img-wrapper">
       <a href="https://lapidor.si/#obdelava" target="_blank">
-       <img src="$imgHotel" alt="KrtaĂ„Ĺ¤ena Antique povrÄąË‡ina marmorne opreme">
+       <img src="$imgHotel" alt="Krtačena Antique površina marmorne opreme">
       </a>
      </div>
      <div class="b-cat-body">
-      <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab4_h">4. KrtaĂ„Ĺ¤ena / Antique (Brushed)</h3>
+      <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="finish_tab4_h">4. Krtačena / Antique (Brushed)</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="finish_tab4_s">
-       NeÄąÄľno reliefna povrÄąË‡ina z vintage videzom, ki ohranja naravni znaĂ„Ĺ¤aj marmorja in zagotavlja prijeten otip.
+       Nežno reliefna površina z vintage videzom, ki ohranja naravni značaj marmorja in zagotavlja prijeten otip.
       </p>
      </div>
     </div>
@@ -622,11 +733,11 @@ $html = @"
   </div>
  </section>
 
- <!-- SECTION 4: PODROĂ„ĹšJA UPORABE Z REALNIMI SLIKAMI -->
+ <!-- SECTION 4: PODROČJA UPORABE Z REALNIMI SLIKAMI -->
  <section class="b-section">
   <div class="container">
    <div style="text-align: center; margin-bottom: 28px;">
-    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="b_sec_apps_tag">PODROĂ„ĹšJA UPORABE</span>
+    <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="b_sec_apps_tag">PODROČJA UPORABE</span>
     <h2 class="section-title" style="text-align: center; text-transform: uppercase;" data-i18n="b_sec_apps_title">ARHITEKTURNE APLIKACIJE IN KOLEKCIJE</h2>
     <div class="gold-underline" style="margin: 14px auto 0;"></div>
    </div>
@@ -641,7 +752,7 @@ $html = @"
      <div class="b-cat-body">
       <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="cat_living"><i class="fa-solid fa-house-chimney"></i> BIVALNI PROSTORI</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app1_desc">
-       PrestiĹľne rezidence, privatne kopalnice, dnevni saloni ter unikatni masivni kosi opreme po meri zahtevnih naroĂ„Ĺ¤nikov.
+       Prestižne rezidence, privatne kopalnice, dnevni saloni ter unikatni masivni kosi opreme po meri zahtevnih naročnikov.
       </p>
       <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
      </div>
@@ -656,7 +767,7 @@ $html = @"
      <div class="b-cat-body">
       <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="cat_wellness"><i class="fa-solid fa-hot-tub-person"></i> WELLNESS &amp; SPA</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app2_desc">
-       Namenjeno prostori za regeneracijo. Izjemno nizka poroznost omogoĂ„Ĺ¤a trajno uporabo pri bazenskih robovih, savnah in recepcijah.
+       Namenjeno prostori za regeneracijo. Izjemno nizka poroznost omogoča trajno uporabo pri bazenskih robovih, savnah in recepcijah.
       </p>
       <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
      </div>
@@ -671,7 +782,7 @@ $html = @"
      <div class="b-cat-body">
       <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="cat_art"><i class="fa-solid fa-palette"></i> UMETNOST V MARMORJU</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app3_desc">
-       Unikatne kiparske stvaritve Ă˘â‚¬â€ś od doprsnih figur in portretov do sodobne abstrakcije ter zunanjih vrtnih skulptur.
+       Unikatne kiparske stvaritve – od doprsnih figur in portretov do sodobne abstrakcije ter zunanjih vrtnih skulptur.
       </p>
       <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
      </div>
@@ -686,7 +797,7 @@ $html = @"
      <div class="b-cat-body">
       <h3 style="color: var(--gold-primary); font-size: 1.25rem;" data-i18n="cat_sacred"><i class="fa-solid fa-church"></i> SAKRALNA ARHITEKTURA</h3>
       <p style="font-size: 0.9rem; margin-top: 8px;" data-i18n="b_app4_desc">
-       RoĂ„Ĺ¤no klesane sakralne plastike, spomeniki, oltarji in verski simboli po natanĂ„Ĺ¤nih naĂ„Ĺ¤rtih ali skicah naroĂ„Ĺ¤nika.
+       Ročno klesane sakralne plastike, spomeniki, oltarji in verski simboli po natančnih načrtih ali skicah naročnika.
       </p>
       <a href="https://lapidor.si/#nasiizdelki" class="b-link-badge" target="_blank" data-i18n="b_link_view_collection">Ogled kolekcije &rarr;</a>
      </div>
@@ -1535,19 +1646,19 @@ $html = @"
  <!-- CTA / CONTACT SECTION WITH ACTIVE LINKS -->
  <section class="b-section text-center" style="background: var(--bg-dark-accent); color: #ffffff;">
   <div class="container">
-   <span class="section-tag" style="color: var(--gold-light);" data-i18n="b_cta_tag">VAĹ  PROJEKT, NAĹ A IZVEDBA</span>
-   <h2 class="section-title" style="color: #ffffff;" data-i18n="b_cta_title">NaroĂ„Ĺ¤ite Vzorce ali PoÄąË‡ljite PovpraÄąË‡evanje</h2>
+   <span class="section-tag" style="color: var(--gold-light);" data-i18n="b_cta_tag">VAŠ PROJEKT, NAŠA IZVEDBA</span>
+   <h2 class="section-title" style="color: #ffffff;" data-i18n="b_cta_title">Naročite Vzorce ali Pošljite Povpraševanje</h2>
    <div class="gold-underline" style="margin: 12px auto 24px;"></div>
    <p style="color: rgba(255,255,255,0.85); max-width: 680px; margin: 0 auto 32px; font-size: 1.1rem;" data-i18n="b_cta_desc">
-    Pripravimo vam vzorce naravnega marmorja, ponudbo po vaÄąË‡em naĂ„Ĺ¤rtu ter strokovno svetovanje.
+    Pripravimo vam vzorce naravnega marmorja, ponudbo po vašem načrtu ter strokovno svetovanje.
    </p>
 
    <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
     <a href="https://lapidor.si/#vzorci" class="btn btn-gold btn-lg" target="_blank" data-i18n="top_inquiry">
-     <i class="fa-solid fa-paper-plane"></i> POĹ LJI POVPRAĹ EVANJE (lapidor.si/#vzorci)
+     <i class="fa-solid fa-paper-plane"></i> POŠLJI POVPRAŠEVANJE
     </a>
     <a href="assets/LAPIDOR_Ekskluzivna_Brosura.pdf" download class="btn btn-outline-gold btn-lg" style="color: #ffffff; border-color: #ffffff;" data-i18n="btn_download_pdf">
-     <i class="fa-solid fa-file-pdf"></i> PRENESI PDF BROÄąÂ URO
+     <i class="fa-solid fa-file-pdf"></i> PRENESI PDF BROŠURO
     </a>
    </div>
 
@@ -1566,21 +1677,21 @@ $html = @"
    <a href="https://lapidor.si/">
     <img src="$logoPath" alt="LAPIDOR Logo" class="footer-logo-img" style="margin: 0 auto 16px;">
    </a>
-   <p style="font-size: 0.9rem;" data-i18n="footer_sub">RoĂ„Ĺ¤no izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
+   <p style="font-size: 0.9rem;" data-i18n="footer_sub">Ročno izdelani unikatni izdelki iz naravnega vietnamskega marmorja.</p>
    <p style="color: var(--gold-primary); font-style: italic; font-family: var(--font-serif); margin-top: 10px;" data-i18n="footer_quote">"Narava ustvarja edinstvenost. Mi jo pomagamo izraziti."</p>
-   <p style="margin-top: 20px; font-size: 0.85rem; color: var(--text-muted);" data-i18n="footer_copy">&copy; 2026 LAPIDOR. Vse pravice pridrÄąÄľane. Izdelava: Promoscentia d.o.o.</p>
+   <p style="margin-top: 20px; font-size: 0.85rem; color: var(--text-muted);" data-i18n="footer_copy">&copy; 2026 LAPIDOR. Vse pravice pridržane. Izdelava: Promoscentia d.o.o.</p>
   </div>
  </footer>
 
  <!-- Floating Quick Contact Widget -->
  <div class="floating-contact-widget">
-  <a href="tel:+38631529003" class="float-btn float-phone" title="PokliĂ„Ĺ¤ite nas +386 (0)31 529 003">
+  <a href="tel:+38631529003" class="float-btn float-phone" title="Pokličite nas +386 (0)31 529 003">
    <i class="fa-solid fa-phone"></i>
    <span class="float-tooltip" data-i18n="float_call">KLIC: +386 (0)31 529 003</span>
   </a>
-  <a href="https://lapidor.si/#vzorci" class="float-btn float-inquiry" title="PoÄąË‡lji povpraÄąË‡evanje" target="_blank">
+  <a href="https://lapidor.si/#vzorci" class="float-btn float-inquiry" title="Pošlji povpraševanje" target="_blank">
    <i class="fa-solid fa-paper-plane"></i>
-   <span class="float-tooltip" data-i18n="float_inquiry">HITRO POVPRAĹ EVANJE</span>
+   <span class="float-tooltip" data-i18n="float_inquiry">HITRO POVPRAŠEVANJE</span>
   </a>
  </div>
 
