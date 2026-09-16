@@ -1,4 +1,4 @@
-﻿$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
+$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
 $data = $jsonRaw | ConvertFrom-Json
 
 function Get-ImgSrc {
@@ -260,39 +260,6 @@ $html = @"
       border-radius: 20px;
       font-weight: 600;
       font-size: 0.88rem;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      margin-top: 16px;
-    }
-
-    .b-link-badge:hover {
-      background: var(--gold-primary);
-      color: #ffffff;
-      transform: translateY(-2px);
-    }
-
-    .b-cat-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 24px;
-      margin-top: 28px;
-    }
-
-    .b-cat-card {
-      background: #ffffff;
-      border: 1px solid var(--border-gold);
-      }
-      .b-cover {
-        background: #121417 !important;
-        color: #ffffff !important;
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-        padding: 50px 20px !important;
-        page-break-after: always;
-        break-after: page;
-      }
-      .b-cover-hero-img {
-        height: 280px !important;
         max-width: 100% !important;
       }
             .b-gallery-grid {
