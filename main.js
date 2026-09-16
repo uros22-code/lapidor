@@ -196,7 +196,7 @@ const i18n = {
     b_sec_fountains_tag: "ARHITEKTURNI VODNJAKI IN EKSKLUZIVNA OPREMA",
     b_sec_fountains_title: "MASIVNI MARMORNI VODNJAKI IN RECEPCIJE",
     b_cta_tag: "VAŠ PROJEKT, NAŠA IZVEDBA",
-    b_cta_title: "Naročite Vzorce ali Pošljite Povpraševanje",
+    b_cta_title: "Veselimo se vašega povpraševanja",
     b_cta_desc: "Pripravimo vam vzorce naravnega marmorja, ponudbo po vašem načrtu ter strokovno svetovanje.",
     b_gal_title: "FOTOGALERIJA LE NEKAJ UNIKATNIH LAPIDOR IZDELKOV",
     b_gal_desc: "Vsak izdelek je izdelan po meri, skladno z željami, prostorom in vizijo naročnika.",
