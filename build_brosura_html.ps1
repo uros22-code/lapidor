@@ -484,6 +484,10 @@ $html = @"
     page-break-before: always !important;
     break-before: page !important;
    }
+   .pdf-page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+   }
    .b-stat-card {
     padding: 14px 10px !important;
    }
@@ -671,7 +675,7 @@ $html = @"
  </section>
 
  <!-- SECTION 2: PRIMERJALNA ANALIZA IN DELAVNICA -->
- <section class="b-section">
+ <section class="b-section pdf-page-break">
   <div class="container">
    <div style="text-align: center; margin-bottom: 28px;">
     <span class="section-tag" style="display: block; text-align: center; margin-bottom: 12px;" data-i18n="comp_tag">Primerjava ključnih lastnosti in dolgoročne vrednosti</span>
