@@ -84,7 +84,7 @@ $html = @"
   }
 
   .b-cover-logo {
-   max-width: 220px;
+   max-width: 380px;
    height: auto;
    margin: 0 auto 20px;
    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
@@ -105,10 +105,11 @@ $html = @"
   .b-cover-subtitle {
    color: var(--gold-primary);
    font-family: var(--font-serif);
-   font-size: 1.4rem;
-   letter-spacing: 0.12em;
+   font-size: 2.6rem;
+   font-weight: 600;
+   letter-spacing: 0.15em;
    text-transform: uppercase;
-   margin-bottom: 8px;
+   margin-bottom: 12px;
   }
 
   .b-cover-title {
@@ -391,12 +392,12 @@ $html = @"
     break-inside: avoid !important;
    }
    .b-cover-logo {
-    max-width: 170px !important;
-    margin-bottom: 12px !important;
+    max-width: 280px !important;
+    margin-bottom: 14px !important;
    }
    .b-cover-subtitle {
-    font-size: 1.1rem !important;
-    margin-bottom: 6px !important;
+    font-size: 1.8rem !important;
+    margin-bottom: 8px !important;
    }
    .b-cover-title {
     font-size: 2.2rem !important;
