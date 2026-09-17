@@ -1646,8 +1646,8 @@ $html = @"
  <!-- CTA / CONTACT SECTION WITH ACTIVE LINKS -->
  <section class="b-section text-center" style="background: var(--bg-dark-accent); color: #ffffff;">
   <div class="container">
-   <span class="section-tag" style="color: var(--gold-light);" data-i18n="b_cta_tag">VAŠ PROJEKT, NAŠA IZVEDBA</span>
-   <h2 class="section-title" style="color: #ffffff;" data-i18n="b_cta_title">Naročite Vzorce ali Pošljite Povpraševanje</h2>
+   <span class="section-tag" style="color: var(--gold-light); display: block; margin-bottom: 8px;" data-i18n="b_cta_tag">VAŠ PROJEKT, NAŠA IZVEDBA</span>
+   <h2 class="section-title" style="color: #ffffff;" data-i18n="b_cta_title">Veselimo se vašega povpraševanja</h2>
    <div class="gold-underline" style="margin: 12px auto 24px;"></div>
    <p style="color: rgba(255,255,255,0.85); max-width: 680px; margin: 0 auto 32px; font-size: 1.1rem;" data-i18n="b_cta_desc">
     Pripravimo vam vzorce naravnega marmorja, ponudbo po vašem načrtu ter strokovno svetovanje.
