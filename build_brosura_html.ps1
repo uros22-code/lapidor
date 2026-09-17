@@ -1,4 +1,4 @@
-$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
+﻿$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
 $data = $jsonRaw | ConvertFrom-Json
 
 function Get-ImgSrc {
