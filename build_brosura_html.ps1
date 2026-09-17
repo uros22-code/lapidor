@@ -1,4 +1,4 @@
-﻿$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
+$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
 $data = $jsonRaw | ConvertFrom-Json
 
 function Get-ImgSrc {
@@ -361,7 +361,7 @@ $html = @"
   @media print {
    @page {
     size: A4 portrait;
-    margin: 1.2cm 1cm;
+    margin: 1cm 0.8cm;
    }
    .top-bar, .main-header, .floating-contact-widget, .b-actions, .main-footer, .toast {
     display: none !important;
@@ -377,43 +377,129 @@ $html = @"
     color: #ffffff !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
-    padding: 50px 20px !important;
-    page-break-after: always;
-    break-after: page;
+    padding: 30px 15px !important;
+    margin: 0 !important;
+    min-height: calc(100vh - 2cm);
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+    page-break-after: always !important;
+    break-after: page !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+   }
+   .b-cover-logo {
+    max-width: 170px !important;
+    margin-bottom: 12px !important;
+   }
+   .b-cover-subtitle {
+    font-size: 1.1rem !important;
+    margin-bottom: 6px !important;
+   }
+   .b-cover-title {
+    font-size: 2.2rem !important;
+    margin-bottom: 12px !important;
    }
    .b-cover-hero-img {
-    height: 280px !important;
+    height: 240px !important;
     max-width: 100% !important;
+    margin: 14px auto !important;
+   }
+   .b-cover-slogan {
+    font-size: 1.1rem !important;
+    margin-bottom: 0 !important;
    }
    .b-section {
-    padding: 30px 0 !important;
-    page-break-inside: avoid;
-    break-inside: avoid;
+    padding: 20px 0 !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
     border-bottom: 1px solid rgba(184, 139, 42, 0.2) !important;
    }
-   .b-card, .b-cat-card, .b-gallery-card {
-    padding: 20px !important;
+   .b-card {
+    padding: 18px !important;
+    margin-top: 14px !important;
     box-shadow: none !important;
     border: 1px solid #d4af37 !important;
-    page-break-inside: avoid;
-    break-inside: avoid;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+   }
+   h1, h2, h3, .section-title, .section-tag {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
    }
    .b-img-box {
-    height: 200px !important;
-   }
-   .b-cat-img-wrapper {
-    height: 190px !important;
-   }
-   .b-gallery-img-box {
-    height: 190px !important;
-   }
-   .b-gallery-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 16px !important;
+    height: 180px !important;
    }
    .b-cat-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 20px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 16px !important;
+    margin-top: 18px !important;
+   }
+   .b-cat-card {
+    width: calc(50% - 8px) !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    border: 1px solid #d4af37 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+   }
+   .b-cat-img-wrapper {
+    height: 160px !important;
+   }
+   .b-cat-body {
+    padding: 14px !important;
+   }
+   .b-gallery-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    margin-top: 18px !important;
+   }
+   .b-gallery-card {
+    width: calc(33.333% - 8px) !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    border: 1px solid #d4af37 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+   }
+   .b-gallery-img-box {
+    height: 150px !important;
+   }
+   .b-gallery-caption {
+    padding: 10px 8px !important;
+    font-size: 0.8rem !important;
+   }
+   .b-stat-box {
+    margin-top: 18px !important;
+    gap: 12px !important;
+   }
+   .b-stat-card {
+    padding: 14px 10px !important;
+   }
+   .b-stat-num {
+    font-size: 2rem !important;
+   }
+   .b-stat-label, .b-stat-desc {
+    font-size: 0.75rem !important;
+   }
+   .b-quote-box {
+    padding: 16px 20px !important;
+    margin: 16px 0 !important;
+   }
+   .b-quote-text {
+    font-size: 1.05rem !important;
+   }
+   .b-table th, .b-table td {
+    padding: 8px 10px !important;
+    font-size: 0.82rem !important;
    }
    a {
     text-decoration: none !important;
