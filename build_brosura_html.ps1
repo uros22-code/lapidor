@@ -656,6 +656,54 @@ $html = @"
      </div>
     </div>
 
+    <!-- PREDNOSTI SODELOVANJA Z NAMI -->
+    <div style="margin-top: 36px; margin-bottom: 36px; border-top: 1px solid rgba(184, 139, 42, 0.2); padding-top: 28px;">
+     <h3 class="section-title" style="color: var(--gold-primary); font-size: 1.6rem; text-align: center; margin-bottom: 16px;" data-i18n="benefits_title">PREDNOSTI SODELOVANJA Z NAMI</h3>
+     <div class="gold-underline" style="margin: 0 auto 24px;"></div>
+
+     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;" class="b-benefits-grid">
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: rgba(184, 139, 42, 0.03); padding: 18px; border-radius: var(--radius-sm); border: 1px solid rgba(184, 139, 42, 0.15);">
+       <i class="fa-solid fa-compass-drafting text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+       <div>
+        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" data-i18n="b1_h">Unikatna izdelava po meri</h4>
+        <p style="font-size: 0.88rem; line-height: 1.5; color: var(--text-muted);" data-i18n="b1_p">
+         Vsak projekt nastaja po željah naročnika – od prve ideje do končnega izdelka. Naši mojstri iz naravnega marmorja ustvarjajo rešitve, ki jih ni mogoče ponoviti.
+        </p>
+       </div>
+      </div>
+
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: rgba(184, 139, 42, 0.03); padding: 18px; border-radius: var(--radius-sm); border: 1px solid rgba(184, 139, 42, 0.15);">
+       <i class="fa-solid fa-hammer text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+       <div>
+        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" data-i18n="b2_h">Ročno mojstrstvo brez serijske proizvodnje</h4>
+        <p style="font-size: 0.88rem; line-height: 1.5; color: var(--text-muted);" data-i18n="b2_p">
+         Vsak kos je rezultat natančnega ročnega dela, izkušenj in spoštovanja do naravnega marmorja. Pravi značaj marmorja se razkrije skozi roke mojstra.
+        </p>
+       </div>
+      </div>
+
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: rgba(184, 139, 42, 0.03); padding: 18px; border-radius: var(--radius-sm); border: 1px solid rgba(184, 139, 42, 0.15);">
+       <i class="fa-solid fa-gem text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+       <div>
+        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" data-i18n="b3_h">Vrhunski vietnamski marmor</h4>
+        <p style="font-size: 0.88rem; line-height: 1.5; color: var(--text-muted);" data-i18n="b3_p">
+         S skrbno izbranimi materiali in preverjenimi partnerji zagotavljamo izjemno kakovost naravnega marmorja z edinstveno strukturo in značajem.
+        </p>
+       </div>
+      </div>
+
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: rgba(184, 139, 42, 0.03); padding: 18px; border-radius: var(--radius-sm); border: 1px solid rgba(184, 139, 42, 0.15);">
+       <i class="fa-solid fa-handshake-angle text-gold" style="font-size: 1.4rem; margin-top: 4px; flex-shrink: 0;"></i>
+       <div>
+        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" data-i18n="b4_h">Celovita podpora od ideje do izvedbe</h4>
+        <p style="font-size: 0.88rem; line-height: 1.5; color: var(--text-muted);" data-i18n="b4_p">
+         Arhitektom, oblikovalcem in zasebnim naročnikom pomagamo pri izbiri materiala, oblikovanju rešitve, izdelavi in končni izvedbi projekta.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+
     <!-- 4 Stat Cards -->
     <div class="b-stat-box">
      <div class="b-stat-card">
