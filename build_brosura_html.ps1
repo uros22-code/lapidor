@@ -836,7 +836,7 @@ $html = @"
  </section>
 
  <!-- SECTION 4: PODROČJA UPORABE Z REALNIMI SLIKAMI -->
- <section class="b-section">
+ <section class="b-section pdf-page-break">
   <div class="container">
    <div style="text-align: center; margin-bottom: 28px;">
     <span class="section-tag" style="display: block; text-align: center; margin-bottom: 8px;" data-i18n="b_sec_apps_tag">PODROČJA UPORABE</span>
