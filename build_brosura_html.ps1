@@ -373,7 +373,7 @@ $html = @"
     size: A4 portrait;
     margin: 1cm 0.8cm;
    }
-   .top-bar, .main-header, .floating-contact-widget, .b-actions, .main-footer, .toast {
+   .top-bar, .main-header, .floating-contact-widget, .b-actions, .main-footer, .toast, .no-print {
     display: none !important;
    }
    body, .b-page {
@@ -693,7 +693,7 @@ $html = @"
    </div>
 
    <div class="b-card">
-    <div class="b-grid-2" style="margin-bottom: 24px;">
+    <div class="b-grid-2 no-print" style="margin-bottom: 24px;">
      <div class="b-img-box">
       <a href="https://lapidor.si/#prednosti" target="_blank">
        <img src="$imgQuarry" alt="Nahajališče in ročna delavnica vietnamskega marmorja">
