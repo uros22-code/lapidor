@@ -1,4 +1,4 @@
-$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
+﻿$jsonRaw = Get-Content "C:\Users\urosv\Desktop\LAPIDOR\assets\brosura_base64.json" -Raw -Encoding UTF8
 $data = $jsonRaw | ConvertFrom-Json
 
 function Get-ImgSrc {
@@ -47,7 +47,7 @@ $html = @"
 
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Ekskluzivna Prestižna Brošura LAPIDOR | Naravni Vietnamski Marmor</title>
+ <title>LAPIDOR brošura | Naravni Vietnamski Marmor</title>
  <meta name="description" content="Uradna prestižna brošura blagovne znamke LAPIDOR. Odkrijte naravni vietnamski marmor, ročno obdelavo, bivalne prostore, wellness in umetnost v marmorju.">
  <meta name="author" content="PROMOSCENTIA d.o.o.">
  <meta name="robots" content="index, follow">
