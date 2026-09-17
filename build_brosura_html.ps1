@@ -1650,7 +1650,7 @@ $html = @"
    <h2 class="section-title" style="color: #ffffff;" data-i18n="b_cta_title">Veselimo se vašega povpraševanja</h2>
    <div class="gold-underline" style="margin: 12px auto 24px;"></div>
    <p style="color: rgba(255,255,255,0.85); max-width: 680px; margin: 0 auto 32px; font-size: 1.1rem;" data-i18n="b_cta_desc">
-    Pripravimo vam vzorce naravnega marmorja, ponudbo po vašem načrtu ter strokovno svetovanje.
+    Vabimo vas, da nam pošljete povpraševanje in skupaj poiščimo pravo rešitev za vaš projekt.
    </p>
 
    <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
