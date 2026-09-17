@@ -130,6 +130,15 @@ $html = @"
    margin: 0 auto 28px;
   }
 
+  .btn-gold, a.btn-gold, a.btn-gold:link, a.btn-gold:visited {
+   background: var(--gold-primary) !important;
+   color: #ffffff !important;
+   text-decoration: none !important;
+  }
+  .btn-gold *, a.btn-gold * {
+   color: #ffffff !important;
+  }
+
   .b-section:nth-child(even) {
    background-color: #ffffff;
   }
