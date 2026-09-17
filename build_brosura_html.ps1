@@ -481,6 +481,8 @@ $html = @"
    .b-stat-box {
     margin-top: 18px !important;
     gap: 12px !important;
+    page-break-before: always !important;
+    break-before: page !important;
    }
    .b-stat-card {
     padding: 14px 10px !important;
