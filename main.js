@@ -208,7 +208,11 @@ const i18n = {
   b_gal6_cap: "Ekskluzivni recepcijski pult iz masivnega vietnamskega marmorja",
   b_gal7_cap: "Stenske in talne obloge iz naravnega kristalnega marmorja",
   b_gal8_cap: "Unikatna kopalniška oprema z ročno obdelavo po meri",
-  b_gal9_cap: "Sakralna plastika in reliefi iz naravnega masivnega marmorja"
+  b_gal9_cap: "Sakralna plastika in reliefi iz naravnega masivnega marmorja",
+  cookie_title: "Nastavitve piškotkov in zasebnost",
+  cookie_desc: "Naša spletna stran uporablja piškotke za zagotavljanje boljše uporabniške izkušnje, analitiko obiska ter delovanje spletnih storitev. Za več informacij preberite naše <a href=\"pravno-obvestilo.html\" style=\"color: var(--gold-light); text-decoration: underline;\">Pravno obvestilo in politiko zasebnosti</a>.",
+  cookie_btn_essential: "Samo nujni piškotki",
+  cookie_btn_accept: "Sprejmi vse"
  },
  en: {
   top_announcement: "Handcrafted unique products made of natural Vietnamese marble.",
@@ -415,7 +419,11 @@ const i18n = {
   b_gal6_cap: "Exclusive reception desk in solid Vietnamese marble",
   b_gal7_cap: "Wall and floor coverings in natural crystal marble",
   b_gal8_cap: "Bespoke handcrafted bathroom equipment",
-  b_gal9_cap: "Sacral sculptures and reliefs in natural solid marble"
+  b_gal9_cap: "Sacral sculptures and reliefs in natural solid marble",
+  cookie_title: "Cookie Settings & Privacy",
+  cookie_desc: "Our website uses cookies to ensure optimal user experience, traffic analytics, and essential site services. Read our <a href=\"pravno-obvestilo.html\" style=\"color: var(--gold-light); text-decoration: underline;\">Privacy Policy & Legal Notice</a> for more information.",
+  cookie_btn_essential: "Essential Only",
+  cookie_btn_accept: "Accept All"
  },
  hr: {
   top_announcement: "Ručno izrađeni unikatni proizvodi od prirodnog vijetnamskog mramora.",
@@ -622,7 +630,11 @@ const i18n = {
   b_gal6_cap: "Ekskluzivni recepcijski pult od masivnog vijetnamskog mramora",
   b_gal7_cap: "Zidne i podne obloge od prirodnog kristalnog mramora",
   b_gal8_cap: "Unikatna kupaonska oprema s ručnom obradom po mjeri",
-  b_gal9_cap: "Sakralna plastika i reljefi od prirodnog masivnog mramora"
+  b_gal9_cap: "Sakralna plastika i reljefi od prirodnog masivnog mramora",
+  cookie_title: "Postavke kolačića i privatnost",
+  cookie_desc: "Naša web stranica koristi kolačiće za pružanje boljeg korisničkog iskustva, analitiku posjeta i rad web usluga. Za više informacija pročitajte našu <a href=\"pravno-obvestilo.html\" style=\"color: var(--gold-light); text-decoration: underline;\">Politiku privatnosti i pravnu obavijest</a>.",
+  cookie_btn_essential: "Samo nužni kolačići",
+  cookie_btn_accept: "Prihvati sve"
  },
  el: {
   top_announcement: "Χειροποίητα μοναδικά προϊόντα από φυσικό μάρμαρο Βιετνάμ.",
@@ -847,7 +859,11 @@ const i18n = {
   b_gal6_cap: "Αποκλειστική ρεσεψιόν από συμπαγές μάρμαρο Βιετνάμ",
   b_gal7_cap: "Επενδύσεις τοίχων και δαπέδων από φυσικό κρυσταλλικό μάρμαρο",
   b_gal8_cap: "Χειροποίητος προσαρμοσμένος εξοπλισμός μπάνιου",
-  b_gal9_cap: "Ιερά γλυπτά και ανάγλυφα από φυσικό συμπαγές μάρμαρο"
+  b_gal9_cap: "Ιερά γλυπτά και ανάγλυφα από φυσικό συμπαγές μάρμαρο",
+  cookie_title: "\u03A1\u03C5\u03B8\u03BC\u03AF\u03C3\u03B5\u03B9\u03C3 Cookie & \u0399\u03B4\u03B9\u03C9\u03C4\u03B9\u03BA\u03CC\u03C4\u03B7\u03C4\u03B1",
+  cookie_desc: "\u039F \u03B9\u03C3\u03C4\u03CC\u03C0\u03BF\u03C0\u03CC\u03C2 \u03BC\u03B1\u03C2 \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03B5\u03AE cookies \u03B3\u03B9\u03B1 \u03C4\u03B7 \u03B2\u03B5\u03BB\u03C4\u03AF\u03C9\u03C3\u03B7 \u03C4\u03B7\u03C2 \u03B5\u03BC\u03C0\u03B5\u03B9\u03C1\u03AF\u03B1\u03C2 \u03C7\u03C1\u03AE\u03C3\u03C4\u03B7, \u03C4\u03B7\u03BD \u03B1\u03BD\u03AC\u03BB\u03C5\u03C3\u03B7 \u03B5\u03C0\u03B9\u03C3\u03BA\u03B5\u03B9\u03BC\u03CC\u03C4\u03B7\u03C4\u03B1\u03C2 \u03BA\u03B1\u03B9 \u03C4\u03B7 \u03BB\u03B5\u03B9\u03C4\u03BF\u03C5\u03C1\u03B3\u03AF\u03B1 \u03C4\u03C9\u03BD \u03C5\u03C0\u03B7\u03C1\u03B5\u03C3\u03B9\u03CE\u03BD \u03BC\u03B1\u03C2. \u0394\u03B9\u03B1\u03B2\u03AC\u03C3\u03C4\u03B5 \u03C4\u03B7\u03BD <a href=\"pravno-obvestilo.html\" style=\"color: var(--gold-light); text-decoration: underline;\">\u03A0\u03BF\u03BB\u03B9\u03C4\u03B9\u03BA\u03AE \u0391\u03C0\u03BF\u03A1\u03A1\u03AE\u03C4\u03BF\u03C5</a> \u03B3\u03B9\u03B1 \u03C0\u03B5\u03C1\u03B9\u03C3\u03C3\u03CC\u03C4\u03B5\u03C1\u03B5\u03C2 \u03C0\u03BB\u03B7\u03C1\u03BF\u03C6\u03BF\u03C1\u03AF\u03B5\u03C2.",
+  cookie_btn_essential: "\u039C\u03CC\u03BD\u03BF \u03B1\u03C0\u03B1\u03B1\u03AF\u03C4\u03B7\u03C4\u03B1",
+  cookie_btn_accept: "\u0391\u03C0\u03BF\u03B4\u03BF\u03C7\u03AE \u03CC\u03BB\u03C9\u03BD"
  }
 };
 
@@ -868,6 +884,7 @@ document.addEventListener('DOMContentLoaded', () => {
  initFormSubmissions();
  initScrollEffects();
  initGallerySlider();
+ initCookieBanner();
 });
 
 /* --------------------------------------------------
@@ -1564,4 +1581,38 @@ function initGallerySlider() {
   });
  });
 }
+
+/* --------------------------------------------------
+ * 18. EU GDPR Cookie Consent Banner Engine
+ * -------------------------------------------------- */
+function initCookieBanner() {
+ const banner = document.getElementById('cookie-banner');
+ const acceptBtn = document.getElementById('cookie-btn-accept');
+ const essentialBtn = document.getElementById('cookie-btn-essential');
+
+ if (!banner) return;
+
+ const consent = localStorage.getItem('lapidor_cookie_consent');
+
+ if (!consent) {
+  setTimeout(() => {
+   banner.classList.add('show');
+  }, 1000);
+ }
+
+ if (acceptBtn) {
+  acceptBtn.addEventListener('click', () => {
+   localStorage.setItem('lapidor_cookie_consent', 'all');
+   banner.classList.remove('show');
+  });
+ }
+
+ if (essentialBtn) {
+  essentialBtn.addEventListener('click', () => {
+   localStorage.setItem('lapidor_cookie_consent', 'essential');
+   banner.classList.remove('show');
+  });
+ }
+}
+
 
