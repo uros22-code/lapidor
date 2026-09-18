@@ -45,43 +45,87 @@
  <meta name="geo.position" content="46.236;15.267">
  <meta name="ICBM" content="46.236, 15.267">
 
- <!-- Schema.org JSON-LD Structured Data for Google -->
+ <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
  <script type="application/ld+json">
  {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "LAPIDOR - Promoscentia d.o.o.",
-  "image": "https://lapidor.si/assets/lapidor_logo_final_v6.png",
-  "@id": "https://lapidor.si/#organization",
-  "url": "https://lapidor.si/",
-  "telephone": "+38631529003",
-  "email": "info@lapidor.si",
-  "address": {
-   "@type": "PostalAddress",
-   "streetAddress": "Mariborska cesta 86",
-   "addressLocality": "Celje",
-   "postalCode": "3000",
-   "addressCountry": "SI"
-  },
-  "geo": {
-   "@type": "GeoCoordinates",
-   "latitude": 46.236,
-   "longitude": 15.267
-  },
-  "openingHoursSpecification": {
-   "@type": "OpeningHoursSpecification",
-   "dayOfWeek": [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday"
-   ],
-   "opens": "08:00",
-   "closes": "16:00"
-  },
-  "sameAs": [],
-  "description": "Ekskluzivni uvoz in distribucija unikatnega naravnega vietnamskega marmorja z visoko stopnjo ročne obdelave klesarskih mojstrov."
+   "@context": "https://schema.org",
+   "@graph": [
+     {
+       "@type": "LocalBusiness",
+       "@id": "https://lapidor.si/#organization",
+       "name": "LAPIDOR - Promoscentia d.o.o.",
+       "legalName": "PROMOSCENTIA d.o.o.",
+       "image": "https://lapidor.si/assets/lapidor_logo_final_v6.png",
+       "url": "https://lapidor.si/",
+       "telephone": "+38631529003",
+       "email": "info@lapidor.si",
+       "priceRange": "€€€€",
+       "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "Mariborska cesta 86",
+         "addressLocality": "Celje",
+         "postalCode": "3000",
+         "addressCountry": "SI"
+       },
+       "geo": {
+         "@type": "GeoCoordinates",
+         "latitude": 46.236,
+         "longitude": 15.267
+       },
+       "openingHoursSpecification": {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+           "Monday",
+           "Tuesday",
+           "Wednesday",
+           "Thursday",
+           "Friday"
+         ],
+         "opens": "08:00",
+         "closes": "16:00"
+       },
+       "description": "Ekskluzivni uvoz in distribucija unikatnega naravnega vietnamskega marmorja z visoko stopnjo ročne obdelave klesarskih mojstrov."
+     },
+     {
+       "@type": "Brand",
+       "@id": "https://lapidor.si/#brand",
+       "name": "LAPIDOR",
+       "url": "https://lapidor.si/",
+       "logo": "https://lapidor.si/assets/lapidor_logo_final_v6.png",
+       "slogan": "Brezčasna eleganca naravnega marmorja",
+       "description": "Unikatni ročno izdelani masivni izdelki iz naravnega vietnamskega marmorja za bivalne prostore, wellness in sakralno arhitekturo."
+     },
+     {
+       "@type": "FAQPage",
+       "@id": "https://lapidor.si/#faq",
+       "mainEntity": [
+         {
+           "@type": "Question",
+           "name": "Zakaj izbrati vietnamski naravni marmor LAPIDOR?",
+           "acceptedAnswer": {
+             "@type": "Answer",
+             "text": "Vietnamski marmor odlikuje izjemna čistost kalcijevega karbonata (nad 99 %), kristalna struktura, nizka poroznost ter izjemna trajnost. Vsak izdelek je 100% ročno delo kamnoseških mojstrov."
+           }
+         },
+         {
+           "@type": "Question",
+           "name": "Ali omogočate izdelava marmornih izdelkov po meri?",
+           "acceptedAnswer": {
+             "@type": "Answer",
+             "text": "Da, vsi izdelki LAPIDOR nastajajo po željah naročnika in tehničnih izrisih (CAD/3D načrtih) arhitektov in oblikovalcev – od izbire masivnega bloka do končne obdelave."
+           }
+         },
+         {
+           "@type": "Question",
+           "name": "Kakšni barvni odtenki in obdelave površin so na voljo?",
+           "acceptedAnswer": {
+             "@type": "Answer",
+             "text": "Nudimo več kot 7 naravnih barvnih odtenkov marmorja ter štiri tipologije obdelave površine: polirana, brušena mat (honed), ročno klesana (chiseled) in krtačena (antique/brushed)."
+           }
+         }
+       ]
+     }
+   ]
  }
  </script>
  
