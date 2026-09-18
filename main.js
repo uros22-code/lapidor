@@ -1464,7 +1464,6 @@ function initFormSubmissions() {
    });
   }
  }
-}
 
 function showToast(msg) {
  const toast = document.getElementById('toast');
