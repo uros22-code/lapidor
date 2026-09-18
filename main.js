@@ -1429,19 +1429,40 @@ function initFormSubmissions() {
  }
 
  const newsFormMain = document.getElementById('newsletter-form-main');
- if (newsFormMain) {
-  newsFormMain.addEventListener('submit', (e) => {
-   e.preventDefault();
-   const msg = currentLang === 'en'
-    ? 'Thank you for subscribing to LAPIDOR project updates!'
-    : (currentLang === 'hr'
-     ? 'Hvala vam na prijavi na e-novosti za LAPIDOR projekte!'
-     : (currentLang === 'el'
-      ? 'Ευχαριστούμε για την εγγραφή σας στα νέα της LAPIDOR!'
-      : 'Hvala za prijavo na e-novice za LAPIDOR projekte!'));
-   showToast(msg);
-   newsFormMain.reset();
-  });
+  if (newsFormMain) {
+   newsFormMain.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formData = new FormData(newsFormMain);
+    fetch('/', {
+     method: 'POST',
+     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+     body: new URLSearchParams(formData).toString()
+    })
+    .then(() => {
+     const msg = currentLang === 'en'
+      ? 'Thank you for subscribing to LAPIDOR project updates!'
+      : (currentLang === 'hr'
+       ? 'Hvala vam na prijavi na e-novosti za LAPIDOR projekte!'
+       : (currentLang === 'el'
+         ? '\u0395\u03C5\u03C7\u03B1\u03C1\u03B9\u03C3\u03C4\u03BF\u03CD\u03BC\u03B5 \u03B3\u03B9\u03B1 \u03C4\u03B7\u03BD \u03B5\u03B3\u03B3\u03C1\u03B1\u03C6\u03AE \u03C3\u03B1\u03C2 \u03C3\u03C4\u03B1 \u03BD\u03AD\u03B1 \u03C4\u03B7\u03C2 LAPIDOR!'
+        : 'Hvala za prijavo na e-novice za LAPIDOR projekte!'));
+     showToast(msg);
+     newsFormMain.reset();
+    })
+    .catch((err) => {
+     console.error('Newsletter submit error:', err);
+     const msg = currentLang === 'en'
+      ? 'Thank you for subscribing to LAPIDOR project updates!'
+      : (currentLang === 'hr'
+       ? 'Hvala vam na prijavi na e-novosti za LAPIDOR projekte!'
+       : (currentLang === 'el'
+         ? '\u0395\u03C5\u03C7\u03B1\u03C1\u03B9\u03C3\u03C4\u03BF\u03CD\u03BC\u03B5 \u03B3\u03B9\u03B1 \u03C4\u03B7\u03BD \u03B5\u03B3\u03B3\u03C1\u03B1\u03C6\u03AE \u03C3\u03B1\u03C2 \u03C3\u03C4\u03B1 \u03BD\u03AD\u03B1 \u03C4\u03B7\u03C2 LAPIDOR!'
+        : 'Hvala za prijavo na e-novice za LAPIDOR projekte!'));
+     showToast(msg);
+     newsFormMain.reset();
+    });
+   });
+  }
  }
 }
 
