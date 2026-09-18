@@ -1327,18 +1327,30 @@ function initModals() {
    if (modalTitle) modalTitle.textContent = (currentLang === 'en' ? 'Inquiry for: ' : 'Povpraševanje za: ') + productName;
    if (modalProductName) modalProductName.value = productName;
    if (modalProductDisplay) modalProductDisplay.value = productName;
-   if (modal) modal.classList.add('active');
+   if (modal) {
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+   }
   });
  });
 
  if (closeBtn && modal) {
   closeBtn.addEventListener('click', () => {
    modal.classList.remove('active');
+   document.body.style.overflow = '';
   });
 
   modal.addEventListener('click', (e) => {
    if (e.target === modal) {
     modal.classList.remove('active');
+    document.body.style.overflow = '';
+   }
+  });
+
+  document.addEventListener('keydown', (e) => {
+   if (e.key === 'Escape' && modal.classList.contains('active')) {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
    }
   });
  }
@@ -1402,6 +1414,7 @@ function initFormSubmissions() {
    })
    .then(() => {
     if (modal) modal.classList.remove('active');
+     document.body.style.overflow = '';
     const msg = currentLang === 'en'
      ? 'Your inquiry has been sent to our team!'
      : (currentLang === 'hr'
@@ -1415,6 +1428,7 @@ function initFormSubmissions() {
    .catch((err) => {
     console.error('Form submit error:', err);
     if (modal) modal.classList.remove('active');
+     document.body.style.overflow = '';
     const msg = currentLang === 'en'
      ? 'Your inquiry has been sent to our team!'
      : (currentLang === 'hr'
