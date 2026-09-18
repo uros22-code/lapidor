@@ -107,8 +107,10 @@ $html = @"
   }
   </script>
 
-  <!-- Favicon -->
+  <!-- Favicon & Mobile Web App Icons -->
   <link rel="icon" type="image/png" href="$logoPath">
+  <link rel="apple-touch-icon" sizes="180x180" href="$logoPath">
+  <meta name="theme-color" content="#121417">
 
  <!-- Fonts -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1048,798 +1050,798 @@ $html = @"
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_1.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Shiva" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_1.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Shiva" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_2.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Jesus" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_2.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Jesus" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_3.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Mary 1" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_3.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Mary 1" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_4.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Mary 2" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_4.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Mary 2" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_5.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Jade buddha" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_5.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Jade buddha" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_6.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Mother Teresa" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_6.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Mother Teresa" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_7.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_7.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_8.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_8.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_9.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_9.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_10.jpg" alt="Unikatni marmorni izdelek LAPIDOR - elephant" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_10.jpg" alt="Unikatni marmorni izdelek LAPIDOR - elephant" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_11.jpg" alt="Unikatni marmorni izdelek LAPIDOR - elephant" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_11.jpg" alt="Unikatni marmorni izdelek LAPIDOR - elephant" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_12.jpg" alt="Unikatni marmorni izdelek LAPIDOR - elephant" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_12.jpg" alt="Unikatni marmorni izdelek LAPIDOR - elephant" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_13.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Green phoenix" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_13.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Green phoenix" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_14.jpg" alt="Unikatni marmorni izdelek LAPIDOR - pink phoenix" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_14.jpg" alt="Unikatni marmorni izdelek LAPIDOR - pink phoenix" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_15.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Happy buddha" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_15.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Happy buddha" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_16.jpg" alt="Unikatni marmorni izdelek LAPIDOR - nude man" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_16.jpg" alt="Unikatni marmorni izdelek LAPIDOR - nude man" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_17.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_17.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_18.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_18.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_19.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_19.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_20.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_20.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_21.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_21.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_22.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_22.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_23.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_23.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_24.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Four season girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_24.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Four season girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_25.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_25.jpg" alt="Unikatni marmorni izdelek LAPIDOR - girl" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_26.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Guadalupe" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_26.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Guadalupe" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_28.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Abstract" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_28.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Abstract" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_29.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_29.jpg" alt="Unikatni marmorni izdelek LAPIDOR - abstract" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_30.jpg" alt="Unikatni marmorni izdelek LAPIDOR - buddha" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_30.jpg" alt="Unikatni marmorni izdelek LAPIDOR - buddha" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_31.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 31" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_31.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 31" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_32.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 32" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_32.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 32" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_33.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 33" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_33.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 33" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_34.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 34" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_34.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 34" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_35.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 35" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_35.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 35" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_36.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 36" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_36.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 36" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_37.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 37" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_37.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 37" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_38.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 38" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_38.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 38" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_39.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 39" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_39.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 39" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_40.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 40" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_40.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 40" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_41.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 41" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_41.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 41" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_42.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 42" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_42.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 42" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_43.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 43" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_43.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 43" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_44.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 44" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_44.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 44" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_45.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 45" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_45.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 45" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_46.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 46" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_46.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 46" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_47.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 47" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_47.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 47" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_48.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 48" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_48.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 48" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_49.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 49" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_49.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 49" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_50.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 50" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_50.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 50" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_51.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 51" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_51.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 51" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_52.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 52" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_52.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 52" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_53.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 53" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_53.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 53" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_54.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 54" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_54.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 54" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_55.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 55" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_55.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 55" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_56.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 56" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_56.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 56" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_57.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 57" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_57.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 57" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_58.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 58" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_58.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 58" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_59.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 59" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_59.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 59" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_60.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 60" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_60.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 60" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_61.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 61" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_61.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 61" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_62.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 62" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_62.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 62" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_63.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 63" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_63.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 63" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_64.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 64" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_64.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 64" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_65.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 65" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_65.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 65" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_66.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 66" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_66.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 66" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_67.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 67" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_67.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 67" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_68.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 68" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_68.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 68" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_69.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 69" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_69.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 69" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_70.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 70" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_70.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 70" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_71.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 71" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_71.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 71" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_72.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 72" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_72.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 72" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_73.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 73" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_73.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 73" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_74.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 74" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_74.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 74" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_75.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 75" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_75.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 75" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_76.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 76" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_76.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 76" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_77.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 77" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_77.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 77" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_78.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 78" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_78.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 78" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_79.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 79" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_79.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 79" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_80.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 80" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_80.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 80" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_81.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 81" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_81.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 81" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_82.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 82" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_82.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 82" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_83.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 83" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_83.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 83" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_84.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 84" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_84.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 84" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_85.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 85" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_85.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 85" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_86.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 86" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_86.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 86" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_87.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 87" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_87.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 87" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_88.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 88" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_88.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 88" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_89.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 89" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_89.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 89" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_90.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 90" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_90.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 90" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_91.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 91" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_91.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 91" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_92.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 92" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_92.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 92" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_93.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 93" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_93.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 93" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_94.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 94" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_94.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 94" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_95.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 95" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_95.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 95" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_96.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 96" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_96.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 96" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_97.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 97" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_97.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 97" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_98.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 98" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_98.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 98" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_99.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 99" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_99.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 99" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_101.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 101" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_101.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 101" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_102.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 102" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_102.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 102" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_103.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 103" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_103.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 103" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_104.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 104" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_104.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 104" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_105.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 105" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_105.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 105" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_106.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 106" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_106.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 106" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_107.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 107" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_107.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 107" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_108.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 108" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_108.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 108" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_109.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 109" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_109.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 109" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_110.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 110" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_110.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 110" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_111.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 111" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_111.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 111" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_112.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 112" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_112.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 112" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_113.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 113" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_113.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 113" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_114.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 114" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_114.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 114" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_115.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 115" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_115.jpg" alt="Unikatni marmorni izdelek LAPIDOR - Marmorni unikatni izdelek 115" loading="lazy">
       </a>
      </div>
     </div>
     <div class="b-gallery-card">
      <div class="b-gallery-img-box">
       <a href="https://lapidor.si/#nasiizdelki" target="_blank">
-       <img src="assets/gal_item_116.jpg" alt="Unikatni marmorni izdelek LAPIDOR - The stations of the Cross" loading="lazy">
+       <img loading="lazy" decoding="async" src="assets/gal_item_116.jpg" alt="Unikatni marmorni izdelek LAPIDOR - The stations of the Cross" loading="lazy">
       </a>
      </div>
     </div>
